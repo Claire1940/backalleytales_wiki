@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jugabilidad de Cámara en Back Alley Tales: Guía de Investigación de CCTV",
+  description: "Domina la jugabilidad de cámara de Back Alley Tales con nuestra guía sobre vigilancia CCTV, mecánicas de investigación y descubrimiento de lugares secretos en este misterio urbano.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a2e/e94560?text=Camera+Gameplay+Guide",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de Back Alley Tales",
+  keywords: "Back Alley Tales, jugabilidad de cámara, guía CCTV, investigación, secretos del juego"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **La jugabilidad de cámara de Back Alley Tales** gira en torno al monitoreo de imágenes de CCTV en vivo y grabadas para descubrir misterios urbanos.
+- **La investigación ambiental** es clave; los jugadores deben alternar entre diferentes ángulos para encontrar elementos interactivos ocultos.
+- **La gestión del tiempo** juega un papel importante, ya que ciertos eventos solo ocurren durante ventanas específicas en los registros de seguridad.
+- **Las opciones de diálogo** influenciadas por los hallazgos de la vigilancia pueden alterar drásticamente la progresión de la historia y el destino de los personajes.
+- **Las pistas visuales** como reflejos de neón o movimientos de sombras a menudo señalan un área oculta o un camino narrativo secreto.
+</Callout>
+
+<Section icon={Target} title="Mecánicas Principales de la Jugabilidad de Cámara">
+
+El corazón de la experiencia reside en el sistema de **jugabilidad de cámara de Back Alley Tales**. A diferencia de las aventuras tradicionales en tercera persona, este título enfatiza el papel de un observador. Operas una estación de vigilancia, actuando como un detective digital que reconstruye la oscura narrativa de los rincones ocultos de la ciudad. La interfaz imita un monitor de seguridad VHS de la vieja escuela, con líneas de escaneo y superposiciones de marcas de tiempo que sumergen al jugador en una atmósfera urbana y cruda.
+
+Navegar por el sistema de cámaras requiere un equilibrio entre paciencia y observación aguda. No solo estás viendo una película; estás escaneando anomalías. El ciclo de juego implica cambiar entre múltiples fuentes de cámara (CCTV 01, CCTV 02, etc.) para rastrear los movimientos de los personajes a través de diferentes sectores del callejón.
+
+| Comando de Entrada | Descripción de la Acción | Impacto en el Juego |
+| :--- | :--- | :--- |
+| **Cambiar Fuente** | Alternar entre diferentes ubicaciones de cámara | Rastrear NPCs a través de múltiples zonas |
+| **Acercar/Alejar** | Enfocarse en detalles ambientales específicos | Revelar objetos ocultos o expresiones faciales |
+| **Control de Reproducción** | Rebobinar o adelantar registros grabados | Identificar el momento exacto en que ocurre un crimen |
+| **Interactuar** | Hacer clic en objetos resaltados en la vista | Activar diálogos o cambios ambientales |
+| **Alternar Filtro** | Cambiar entre visión normal y nocturna | Ver en secciones sin iluminación del callejón |
+
+<Callout type="tip" title="Estrategia de Vigilancia">
+Siempre revisa el fondo de tu fuente actual. A menudo, las pistas más importantes no son los personajes en primer plano, sino los movimientos sutiles que ocurren detrás de cajas o dentro de ventanas distantes.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guía de Investigación y Exploración">
+
+La exploración en este juego es no lineal y depende en gran medida de cómo utilices las herramientas de vigilancia. Para avanzar en la historia, debes identificar "puntos de interés" dentro del campo de visión de la cámara. Estos puntos a menudo conducen a nuevas opciones de diálogo o desbloquean áreas del mapa previamente inaccesibles. La ciudad es un personaje en sí mismo, lleno de pasillos iluminados por neón y escaparates abandonados que ocultan la verdad.
+
+El sistema de investigación se basa en tu capacidad para conectar los puntos entre lo que ves en la pantalla y lo que los NPCs te dicen durante las interacciones en vivo. Si detectas a un personaje escondiendo un objeto en cámara, puedes confrontarlo más tarde con ese conocimiento específico, forzando la narrativa hacia nuevas direcciones.
+
+**Lista de Prioridades de Investigación:**
+- **Patrones de NPCs:** Observa a dónde van los personajes cuando creen que están solos.
+- **Eventos Programados:** Busca cambios en el entorno que ocurran a horas específicas.
+- **Pistas Ambientales:** Escanea en busca de grafitis, objetos desechados o puertas abiertas que no estaban allí antes.
+- **Pistas de Audio:** Presta atención a los picos de sonido que podrían indicar un evento que ocurre fuera de cámara.
+
+<Steps>
+  <Step num="1" title="Escanear el Perímetro">
+    Comienza recorriendo todas las fuentes de cámara disponibles para establecer una base de la actividad actual en el callejón.
+  </Step>
+  <Step num="2" title="Identificar Anomalías">
+    Busca cualquier cosa fuera de lo común, como un personaje que permanece demasiado tiempo en un lugar o un objeto que es movido.
+  </Step>
+  <Step num="3" title="Revisar los Registros">
+    Si un evento en vivo parece confuso, utiliza la función de reproducción para ver los eventos que condujeron a ese momento y obtener un mejor contexto.
+  </Step>
+  <Step num="4" title="Ejecutar Interacción">
+    Una vez confirmada una pista, mueve al protagonista a la ubicación o inicia una conversación para activar el siguiente punto de la historia.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Sensibilidad al Tiempo">
+Algunos eventos ocurren una sola vez. Si estás mirando la fuente de cámara equivocada cuando sucede un evento crítico, podrías perder la oportunidad de desbloquear un final específico o un objeto secreto.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Interacción con Personajes mediante Vigilancia">
+
+La **jugabilidad de cámara de Back Alley Tales** se extiende a cómo gestionas las relaciones con el diverso elenco de personajes. Al observarlos a través de la lente de una cámara de seguridad, obtienes una ventaja "injusta" en situaciones sociales. Ves sus vulnerabilidades, sus secretos y sus verdaderas intenciones, que a menudo se enmascaran durante las conversaciones cara a cara.
+
+El protagonista debe usar esta información con cuidado. Revelar descaradamente que has estado vigilando a alguien puede generar hostilidad, mientras que usar la información de manera sutil puede generar confianza o permitirte manipular la situación a tu favor.
+
+<CardGrid cols={3}>
+  <Card title="El Protagonista">
+    - **Rol:** Operador de Seguridad
+    - **Objetivo:** Descubrir la verdad
+    - **Mecánica:** Experto en Vigilancia
+  </Card>
+  <Card title="NPCs Clave">
+    - **Rol:** Informantes/Sospechosos
+    - **Objetivo:** Supervivencia/Beneficio
+    - **Mecánica:** Motores Narrativos
+  </Card>
+  <Card title="Antagonistas">
+    - **Rol:** Amenazas Urbanas
+    - **Objetivo:** Ocultamiento
+    - **Mecánica:** Fuentes de Conflicto
+  </Card>
+</CardGrid>
+
+| Tipo de Personaje | Estrategia de Observación | Mejor Enfoque de Interacción |
+| :--- | :--- | :--- |
+| **El Informante** | Vigilar sus puntos de encuentro | Ofrecer protección a cambio de datos |
+| **El Sospechoso** | Seguir sus movimientos después del anochecer | Confrontar con evidencia encontrada en cinta |
+| **La Víctima** | Observar a quién están evitando | Brindar asistencia sin revelar tu fuente |
+
+<Callout type="success" title="Bono de Relación">
+Identificar con éxito el secreto de un personaje a través del sistema de cámaras sin que lo sepa puede desbloquear escenarios de "Confianza Perfecta" más adelante en el juego.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Desbloqueo de Secretos y Áreas Ocultas">
+
+El entorno urbano está plagado de secretos que solo son visibles a través de ángulos de cámara específicos o durante ciertas condiciones ambientales. Algunas áreas están bloqueadas físicamente pero pueden ser "exploradas" visualmente para obtener información que desbloquee el camino más tarde. Esta meta-exploración es un componente central de la experiencia de **jugabilidad de cámara de Back Alley Tales**.
+
+Las áreas ocultas suelen contener objetos coleccionables, documentos de trasfondo o incluso "Finales Secretos" que proporcionan una comprensión más profunda de la oscura historia de la ciudad. Encontrar estos secretos requiere que el jugador piense de forma creativa y manipule la configuración de la cámara más allá de las vistas predeterminadas.
+
+<Checklist
+  id="exploration-milestones"
+  title="Lista de Verificación de Descubrimiento de Secretos:"
+  items={[
+    "Encontrar la entrada oculta al sótano en la CCTV 03",
+    "Identificar a la figura misteriosa en el fondo del Capítulo 2",
+    "Desbloquear el filtro de visión nocturna para la cámara de la azotea",
+    "Localizar los 10 diarios desechados en los montones de basura",
+    "Activar el evento 'Sombra de Medianoche' observando el callejón a las 00:00"
+  ]}
+/>
+
+<Callout type="info" title="Pistas Visuales">
+Si ves una luz parpadeante o un reflejo extraño en una superficie mojada, acerca la imagen. Estas son las formas en que los desarrolladores te indican que hay un secreto cerca.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Configuración Técnica y Requisitos del Sistema">
+
+Para garantizar una experiencia fluida con la **jugabilidad de cámara de Back Alley Tales**, especialmente al manejar múltiples fuentes de video simultáneas e iluminación de neón de alto contraste, tu sistema debe cumplir con ciertas especificaciones. El juego utiliza un motor de renderizado especializado para simular la estética VHS, lo que puede ser sorprendentemente exigente para hardware antiguo.
+
+| Categoría de Requisito | Especificación Mínima | Especificación Recomendada |
+| :--- | :--- | :--- |
+| **Sistema Operativo** | Windows 10 (64 bits) | Windows 11 (64 bits) |
+| **Procesador** | Intel Core i3 / AMD Ryzen 3 | Intel Core i5 / AMD Ryzen 5 |
+| **Memoria** | 8 GB de RAM | 16 GB de RAM |
+| **Tarjeta Gráfica** | GTX 1050 / RX 560 | RTX 2060 / RX 6600 |
+| **DirectX** | Versión 11 | Versión 12 |
+| **Espacio en Disco** | 5 GB de espacio disponible | 10 GB (Se recomienda SSD) |
+
+<Callout type="warning" title="Consejo de Rendimiento">
+Si experimentas retrasos (lag) al cambiar entre fuentes de cámara, intenta bajar el ajuste de "Post-Procesamiento". Esto reduce la intensidad del efecto de líneas de escaneo VHS, que es la característica más intensiva para la GPU.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo más cámaras en Back Alley Tales?",
+    answer: "Las nuevas fuentes de cámara se desbloquean al progresar a través de los capítulos de la historia principal y encontrar 'Códigos de Acceso' ocultos en el entorno u obtenidos de NPCs."
+  },
+  {
+    question: "¿Puedo perder secretos si no miro las cámaras en el momento adecuado?",
+    answer: "Sí, algunos eventos dependen del tiempo. Sin embargo, el juego te permite revisar registros históricos para la mayoría de los puntos principales de la trama, aunque algunos secretos menores pueden perderse permanentemente."
+  },
+  {
+    question: "¿La jugabilidad de cámara afecta los finales del juego?",
+    answer: "Absolutamente. La información que recopilas a través de la vigilancia determina las opciones de diálogo disponibles para ti, que son los principales impulsores de los múltiples finales ramificados."
+  },
+  {
+    question: "¿Hay alguna forma de acelerar el proceso de investigación?",
+    answer: "El uso de la función de avance rápido en el menú de reproducción te permite omitir períodos inactivos en los registros, pero ten cuidado de no saltarte cambios ambientales sutiles."
+  }
+]} />
+
+</Section>

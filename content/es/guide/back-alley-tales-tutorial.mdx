@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Tutorial de Back Alley Tales: Guía paso a paso de juego e historia",
+  description: "Domina el misterio urbano con nuestro tutorial de Back Alley Tales. Aprende las mecánicas principales, la progresión de personajes y cómo desbloquear todos los finales ocultos de la historia.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1a1a2e/e94560?text=Back+Alley+Tales+Tutorial",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de Back Alley Tales",
+  keywords: "Back Alley Tales, tutorial, guía, jugabilidad, finales ocultos"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Tutorial de Back Alley Tales**: Domina los sistemas de interacción y monitoreo de CCTV para avanzar en la narrativa.
+- **Mecánica principal**: Concéntrate en la **investigación ambiental** y los activadores de eventos basados en el tiempo para descubrir pistas.
+- **Progresión**: Avanza interactuando con NPCs específicos y tomando **decisiones de diálogo** críticas.
+- **Contenido secreto**: Explora a fondo las ubicaciones ocultas para desbloquear **finales alternativos** y escenas únicas.
+- **Comprobación del sistema**: Asegúrate de que tu hardware cumpla con los **requisitos mínimos** para una renderización fluida al estilo VHS.
+</Callout>
+
+<Section icon={Map} title="Mecánicas y sistemas principales del juego">
+
+Comprender los sistemas fundamentales es el primer paso en cualquier **tutorial de Back Alley Tales**. El juego funciona mediante una combinación única de observación e interacción directa. Como guardia de seguridad que vigila los rincones oscuros de la ciudad, tu interfaz principal es el sistema de CCTV, que te permite presenciar eventos que la mayoría de los ciudadanos nunca ven. Esta perspectiva es fundamental para reunir las pruebas necesarias para avanzar en la historia.
+
+| Sistema | Función principal | Interacción clave |
+| :--- | :--- | :--- |
+| **Monitor de CCTV** | Observación | Cambiar entre las transmisiones de las cámaras para encontrar eventos |
+| **Investigación física** | Acción directa | Visitar ubicaciones descubiertas en la cámara |
+| **Árbol de diálogo** | Ramificación narrativa | Seleccionar respuestas para influir en la confianza de los NPC |
+| **Diario de pistas** | Seguimiento de la progresión | Revisar las pruebas reunidas y los objetivos |
+
+El sistema de interacción es contextual. Cuando te acerques a un "punto de interés" en el entorno, el cursor cambiará, indicando que hay una acción disponible, como registrar un contenedor de basura o hablar con un testigo. Administrar tu tiempo de manera efectiva es vital, ya que ciertos eventos solo ocurren durante horas específicas del ciclo día-noche del juego.
+
+<Callout type="tip" title="La observación es clave">
+Vigila siempre las transmisiones de las cámaras en busca de cambios sutiles en el entorno. Una puerta que estaba cerrada a las 10:00 PM podría quedar entreabierta a las 2:00 AM, abriendo una nueva ruta de investigación.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía paso a paso: Iniciando tu investigación">
+
+Navegar por las primeras etapas del juego requiere un enfoque metódico. Este **tutorial de Back Alley Tales** desglosa la secuencia inicial para garantizar que no te pierdas ningún activador narrativo crítico que pueda estancar tu progreso más adelante.
+
+<Steps>
+  <Step num="1" title="Accede a la sala de seguridad">
+    Comienza por familiarizarte con el centro de seguridad. Interactúa con el monitor principal para ver los cuatro ángulos de cámara primarios. Alterna entre ellos para identificar la escena "activa" donde ocurre el primer evento.
+  </Step>
+  <Step num="2" title="Identifica la primera perturbación">
+    Busca un movimiento específico de un NPC en la tercera transmisión de la cámara (el callejón estrecho). Una vez que concluya la interacción, sal de la sala de seguridad y dirígete a la ubicación física para encontrar el objeto tirado.
+  </Step>
+  <Step num="3" title="Inicia el diálogo con el NPC">
+    Regresa al nivel de la calle y localiza al testigo cerca del letrero de neón. Usa la opción de diálogo "Preguntar". El éxito aquí depende de haber encontrado el objeto en el Paso 2.
+  </Step>
+  <Step num="4" title="Desbloquea el segundo distrito">
+    Después de completar el informe del testigo, se desbloqueará la puerta del distrito norte. Esta área contiene acertijos más complejos e interacciones de personajes con mayor riesgo.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Decisiones irreversibles">
+Ten cuidado durante el Paso 3. Algunas opciones de diálogo pueden disminuir permanentemente la disposición de un NPC hacia ti, haciendo imposible acceder a su final de personaje específico en la partida actual.
+</Callout>
+
+| Hito | Requisito | Recompensa / Desbloqueo |
+| :--- | :--- | :--- |
+| **La primera pista** | Inspeccionar la basura del callejón | Acceso al diálogo con el testigo |
+| **Acceso al distrito** | Completar el informe inicial | Nuevas ubicaciones en el mapa y NPCs |
+| **Mejora de CCTV** | Reunir 5 pruebas | Capacidades de zoom y visión nocturna |
+
+</Section>
+
+<Section icon={Users} title="Guía de personajes y estrategia de interacción">
+
+El corazón de la narrativa radica en su elenco diverso. Cada personaje tiene un papel específico, que va desde víctimas que necesitan ayuda hasta figuras misteriosas que poseen las llaves de los secretos de la ciudad. Este **tutorial de Back Alley Tales** categoriza a los personajes para ayudarte a priorizar tus interacciones.
+
+<CardGrid cols={3}>
+  <Card title="El protagonista">
+    - **Rol**: Monitor de seguridad
+    - **Objetivo**: Descubrir la verdad
+    - **Enfoque**: Observación y lógica
+  </Card>
+  <Card title="NPCs clave">
+    - **Rol**: Testigos / Información
+    - **Objetivo**: Supervivencia o beneficio
+    - **Enfoque**: Diálogo basado en la confianza
+  </Card>
+  <Card title="Antagonistas">
+    - **Rol**: Obstáculos
+    - **Objetivo**: Ocultamiento
+    - **Enfoque**: Sigilo y evasión
+  </Card>
+</CardGrid>
+
+Construir relaciones no se trata solo de elegir las palabras "correctas"; a menudo implica hacer favores o encontrar objetos perdidos. El juego realiza un seguimiento de los "Niveles de afinidad", que son valores ocultos que determinan qué escenas puedes activar con personajes específicos.
+
+<Callout type="info" title="Dinámicas de personajes">
+Algunos NPCs solo hablarán contigo si llevas puestos objetos específicos o si has alcanzado un cierto nivel de "Reputación callejera" resolviendo disputas menores del vecindario.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Secretos y ubicaciones ocultas">
+
+Para completar por completo tu viaje, debes mirar más allá del camino obvio. La ciudad está llena de pistas ambientales que son fáciles de pasar por alto. Usa esta lista de verificación para asegurarte de haber explorado las áreas más secretas mencionadas en este **tutorial de Back Alley Tales**.
+
+<Checklist
+  id="secret-hunting"
+  title="Lista de verificación de descubrimientos ocultos:"
+  items={[
+    "Registrar el sótano detrás de la tienda de conveniencia",
+    "Examinar el grafiti en el tercer callejón en busca de un código",
+    "Interactuar con la máquina expendedora rota tres veces",
+    "Encontrar la cinta VHS oculta en la rejilla de ventilación de la oficina de seguridad",
+    "Escuchar el teléfono público exactamente a la medianoche"
+  ]}
+/>
+
+Muchos secretos dependen del tiempo. Por ejemplo, la "cinta VHS oculta" solo aparece después de haber visto un evento específico en los monitores, pero antes de que te vayas por la noche. Estos objetos a menudo proporcionan contexto para los elementos más oscuros de la historia.
+
+| Objeto secreto | Ubicación | Efecto |
+| :--- | :--- | :--- |
+| **Llave antigua** | Debajo del banco del parque | Abre la sala de almacenamiento restringida |
+| **Memo encriptado** | Dentro del contenedor de basura rojo | Desbloquea una nueva rama de diálogo |
+| **Foto extraña** | Detrás de la barra del bar | Requerida para el final secreto |
+
+<Callout type="success" title="Recompensa por exploración">
+Encontrar las 10 "pistas ambientales" ocultas desbloquea una galería especial en el menú principal, que muestra arte conceptual y notas de los desarrolladores.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Guía de finales: Requisitos y resultados">
+
+El juego presenta múltiples conclusiones basadas en tu desempeño y las elecciones que hagas durante la campaña. Este **tutorial de Back Alley Tales** resume los requisitos para las tres categorías principales de finales.
+
+| Tipo de final | Impacto narrativo | Requisito principal |
+| :--- | :--- | :--- |
+| **Final estándar** | Resolución neutral | Completar la historia con pruebas básicas |
+| **Final verdadero** | Revelación completa | Encontrar todas las pistas principales y tener alta afinidad con NPCs |
+| **Final malo** | Misterio sin resolver | No proteger a los NPCs clave o no cumplir con los plazos |
+| **Final secreto** | Giro sobrenatural | Recolectar todos los objetos secretos y cintas VHS ocultas |
+
+Lograr el "Final verdadero" requiere una partida perfecta en la que equilibres la gestión del tiempo con una investigación exhaustiva. Debes asegurarte de que cada personaje sobreviva a sus respectivos "Eventos de crisis", que generalmente involucran una secuencia de interacción cronometrada.
+
+<Callout type="tip" title="Gestión de guardado">
+Mantén múltiples archivos de guardado al inicio de cada nuevo "Desbloqueo de distrito". Esto te permite retroceder si te das cuenta de que te perdiste un requisito para un final específico.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+Para concluir este **tutorial de Back Alley Tales**, hemos recopilado las preguntas más comunes de la comunidad para ayudarte a resolver dudas sobre tu experiencia.
+
+<FAQ items={[
+  {
+    question: "¿Por qué no puedo acceder a la tercera transmisión de la cámara?",
+    answer: "La tercera transmisión de la cámara suele estar bloqueada hasta que encuentres el 'Pase de seguridad' ubicado en el escritorio del gerente durante la primera hora del juego."
+  },
+  {
+    question: "¿Cómo aumento la afinidad con los NPCs rápidamente?",
+    answer: "La forma más rápida es devolver los objetos perdidos encontrados durante tus sesiones de CCTV. Cada objeto devuelto aumenta significativamente la confianza y desbloquea nuevos diálogos."
+  },
+  {
+    question: "¿Cuáles son los requisitos del sistema para el juego?",
+    answer: "El juego está diseñado para ejecutarse en la mayoría de las PC modernas. Generalmente necesitas al menos 8 GB de RAM, una GPU de gama media y aproximadamente 2 GB de espacio de almacenamiento."
+  },
+  {
+    question: "¿Hay alguna forma de omitir el tiempo?",
+    answer: "Sí, puedes usar la función 'Esperar' en el escritorio de seguridad o dormir en la sala de descanso para avanzar rápidamente a ventanas de eventos específicas."
+  }
+]} />
+
+<Callout type="info" title="Nota final">
+Mantén siempre actualizado tu diario de pistas. Si te sientes atascado, revisar la sección de 'Notas' a menudo revela una pista sobre qué ubicación o personaje deberías visitar a continuación.
+</Callout>
+
+</Section>

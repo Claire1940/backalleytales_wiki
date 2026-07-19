@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de la historia de Back Alley Tales: Recorrido y todos los finales",
+  description: "Descubre la guía completa de la historia de Back Alley Tales. Aprende las rutas de los personajes, caminos de decisión, soluciones de acertijos y requisitos para desbloquear todos los finales del juego.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Back+Alley+Tales+Story+Guide",
+  date: "2026-07-20",
+  author: "Equipo de Wiki de Back Alley Tales",
+  keywords: "Back Alley Tales, guía de historia, finales, rutas de personajes, tutorial"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Progresión de la historia**: Esta guía de la historia de Back Alley Tales detalla cómo navegar por el sistema de cámaras de seguridad para resolver misterios urbanos.
+- **Caminos ramificados**: Cada elección importante en los diálogos impacta directamente en los niveles de confianza de los personajes y en los resultados narrativos.
+- **Múltiples finales**: Desbloquear el final verdadero requiere completar las cuatro rutas principales de los personajes.
+- **Mecánicas clave**: Presta mucha atención a las marcas de tiempo y a los objetos interactivos del entorno durante la reproducción de los videos.
+</Callout>
+
+<Section icon={Map} title="Marco narrativo y mecánicas de cámara">
+
+La narrativa de Back Alley Tales se desarrolla a través de la lente de un guardia de seguridad que opera en un entorno urbano oscuro iluminado por neones. Los jugadores deben monitorear múltiples transmisiones de cámaras de seguridad para reconstruir eventos, identificar pistas e interactuar con varios personajes que frecuentan estos pasajes sombríos. El juego utiliza una estética retro de VHS que realza la atmósfera de suspenso e investigación de la historia.
+
+Para progresar con éxito en la narrativa, debes dominar las mecánicas de desplazamiento temporal y zoom de la interfaz de vigilancia. Muchas pistas críticas solo son visibles durante horas específicas de la noche, lo que requiere un ajuste preciso de la línea de tiempo de reproducción. Perderse un cambio sutil en el entorno puede estancar tu progreso y bloquearte el acceso a rutas específicas de personajes.
+
+| ID de Cámara | Ubicación | Ventana de tiempo clave | Enfoque principal |
+|--- |--- |--- |--- |
+| Cam 01 | Entrada del callejón | 22:00 - 00:30 | Tráfico de peatones y llegadas iniciales de personajes |
+| Cam 02 | Calle de neón | 00:00 - 02:00 | Interacciones de diálogo y caída de objetos clave |
+| Cam 03 | Callejón trasero | 01:30 - 03:30 | Secuencias de sigilo y confrontaciones de personajes |
+| Cam 04 | Lote abandonado | 03:00 - 05:00 | Eventos culminantes y decisiones que definen la ruta |
+
+<Callout type="info" title="Consejo de vigilancia">
+Siempre revisa las transmisiones de las cámaras adyacentes cuando un personaje salga del encuadre. Muchos eventos ocurren simultáneamente en diferentes ubicaciones, y rastrear estas líneas de tiempo paralelas es esencial para resolver el misterio general.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de la historia de Back Alley Tales: Rutas de personajes">
+
+El núcleo de la narrativa se divide en cuatro rutas de personajes distintas. Cada ruta se centra en un residente diferente de la ciudad, presentando desafíos únicos, acertijos y opciones de diálogo. Para lograr una comprensión integral de la trama, los jugadores deben completar las cuatro rutas, que se entrelazan para revelar los oscuros secretos de la ciudad.
+
+Generar confianza con cada personaje es vital. La confianza se ve influenciada por cómo reaccionas a sus situaciones a través de la interfaz de seguridad y las elecciones que tomas durante las interacciones directas. Los niveles altos de confianza desbloquean opciones de diálogo favorables y conducen a los finales buenos, mientras que la confianza baja o las elecciones incorrectas pueden resultar en conclusiones abruptas y desfavorables.
+
+<CardGrid cols={2}>
+  <Card title="Ruta de Marie">
+    - **Enfoque**: Investigación de arte callejero misterioso y mensajes ocultos.
+    - **Dificultad**: Moderada. Requiere un escaneo cuidadoso del entorno.
+    - **Objeto clave**: Lata de spray y pistas del cuaderno.
+  </Card>
+  <Card title="Ruta de Noel">
+    - **Enfoque**: Escapar de una persecución peligrosa a través de los callejones traseros.
+    - **Dificultad**: Alta. Requiere activadores de reacción rápida y una sincronización precisa.
+    - **Objeto clave**: Mapa del callejón y placa de seguridad.
+  </Card>
+  <Card title="Ruta de Aya">
+    - **Enfoque**: Descubrir actividades de pandillas locales y proteger a los residentes.
+    - **Dificultad**: Alta. Se centra fuertemente en mecánicas de sigilo y distracción de cámaras.
+    - **Objeto clave**: Teléfono encriptado y juego de ganzúas.
+  </Card>
+  <Card title="Ruta de Jasmin">
+    - **Enfoque**: Navegar por los dilemas del turno nocturno y secretos corporativos.
+    - **Dificultad**: Fácil. Depende en gran medida de la selección de opciones de diálogo.
+    - **Objeto clave**: Tarjeta de acceso a la oficina y documento de contabilidad.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Orden de ruta óptimo">
+Para la experiencia narrativa más cohesiva, se recomienda encarecidamente completar primero la ruta de Marie, seguida de Noel, Aya y finalmente Jasmin. Esta secuencia construye el trasfondo de forma natural y hace que las revelaciones finales sean más impactantes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Recorrido de investigación paso a paso">
+
+Navegar por las historias ramificadas requiere un enfoque sistemático para cada noche de vigilancia. A continuación, se presenta la guía de progresión paso a paso para navegar con éxito los capítulos iniciales y establecer las bases para todas las rutas de los personajes.
+
+<Steps>
+  <Step num="1" title="Calibración de cámara">
+    Accede a la consola de seguridad principal a las 22:00. Alterna entre las cuatro transmisiones de cámara para asegurar la alineación. Haz zoom en el contenedor de basura en la Cam 01 y en el letrero de neón en la Cam 02 para registrar las pistas ambientales iniciales.
+  </Step>
+  <Step num="2" title="Identificar marcas de tiempo clave">
+    Adelanta la Cam 01 hasta las 23:45. Busca la llegada del primer personaje clave. Pausa la reproducción inmediatamente cuando el personaje deje caer un objeto y cambia a la Cam 02 para rastrear hacia dónde se lleva el objeto.
+  </Step>
+  <Step num="3" title="Activador de elección interactiva">
+    Cuando aparezca el mensaje de diálogo en pantalla, selecciona la acción que ofrezca asistencia o recopile información sin levantar sospechas. Evita las opciones agresivas o despectivas, ya que estas disminuirán la confianza del personaje.
+  </Step>
+  <Step num="4" title="Confirmación de ruta">
+    Guarda tu progreso al final de la noche. El juego indicará qué ruta de personaje se ha iniciado con éxito basándose en tus interacciones principales.
+  </Step>
+</Steps>
+
+Tus decisiones durante estos pasos dictarán la trayectoria narrativa. La siguiente tabla destaca los puntos de decisión críticos al principio del juego y sus consecuencias inmediatas en la trama.
+
+| Punto de decisión | Opción A | Opción B | Impacto en la ruta |
+|--- |--- |--- |--- |
+| La billetera caída | Devolverla inmediatamente | Guardarla para investigar | Devolverla genera confianza; Guardarla desbloquea pistas secretas |
+| La figura sombría | Activar la alarma | Observar en silencio | La alarma reinicia la escena; Observar avanza la trama |
+| La petición de Noel | Ofrecer refugio | Dirigir a la calle principal | El refugio desbloquea la ruta de Noel; La calle principal lleva al Final Malo |
+| La consulta de Jasmin | Compartir registros | Denegar el acceso | Compartir desbloquea documentos secretos; Denegar mantiene la seguridad |
+
+<Callout type="warning" title="Muerte permanente y callejones sin salida">
+Ciertas elecciones incorrectas durante secuencias de alto riesgo resultarán en un fin del juego inmediato. Mantén siempre múltiples archivos de guardado al comienzo de cada noche en el juego para evitar perder un progreso significativo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Matriz de finales y lista de verificación para el 100%">
+
+El juego presenta múltiples finales basados en las decisiones acumuladas tomadas en todas las rutas de los personajes. Lograr el Final Verdadero requiere una atención meticulosa a los detalles y una ejecución perfecta de la ruta buena de cada personaje.
+
+| Tipo de final | Requisitos | Resumen del resultado final |
+|--- |--- |--- |
+| Final Verdadero | Completa las 4 rutas buenas con el máximo de confianza | La conspiración es expuesta y todos los personajes escapan a salvo |
+| Final Bueno (Individual) | Completa una sola ruta de personaje con alta confianza | El conflicto del personaje elegido se resuelve, pero los secretos permanecen |
+| Final Malo (Genérico) | Falla cualquier secuencia de sigilo o control de confianza | La investigación se cierra y el guardia es reasignado |
+| Epílogo Secreto | Desbloquea el Final Verdadero y halla todas las cintas VHS | Una escena post-créditos que revela al verdadero autor intelectual |
+
+Para asegurarte de haber desbloqueado todo lo que la narrativa tiene para ofrecer, utiliza la siguiente lista de verificación para seguir tu progreso hacia el 100% de finalización.
+
+<Checklist
+  id="story-completion"
+  title="Lista de verificación para completar la historia al 100%:"
+  items={[
+    "Desbloquear con éxito el Final Bueno de Marie",
+    "Desbloquear con éxito el Final Bueno de Noel",
+    "Desbloquear con éxito el Final Bueno de Aya",
+    "Desbloquear con éxito el Final Bueno de Jasmin",
+    "Descubrir las 12 pistas ambientales ocultas",
+    "Coleccionar las 5 cintas VHS retro repartidas por las cámaras",
+    "Activar el Epílogo Secreto después de los créditos"
+  ]}
+/>
+
+<Callout type="success" title="Recompensa por completar">
+Desbloquear el Final Verdadero otorga acceso al Modo Galería en el menú principal, lo que te permite volver a ver cualquier escena cinematográfica o secuencia de diálogo desbloqueada a tu gusto sin reiniciar el juego.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Requisitos del sistema y preguntas frecuentes">
+
+Antes de sumergirte en los oscuros misterios de la ciudad, asegúrate de que tu sistema de juego cumpla con las especificaciones técnicas necesarias para una experiencia fluida y sin interrupciones.
+
+| Especificación | Requisitos mínimos | Requisitos recomendados |
+|--- |--- |--- |
+| SO | Windows 10 (64 bits) | Windows 10 / 11 (64 bits) |
+| CPU | Intel Core i3-4160 / AMD A8-7600 | Intel Core i5-4670K / AMD Ryzen 5 1500X |
+| RAM | 4 GB RAM | 8 GB RAM |
+| GPU | GeForce GTX 660 / Radeon R9 270 | GeForce GTX 970 / Radeon RX 570 |
+| Almacenamiento | 2 GB de espacio disponible | 4 GB de espacio disponible (se recomienda SSD) |
+
+<Callout type="info" title="Consejo de optimización">
+Si experimentas fragmentación de pantalla (screen tearing) o retraso durante las secuencias de avance rápido, activa el V-Sync en las opciones de gráficos y reduce los efectos de post-procesamiento. Esto estabilizará la tasa de fotogramas durante el cambio de cámara.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo el Final Verdadero en Back Alley Tales?",
+    answer: "Para desbloquear el Final Verdadero, debes completar con éxito los Finales Buenos individuales de Marie, Noel, Aya y Jasmin en un solo perfil. Una vez que las cuatro rutas se completen con el máximo de confianza, el capítulo final se desbloqueará automáticamente en el menú principal."
+  },
+  {
+    question: "¿Cuál es la importancia de las cintas VHS ocultas?",
+    answer: "Las cintas VHS ocultas son objetos coleccionables repartidos por diferentes transmisiones de cámara en momentos específicos. Encontrar las cinco cintas es necesario para desbloquear el Epílogo Secreto, que proporciona información crucial sobre el origen del sistema de vigilancia."
+  },
+  {
+    question: "¿Puedo saltar diálogos o adelantar escenas en partidas posteriores?",
+    answer: "Sí, una vez que hayas completado una escena o secuencia de diálogo al menos una vez, aparecerá un botón de salto en la esquina superior derecha de la pantalla. También puedes usar el control deslizante de la línea de tiempo para saltar rápidamente a los puntos de decisión clave."
+  },
+  {
+    question: "¿Hay alguna forma de recuperarse de un Final Malo sin reiniciar todo el juego?",
+    answer: "Sí, el juego cuenta con un sistema de guardado automático que registra tu progreso al comienzo de cada hora. Si activas un Final Malo, puedes cargar el guardado horario más reciente para cambiar tus elecciones y evitar el resultado desfavorable."
+  }
+]} />
+
+</Section>

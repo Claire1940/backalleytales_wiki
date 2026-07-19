@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, User, Users, Heart, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Personajes de Back Alley Tales: Perfiles de Roles y Guía de Relaciones 2026",
+  description: "Explora los complejos personajes de Back Alley Tales, incluyendo los roles del protagonista, las interacciones con los NPC y cómo las relaciones influyen en los finales narrativos oscuros.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Back+Alley+Tales+Characters",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de Back Alley Tales",
+  keywords: "Back Alley Tales, personajes, guía de relaciones, roles de protagonista, finales de juego"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Personajes de Back Alley Tales**: La narrativa gira en torno a un protagonista, NPCs clave y antagonistas misteriosos en un entorno urbano.
+- **Dinámica de Roles**: Los personajes se dividen en proveedores de información, compañeros y obstáculos narrativos.
+- **Impacto de la Interacción**: Las elecciones de diálogo y las acciones de exploración afectan directamente las relaciones entre personajes y los resultados de la historia.
+- **Método de Descubrimiento**: Muchos personajes se encuentran a través de la investigación ambiental y la mecánica de observación estilo CCTV.
+- **Influencia en los Finales**: Lograr finales específicos requiere dominar las misiones únicas de los principales miembros del reparto secundario.
+</Callout>
+
+<Section icon={Users} title="Resumen del Ecosistema de Personajes">
+
+En el oscuro mundo iluminado por neones de Back Alley Tales, los personajes son más que simples marcadores de misiones; son el corazón de la narrativa atmosférica. El juego utiliza un sistema por niveles donde cada individuo que encuentras, ya sea a través del lente de una cámara o en una interacción directa, cumple un propósito narrativo específico. Comprender estos roles es esencial para navegar por la compleja red de secretos ocultos dentro de los pasillos más estrechos de la ciudad.
+
+| Categoría de Personaje | Función Principal | Importancia Narrativa |
+| :--- | :--- | :--- |
+| **Protagonista** | Avatar del jugador, investigador principal | **Crítica** |
+| **NPCs Clave** | Donantes de misiones, proveedores de historia | **Alta** |
+| **Compañeros** | Asistencia, finales basados en relaciones | **Media-Alta** |
+| **Antagonistas** | Impulsores de conflicto, amenazas ambientales | **Alta** |
+| **Reparto Secundario** | Construcción del mundo, texto de ambientación | **Baja** |
+
+<Callout type="info" title="Profundidad Narrativa">
+Los personajes en Back Alley Tales a menudo tienen motivaciones ocultas que solo se revelan a través de interacciones repetidas o al encontrar pistas ambientales específicas en sus respectivas ubicaciones.
+</Callout>
+
+La estructura social del juego está diseñada para sentirse opresiva pero intrigante. A medida que progreses en la versión 2026 del juego, notarás que la línea entre un "amigo" y una "amenaza" a menudo se desdibuja según las decisiones que tomes durante las secuencias de diálogo de alto riesgo.
+
+</Section>
+
+<Section icon={User} title="El Protagonista: Rol y Capacidades">
+
+El protagonista en Back Alley Tales sirve como los ojos y oídos del jugador. A diferencia de los héroes de RPG tradicionales, este personaje a menudo es retratado como un observador o un investigador encargado de descubrir la verdad detrás de las leyendas urbanas del "Callejón". Tu papel es equilibrar la seguridad con la curiosidad, ya que extenderse demasiado en zonas peligrosas puede llevar a reinicios prematuros de la historia.
+
+<CardGrid cols={3}>
+  <Card title="Enfoque Investigativo">
+    - **Monitoreo de CCTV**: Analizar grabaciones para rastrear movimientos de NPCs.
+    - **Recolección de Evidencia**: Recoger objetos que activan nuevos diálogos.
+    - **Interacción Ambiental**: Encontrar caminos ocultos.
+  </Card>
+  <Card title="Navegación Social">
+    - **Elección de Diálogo**: Influir en los niveles de confianza de los NPCs.
+    - **Gestión de Riesgos**: Decidir cuándo intervenir o simplemente observar.
+    - **Uso de Recursos**: Intercambiar objetos por información vital.
+  </Card>
+  <Card title="Rasgos de Progresión">
+    - **Desbloqueo de Historia**: Ganar acceso a sectores restringidos de la ciudad.
+    - **Evolución de Habilidades**: Mejorar la eficiencia de la investigación.
+    - **Rutas de Finales**: Establecer las bases para los resultados finales.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo Pro: La Observación Primero">
+Utiliza siempre las habilidades de observación del protagonista antes de acercarte a un nuevo personaje. Observar sus patrones desde la distancia a menudo revela sus verdaderas intenciones antes de que siquiera hables con ellos.
+</Callout>
+
+El trasfondo del protagonista está intencionalmente envuelto en misterio, lo que permite a los jugadores proyectar su propia brújula moral en las acciones del personaje. Si eliges ser un protector silencioso o un testigo distante depende totalmente de tu estilo de juego.
+
+</Section>
+
+<Section icon={Heart} title="NPCs Clave y Dinámica de Compañeros">
+
+Los NPCs en Back Alley Tales son la fuente principal de progresión. Muchos personajes actúan como compañeros que pueden asistirte durante capítulos específicos, mientras que otros permanecen estacionarios, brindando servicios o información. El sistema de relaciones rastrea tu afinidad con estos personajes, lo que puede desbloquear "Finales de Personaje" únicos no disponibles en una partida estándar.
+
+| Tipo de NPC | Estilo de Interacción | Recompensas Comunes |
+| :--- | :--- | :--- |
+| **Informantes** | Transaccional, basado en secretos | Datos de mapas, pistas de contraseñas |
+| **Sobrevivientes** | Protector, basado en empatía | Acceso a refugios, objetos |
+| **Ejecutores** | Desafiante, basado en combate | Acceso a territorio, equipo |
+| **Comerciantes** | Económico, basado en comercio | Consumibles, mejoras |
+
+<Steps>
+  <Step num="1" title="Descubrimiento Inicial">
+    Localiza al NPC a través de pistas ambientales o monitoreando transmisiones de cámara específicas en ciertos momentos del día.
+  </Step>
+  <Step num="2" title="Primer Contacto">
+    Acércate al personaje. Tu elección de diálogo inicial a menudo determina si se convertirá en un aliado permanente o seguirá siendo un extraño neutral.
+  </Step>
+  <Step num="3" title="Construcción de Afinidad">
+    Completa misiones secundarias específicas del personaje o proporciónales los objetos que desean para aumentar tu nivel de relación.
+  </Step>
+  <Step num="4" title="Eventos de Ramificación">
+    Una vez que la afinidad es lo suficientemente alta, se activará un "Evento de Confianza", lo que llevará a cambios significativos en la historia o escenas únicas del personaje.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Bono de Alta Afinidad">
+Los personajes con alta afinidad a menudo te proporcionarán "Objetos de Acceso Directo", lo que te permitirá saltarte acertijos difíciles o encuentros de combate peligrosos en las etapas finales del juego.
+</Callout>
+
+</Section>
+
+<Section icon={AlertTriangle} title="Antagonistas e Impulsores de Conflicto">
+
+Los antagonistas de Back Alley Tales rara vez son villanos unidimensionales. A menudo son producto del duro entorno urbano, actuando como guardianes de los secretos más profundos del juego. Encontrar a estos personajes requiere un enfoque táctico diferente en comparación con los NPCs amistosos.
+
+| Rol del Antagonista | Nivel de Amenaza | Mecánica Principal |
+| :--- | :--- | :--- |
+| **Acechadores de Callejones** | Medio | Evasión basada en sigilo |
+| **Oficiales Corruptos** | Alto | Chantaje/Sobornos basados en diálogo |
+| **La Figura Sombría** | Extremo | Secuencias de persecución programadas |
+| **Investigadores Rivales** | Variable | Competencia por recursos |
+
+<Checklist
+  id="antagonist-encounters"
+  title="Lista de Supervivencia:"
+  items={[
+    "Mantén siempre una ruta de escape secundaria al entrar en un nuevo territorio.",
+    "Guarda los objetos de evidencia críticos en tus ranuras de inventario ocultas.",
+    "Monitorea los movimientos de los antagonistas vía CCTV antes de moverte entre sectores.",
+    "Evita la confrontación directa a menos que tengas los objetos de 'Contraataque' necesarios.",
+    "Guarda tu progreso con frecuencia antes de interactuar con NPCs de amenaza 'Extrema'."
+  ]}
+/>
+
+<Callout type="warning" title="Consecuencias Permanentes">
+Fallar en un encuentro importante con un antagonista puede llevar a la pérdida permanente de ciertos NPCs o al bloqueo de ramas específicas de la historia por el resto de tu partida actual.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Relaciones entre Personajes e Influencia en el Final">
+
+En Back Alley Tales, el objetivo de completar "Todos los Finales" depende en gran medida de cómo gestiones las relaciones con los personajes. El juego rastrea tu "Alineación Moral" y tu "Puntaje de Confianza" con todos los miembros principales del reparto. Estas estadísticas invisibles culminan en el capítulo final, determinando qué personajes te apoyan y cuáles se vuelven en tu contra.
+
+| Factor de Influencia en el Final | Descripción | Impacto en la Conclusión |
+| :--- | :--- | :--- |
+| **Puntaje de Confianza** | Agregado de todas las interacciones positivas | Determina quién sobrevive al final |
+| **Evidencia Compartida** | Cantidad de verdad revelada a los NPCs | Cambia el tono narrativo del final |
+| **Conteo de Traiciones** | Veces que elegiste el interés propio sobre los aliados | Activa finales de 'Soledad' o 'Traidor' |
+| **Descubrimiento de Secretos** | Encontrar el trasfondo oculto de un NPC | Desbloquea los finales de personaje 'Verdaderos' |
+
+<Callout type="tip" title="Múltiples Ranuras de Guardado">
+Para experimentar todos los finales relacionados con los personajes en 2026, se recomienda mantener múltiples archivos de guardado antes de los "Puntos de Decisión" importantes en los capítulos intermedios del juego.
+</Callout>
+
+La belleza del sistema de personajes reside en su imprevisibilidad. Un personaje que ignores al principio del juego podría convertirse en tu única esperanza durante una crisis al final, recompensando a los jugadores que se toman el tiempo de interactuar con todo el reparto.
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes sobre Personajes">
+
+<FAQ items={[
+  {
+    question: "¿Cuántos personajes principales hay en Back Alley Tales?",
+    answer: "El juego cuenta con un protagonista principal y aproximadamente entre 4 y 6 NPCs clave que impulsan la narrativa central, junto con docenas de miembros del reparto secundario."
+  },
+  {
+    question: "¿Puedo tener romances con los personajes en Back Alley Tales?",
+    answer: "Aunque el juego se centra en una aventura narrativa oscura, existe un sistema de afinidad que permite conexiones profundas con los personajes, lo que lleva a finales especiales basados en relaciones."
+  },
+  {
+    question: "¿Qué sucede si un NPC clave muere?",
+    answer: "Si un NPC clave muere debido a tus elecciones o al fracaso en una misión, su rama específica de la historia se cierra. Sin embargo, la historia principal usualmente se adaptará, llevándote hacia un camino de final diferente."
+  },
+  {
+    question: "¿Hay personajes secretos ocultos en el juego?",
+    answer: "Sí, hay varios personajes secretos que solo pueden encontrarse investigando activadores ambientales específicos o observando las transmisiones de CCTV durante ventanas de tiempo muy raras y limitadas."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Los personajes de Back Alley Tales están diseñados para ser complejos y moralmente grises. Tu disposición para explorar sus historias es la clave para dominar la intrincada trama del juego.
+</Callout>
+
+</Section>

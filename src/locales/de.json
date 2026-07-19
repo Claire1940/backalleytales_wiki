@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "Leitfaden",
+    "download": "Download",
+    "version": "Version",
+    "camera": "Kamera",
+    "story": "Geschichte",
+    "mod": "Mod",
+    "reviews": "Rezensionen"
+  }
+}

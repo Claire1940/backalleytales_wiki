@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Back Alley Tales iOS: Installationsanleitung & Performance-Tipps",
+  description: "Erfahren Sie, wie Sie Back Alley Tales iOS sicher installieren und optimieren. Folgen Sie unserer Schritt-für-Schritt-Anleitung zur Profileinrichtung und den Systemanforderungen.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/1e293b/fff?text=iOS+Setup+Guide",
+  date: "2026-07-20",
+  author: "Back Alley Tales Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Primäre Einrichtung**: Installieren Sie **Back Alley Tales iOS** mithilfe der offiziellen Konfigurationsprofil-Methode.
+- **Systemkompatibilität**: Stellen Sie sicher, dass Ihr Gerät mindestens mit **iOS 15.0** und mindestens **3 GB RAM** läuft.
+- **Profilverifizierung**: Vertrauen Sie dem Entwicklerprofil unter **VPN & Geräteverwaltung** in den Systemeinstellungen.
+- **Performance-Optimierung**: Deaktivieren Sie die Hintergrundaktualisierung von Apps, um während des Gameplays stabile **60 FPS** aufrechtzuerhalten.
+</Callout>
+
+<Section icon={Map} title="Installations- und Einrichtungsanleitung">
+
+Die Installation von Drittanbieter-Anwendungen auf Apple-Geräten erfordert einen anderen Ansatz als auf Android-Systemen. Da iOS in einer Sandbox-Umgebung arbeitet, müssen Benutzer Konfigurationsprofile oder alternative App-Verteilungsmethoden nutzen, um Spiele auszuführen, die nicht direkt im App Store gehostet werden. Dieser Einrichtungsprozess stellt sicher, dass die Spieldateien korrekt ausgeführt werden, während die Systemintegrität gewahrt bleibt.
+
+Überprüfen Sie vor Beginn der Installation, ob Ihre Internetverbindung stabil ist. Eine schwache Verbindung kann das Konfigurationsprofil während des Downloads beschädigen, was einen vollständigen Neustart des Prozesses erforderlich macht.
+
+**Video-Highlights:**
+- Zugriff auf die Download-Seite des Konfigurationsprofils.
+- Navigieren durch die Benutzeroberfläche der Systemeinstellungen.
+- Überprüfen der Sicherheitszertifikate des Profils.
+- Starten der Anwendungsoberfläche.
+
+<YouTubeEmbed videoId="W6MIIRfUEQY" title="Back Alley Tales iOS Android (2025) Latest" />
+
+<Callout type="warning" title="Sicherheitswarnung">
+Laden Sie Konfigurationsprofile nur aus verifizierten Quellen herunter. Die Installation nicht verifizierter Profile kann Ihr Gerät Sicherheitsrisiken oder unbefugtem Datenzugriff aussetzen.
+</Callout>
+
+Der Installations-Workflow unterscheidet sich erheblich zwischen den mobilen Plattformen. Die folgende Tabelle zeigt die wesentlichen Unterschiede bei den Vorbereitungs-, Ausführungs- und Verifizierungsschritten für beide Betriebssysteme.
+
+| Funktion | iOS-Prozess | Android-Prozess |
+| :--- | :--- | :--- |
+| **Dateiformat** | Konfigurationsprofil / IPA | APK-Paket |
+| **Verifizierung** | VPN & Geräteverwaltung | Unbekannte Quellen zulassen |
+| **Installation** | Manuelles Vertrauen des Profils | Automatisches Installationsprogramm |
+| **Systemzugriff** | Eingeschränkte Sandbox | Moderater Systemzugriff |
+| **Update-Methode** | Manueller Profilaustausch | Over-the-Air-Paketüberschreibung |
+
+</Section>
+
+<Section icon={Shield} title="Systemanforderungen & Kompatibilität">
+
+Das Ausführen von grafikintensiven interaktiven Spielen auf mobiler Hardware erfordert eine angemessene Rechenleistung und Speicherzuweisung. iOS-Geräte verwalten den Arbeitsspeicher streng, was bedeutet, dass Hintergrundprozesse das Spiel beenden, wenn dem System der Arbeitsspeicher ausgeht.
+
+Um ein reibungsloses Spielerlebnis ohne häufige Abstürze bei Szenenübergängen zu gewährleisten, überprüfen Sie bitte die folgenden Hardware-Spezifikationen. Ältere Geräte können von "Thermal Throttling" (temperaturbedingte Drosselung) betroffen sein, wodurch die Taktfrequenz des Prozessors reduziert wird, um das Gerät abzukühlen, was zu Bildeinbrüchen führt.
+
+<Callout type="info" title="Speicherempfehlung">
+Halten Sie mindestens **5 GB freien Speicherplatz** auf Ihrem Gerät bereit. Das System benötigt temporären Speicherplatz, um Spielressourcen während der Laufzeit zu entpacken.
+</Callout>
+
+Die folgende Tabelle listet die minimalen und empfohlenen Hardwarekonfigurationen für das Ausführen des Spiels auf Apple-Geräten auf.
+
+| Spezifikation | Mindestanforderung | Empfohlene Anforderung |
+| :--- | :--- | :--- |
+| **Betriebssystem** | **iOS 15.0** oder höher | **iOS 17.0** oder höher |
+| **Prozessor** | Apple A12 Bionic | Apple A15 Bionic oder neuer |
+| **Arbeitsspeicher** | **3 GB RAM** | **4 GB RAM** oder mehr |
+| **Freier Speicher** | 3 GB verfügbarer Speicherplatz | 6 GB verfügbarer Speicherplatz |
+| **Netzwerk** | Breitband-WLAN | Highspeed-5G / WLAN |
+
+Um festzustellen, wie Ihr spezifisches Gerät mit dem Spiel umgeht, beachten Sie die unten kategorisierten Leistungsstufen.
+
+<CardGrid cols={3}>
+  <Card title="Ältere Geräte">
+    - **Modelle**: iPhone 11, SE (2. Gen.)
+    - **Leistung**: Ziel von 30 FPS
+    - **Einstellungen**: Niedrige Grafik, deaktiviertes Post-Processing
+  </Card>
+  <Card title="Moderne Geräte">
+    - **Modelle**: iPhone 12, 13, 14 Standard
+    - **Leistung**: Stabile 60 FPS
+    - **Einstellungen**: Mittlere bis hohe Grafik aktiviert
+  </Card>
+  <Card title="Premium-Geräte">
+    - **Modelle**: iPhone 15, 16, Pro-Serie
+    - **Leistung**: Maximale 60 FPS
+    - **Einstellungen**: Ultra-Grafik, maximale Detailstufen
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Konfigurationsanleitung">
+
+Um den Spiel-Client erfolgreich auf Ihrem Gerät zu konfigurieren, befolgen Sie die unten aufgeführten Schritte der Reihe nach. Das Überspringen eines dieser Schritte kann beim Starten der Anwendung zu der Fehlermeldung „Nicht vertrauenswürdiger Enterprise-Entwickler“ führen.
+
+<Steps>
+  <Step num="1" title="Profil herunterladen">
+    Öffnen Sie den Safari-Browser auf Ihrem iOS-Gerät und navigieren Sie zum verifizierten Download-Portal. Tippen Sie auf den Download-Link, um das Konfigurationsprofil abzurufen. Eine Systemaufforderung bittet um Erlaubnis zum Herunterladen des Profils. Tippen Sie auf **Zulassen**, um fortzufahren.
+  </Step>
+  <Step num="2" title="Systemeinstellungen öffnen">
+    Sobald der Download abgeschlossen ist, schließen Sie Ihren Browser und öffnen Sie die native iOS-App **Einstellungen**. Am oberen Rand des Einstellungsmenüs sollten Sie ein neues Banner mit der Aufschrift **Profil geladen** sehen. Tippen Sie direkt auf dieses Banner.
+  </Step>
+  <Step num="3" title="Profil installieren">
+    Tippen Sie im Profilinstallationsbildschirm oben rechts auf **Installieren**. Geben Sie nach Aufforderung Ihren Gerätecode ein. Lesen Sie die Einverständniserklärung und tippen Sie dann unten auf dem Bildschirm erneut auf **Installieren**, um zu bestätigen.
+  </Step>
+  <Step num="4" title="Entwicklerzertifikat vertrauen">
+    Wenn das Profil das Vertrauen eines Enterprise-Entwicklers erfordert, navigieren Sie zu **Einstellungen** > **Allgemein** > **VPN & Geräteverwaltung**. Wählen Sie im Bereich „Enterprise-App“ den mit dem Profil verknüpften Entwicklernamen aus und tippen Sie auf **Vertrauen**.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Verifizierung erfolgreich">
+Sobald vertraut wurde, ändert sich der Status des Entwickler-Labels in „Vertrauenswürdig“. Sie können nun zu Ihrem Startbildschirm zurückkehren und das Spielsymbol starten.
+</Callout>
+
+Während des Installationsprozesses können Systemwarnungen oder Installationsblockaden auftreten. Beziehen Sie sich auf die folgende Fehlerbehebungsmatrix, um diese Probleme schnell zu lösen.
+
+| Problem | Mögliche Ursache | Empfohlene Lösung |
+| :--- | :--- | :--- |
+| **Profil wird nicht heruntergeladen** | Safari-Blockierung oder schlechte Verbindung | Safari-Cache löschen und über WLAN erneut versuchen |
+| **Fehlendes Profil-Banner** | Download wurde nicht registriert | Gehen Sie manuell zu Allgemein > VPN & Geräteverwaltung |
+| **Fehler „Verifizierung fehlgeschlagen“** | Zertifikat von Apple widerrufen | Löschen Sie das Profil und laden Sie eine aktualisierte Version herunter |
+| **App stürzt sofort ab** | Unzureichender System-Arbeitsspeicher | Starten Sie das Gerät neu und schließen Sie alle Hintergrund-Apps |
+
+</Section>
+
+<Section icon={Swords} title="Gameplay-Mechaniken & Tipps">
+
+Das Spiel fungiert als Detektivsimulation, bei der die Spieler Überwachungskameras überwachen, Umgebungen analysieren und erzählerische Ereignisse in dunklen Gassen rekonstruieren. Der Erfolg hängt von scharfer Beobachtungsgabe, Timing und der effektiven Verwaltung Ihrer Ermittlungsressourcen ab.
+
+Spieler müssen zwischen verschiedenen Kamera-Feeds wechseln, Zeitstempel anpassen, um vergangene Ereignisse anzuzeigen, und mit in der Umgebung hervorgehobenen Objekten interagieren. Die Verwaltung Ihrer Aktionspunkte oder Ihres Zeitbudgets ist entscheidend, um alle Erzählstränge aufzudecken.
+
+<Callout type="tip" title="Beobachtungsstrategie">
+Achten Sie genau auf Details im Hintergrund. Viele wichtige Gegenstände und Hinweise erscheinen nur zu bestimmten Stunden des Nachtzyklus. Verwenden Sie das Zeitschieberegler-Tool, um Szenen Bild für Bild zu scannen.
+</Callout>
+
+Das Verständnis darüber, wie sich verschiedene Aktionen auf Ihren Fortschritt auswirken, ist der Schlüssel zum Freischalten aller Enden. Die folgende Tabelle listet die wichtigsten interaktiven Mechaniken und deren Ergebnisse auf.
+
+| Interaktion | Auslösebedingung | Erwartetes Ergebnis |
+| :--- | :--- | :--- |
+| **Kamera-Wechsel** | Tippen auf Kamerasymbole auf der Benutzeroberfläche | Schaltet den Live-Feed auf einen anderen Standort um |
+| **Zeitzurückspulung** | Ziehen des unteren Schiebereglers | Spult die Szene auf frühere Nachtstunden zurück |
+| **Hinweis-Inspektion** | Tippen auf blinkendes Objekt im Sichtfeld | Fügt das Element dem Beweisprotokoll hinzu und schaltet Dialoge frei |
+| **Charakter-Interaktion** | NPC während des Ereignisses auswählen | Löst entscheidungsbasierte Handlungszweige aus |
+| **Szenen-Zoom** | Auf dem Bildschirm heranzoomen (Pinch-to-Zoom) | Enthüllt verborgene Details in dunklen Ecken |
+
+Um sicherzustellen, dass Sie die gesamte Geschichte erleben, versuchen Sie, die folgenden Meilensteine während Ihres Spieldurchgangs zu erreichen.
+
+<Checklist
+  id="gameplay-milestones"
+  title="Ermittlungs-Meilensteine:"
+  items={[
+    "Schalten Sie alle vier Kamera-Feeds im Hauptbezirk frei",
+    "Finden Sie alle versteckten Beweismittel in der ersten Gasse",
+    "Schließen Sie die Nachtschicht ab, ohne Alarme auszulösen",
+    "Schalten Sie das wahre Ende frei, indem Sie alle Fallakten verknüpfen"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ & Troubleshooting">
+
+Dieser Abschnitt behandelt häufige Fragen zum Spiel-Client, zu Updates und zu Kompatibilitätsproblemen auf mobilen Plattformen.
+
+<Callout type="info" title="Versions-Updates">
+Da dieses Spiel außerhalb des App Stores vertrieben wird, müssen Sie aktualisierte Profile manuell herunterladen und installieren, wenn neue Patches veröffentlicht werden.
+</Callout>
+
+Das Spiel wird regelmäßig aktualisiert, um Fehler zu beheben und neue Kapitel der Geschichte einzuführen. Die folgende Zeitleiste zeigt die jüngsten Updates und Änderungen am mobilen Client.
+
+| Version | Veröffentlichungsdatum | Wichtigste Änderungen |
+| :--- | :--- | :--- |
+| **v1.4.2** | **2026-05-12** | Audio-Desynchronisation auf iOS 17-Geräten behoben |
+| **v1.4.0** | **2026-03-20** | Zwei neue Gassen-Standorte und Charaktere hinzugefügt |
+| **v1.3.5** | **2026-01-15** | Speichernutzung für Geräte mit 3 GB RAM optimiert |
+
+<FAQ items={[
+  {
+    question: "Ist es sicher, Back Alley Tales iOS über Konfigurationsprofile zu installieren?",
+    answer: "Ja, vorausgesetzt, Sie laden das Profil aus einer verifizierten Community-Quelle herunter. Stellen Sie immer sicher, dass auf Ihrem Gerät die Backup-Wiederherstellung aktiviert ist, bevor Sie benutzerdefinierte Profile installieren."
+  },
+  {
+    question: "Wie aktualisiere ich das Spiel, ohne meinen Speicherfortschritt zu verlieren?",
+    answer: "Löschen Sie die vorhandene Spiel-App nicht. Installieren Sie das neue Konfigurationsprofil direkt über das alte. Das System überschreibt die Anwendungsdateien, während Ihre lokalen Speicherdaten erhalten bleiben."
+  },
+  {
+    question: "Warum meldet die App 'Entwicklerprofil abgelaufen'?",
+    answer: "Apple widerruft regelmäßig Enterprise-Zertifikate. In diesem Fall müssen Sie warten, bis das Entwicklungsteam ein neues Zertifikat signiert, das aktualisierte Profil herunterladen und ihm in den Einstellungen erneut vertrauen."
+  },
+  {
+    question: "Kann ich das Spiel offline auf meinem iPad spielen?",
+    answer: "Ja, der grundlegende Spielablauf erfordert keine aktive Internetverbindung, sobald der Schritt der Profilverifizierung abgeschlossen ist und die ursprünglichen Spielressourcen vollständig heruntergeladen wurden."
+  }
+]} />
+
+</Section>

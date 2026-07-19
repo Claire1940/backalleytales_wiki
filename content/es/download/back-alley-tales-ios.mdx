@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "back alley tales ios: Guía de Configuración y Consejos de Rendimiento",
+  description: "Aprende cómo instalar y optimizar de forma segura back alley tales ios. Sigue nuestra guía de configuración de perfil paso a paso y los requisitos del sistema.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=iOS+Setup+Guide",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de back alley tales",
+  keywords: "back alley tales ios, guía de instalación, requisitos del sistema, optimización ios, guía de juego"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Configuración principal**: Despliega **back alley tales ios** utilizando el método oficial de instalación de perfil de configuración.
+- **Compatibilidad del sistema**: Asegúrate de que tu dispositivo ejecute al menos **iOS 15.0** con un mínimo de **3GB de RAM**.
+- **Verificación del perfil**: Confía en el perfil del desarrollador en **Administración de dispositivos y VPN** dentro de los ajustes del sistema.
+- **Optimización del rendimiento**: Desactiva la actualización en segundo plano para mantener unos **60 FPS** estables durante el juego.
+</Callout>
+
+<Section icon={Map} title="Guía de Configuración e Instalación">
+
+Instalar aplicaciones de terceros en dispositivos Apple requiere un enfoque diferente en comparación con los sistemas Android. Debido a que iOS opera dentro de un entorno cerrado (sandbox), los usuarios deben utilizar perfiles de configuración o métodos alternativos de distribución de aplicaciones para ejecutar juegos que no están alojados directamente en la App Store. Este proceso de configuración garantiza que los archivos del juego se ejecuten correctamente manteniendo la integridad del sistema.
+
+Antes de comenzar la instalación, comprueba que tu conexión a internet sea estable. Una conexión débil puede corromper el perfil de configuración durante la descarga, lo que requeriría reiniciar completamente el proceso.
+
+**Puntos destacados del video:**
+- Acceso a la página de descarga del perfil de configuración.
+- Navegación por la interfaz de ajustes del sistema.
+- Verificación de los certificados de seguridad del perfil.
+- Lanzamiento de la interfaz de la aplicación.
+
+<YouTubeEmbed videoId="W6MIIRfUEQY" title="Back Alley Tales iOS Android (2025) Última versión" />
+
+<Callout type="warning" title="Advertencia de Seguridad">
+Descarga perfiles de configuración solo de fuentes verificadas. Instalar perfiles no verificados puede exponer tu dispositivo a vulnerabilidades de seguridad o al acceso no autorizado a tus datos.
+</Callout>
+
+El flujo de trabajo de instalación difiere significativamente entre plataformas móviles. La siguiente tabla resume las diferencias principales en los pasos de preparación, ejecución y verificación requeridos para ambos sistemas operativos.
+
+| Característica | Proceso de iOS | Proceso de Android |
+| :--- | :--- | :--- |
+| **Formato de Archivo** | Perfil de Configuración / IPA | Paquete APK |
+| **Verificación** | Administración de dispositivos y VPN | Permitir orígenes desconocidos |
+| **Instalación** | Confianza manual del perfil | Instalador de paquetes automático |
+| **Acceso al Sistema** | Sandbox restringido | Acceso moderado al sistema |
+| **Método de Actualización** | Reemplazo manual del perfil | Sobrescritura de paquete inalámbrica (OTA) |
+
+</Section>
+
+<Section icon={Shield} title="Requisitos del Sistema y Compatibilidad">
+
+Ejecutar juegos interactivos con gráficos intensivos en hardware móvil requiere una potencia de procesamiento y asignación de memoria adecuadas. Los dispositivos iOS gestionan la RAM de forma estricta, lo que significa que los procesos en segundo plano cerrarán el juego si el sistema se queda sin memoria.
+
+Para asegurar una experiencia fluida sin cierres frecuentes durante las transiciones de escena, revisa las especificaciones de hardware a continuación. Los dispositivos más antiguos pueden experimentar estrangulamiento térmico (thermal throttling), lo que reduce la velocidad del procesador para enfriar el dispositivo, resultando en caídas de fotogramas.
+
+<Callout type="info" title="Recomendación de Almacenamiento">
+Mantén al menos **5GB de espacio libre** en tu dispositivo. El sistema necesita espacio de almacenamiento temporal para descomprimir los recursos del juego durante la ejecución.
+</Callout>
+
+La siguiente tabla detalla las configuraciones de hardware mínimas y recomendadas para ejecutar el juego en dispositivos Apple.
+
+| Especificación | Requisito Mínimo | Requisito Recomendado |
+| :--- | :--- | :--- |
+| **Sistema Operativo** | **iOS 15.0** o superior | **iOS 17.0** o superior |
+| **Procesador** | Apple A12 Bionic | Apple A15 Bionic o más reciente |
+| **Memoria del Sistema** | **3GB RAM** | **4GB RAM** o superior |
+| **Almacenamiento Libre** | 3GB de espacio disponible | 6GB de espacio disponible |
+| **Red** | Wi-Fi de banda ancha | 5G de alta velocidad / Wi-Fi |
+
+Para ayudarte a determinar cómo funcionará el juego en tu dispositivo específico, consulta los niveles de rendimiento categorizados a continuación.
+
+<CardGrid cols={3}>
+  <Card title="Dispositivos Antiguos">
+    - **Modelos**: iPhone 11, SE (2ª gen)
+    - **Rendimiento**: Objetivo de 30 FPS
+    - **Ajustes**: Gráficos bajos, post-procesado desactivado
+  </Card>
+  <Card title="Dispositivos Modernos">
+    - **Modelos**: iPhone 12, 13, 14 Estándar
+    - **Rendimiento**: 60 FPS estables
+    - **Ajustes**: Gráficos medios a altos activados
+  </Card>
+  <Card title="Dispositivos Premium">
+    - **Modelos**: iPhone 15, 16, Serie Pro
+    - **Rendimiento**: 60 FPS al máximo
+    - **Ajustes**: Gráficos Ultra, niveles de detalle máximos
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Guía de Configuración Paso a Paso">
+
+Para configurar con éxito el cliente del juego en tu dispositivo, sigue la secuencia de pasos detallada a continuación. Omitir cualquiera de estos pasos puede resultar en un error de "Desarrollador empresarial no fiable" al intentar iniciar la aplicación.
+
+<Steps>
+  <Step num="1" title="Descargar el Perfil">
+    Abre el navegador Safari en tu dispositivo iOS y navega al portal de descarga verificado. Toca el enlace de descarga para obtener el perfil de configuración. Un aviso del sistema te pedirá permiso para descargar el perfil. Toca **Permitir** para proceder.
+  </Step>
+  <Step num="2" title="Localizar los Ajustes del Sistema">
+    Una vez completada la descarga, sal de tu navegador y abre la aplicación nativa de **Ajustes** de iOS. Deberías ver un nuevo banner de notificación en la parte superior del menú de ajustes con el texto **Perfil descargado**. Toca este banner directamente.
+  </Step>
+  <Step num="3" title="Instalar el Perfil">
+    En la pantalla de instalación del perfil, toca **Instalar** en la esquina superior derecha. Introduce el código de tu dispositivo cuando se te solicite. Lee la pantalla de consentimiento y luego toca **Instalar** nuevamente en la parte inferior de la pantalla para confirmar.
+  </Step>
+  <Step num="4" title="Confiar en el Certificado del Desarrollador">
+    Si el perfil requiere confianza de desarrollador empresarial, ve a **Ajustes** > **General** > **Administración de dispositivos y VPN**. En la sección de Aplicación Empresarial, selecciona el nombre del desarrollador asociado con el perfil y toca **Confiar**.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Verificación Exitosa">
+Una vez que se haya confiado en él, la etiqueta del desarrollador cambiará su estado a "Confiable". Ahora puedes volver a tu pantalla de inicio e iniciar el icono del juego.
+</Callout>
+
+Durante el proceso de instalación, puedes encontrar alertas del sistema o bloqueos de instalación. Consulta la matriz de solución de problemas a continuación para resolver estos problemas rápidamente.
+
+| Problema | Causa Posible | Solución Recomendada |
+| :--- | :--- | :--- |
+| **El perfil no se descarga** | Bloqueo de Safari o mala conexión | Limpia el caché de Safari y reintenta con Wi-Fi |
+| **Falta el banner del perfil** | La descarga no se registró | Ve a General > Administración de dispositivos y VPN manualmente |
+| **Error de verificación fallida** | Certificado revocado por Apple | Elimina el perfil y descarga una versión actualizada |
+| **La App se cierra al instante** | Memoria RAM insuficiente | Reinicia el dispositivo y cierra apps en segundo plano |
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Juego y Consejos">
+
+El juego funciona como una simulación de detective donde los jugadores monitorean cámaras de seguridad, analizan entornos y arman eventos narrativos que ocurren en callejones oscuros. El éxito depende de una observación aguda, el tiempo preciso y la gestión eficaz de tus recursos de investigación.
+
+Los jugadores deben alternar entre diferentes transmisiones de cámara, ajustar las marcas de tiempo para ver eventos pasados e interactuar con objetos resaltados en el entorno. Gestionar tus puntos de acción o presupuesto de tiempo es crucial para descubrir todas las ramas narrativas.
+
+<Callout type="tip" title="Estrategia de Observación">
+Presta mucha atención a los detalles del fondo. Muchos objetos clave y pistas solo aparecen durante horas específicas del ciclo nocturno. Usa la herramienta de desplazamiento temporal para escanear las escenas fotograma a fotograma.
+</Callout>
+
+Comprender cómo las diferentes acciones afectan tu progresión es clave para desbloquear todos los finales. La siguiente tabla enumera las principales mecánicas interactivas y sus resultados.
+
+| Interacción | Condición de Activación | Resultado Esperado |
+| :--- | :--- | :--- |
+| **Cambio de Cámara** | Toca los iconos de cámara en la interfaz | Cambia la transmisión en vivo a una ubicación diferente |
+| **Rebobinado de Tiempo** | Arrastra el deslizador inferior | Rebobina la escena a horas más tempranas de la noche |
+| **Inspección de Pistas** | Toca un objeto parpadeante en vista | Añade el objeto al registro de pruebas y desbloquea diálogos |
+| **Interacción con Personajes** | Selecciona un NPC durante un evento | Activa ramas de decisión basadas en elecciones |
+| **Zoom de Escena** | Pellizca la pantalla para hacer zoom | Revela detalles ocultos en rincones oscuros |
+
+Para asegurarte de experimentar la narrativa completa, intenta completar los siguientes hitos de progresión durante tu partida.
+
+<Checklist
+  id="gameplay-milestones"
+  title="Hitos de la Investigación:"
+  items={[
+    "Desbloquear las cuatro transmisiones de cámara en el distrito principal",
+    "Encontrar todos los objetos de prueba ocultos en el primer callejón",
+    "Completar el turno de noche sin activar alarmas",
+    "Desbloquear el final verdadero conectando todos los archivos del caso"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes y Solución de Problemas">
+
+Esta sección aborda consultas comunes sobre el cliente del juego, actualizaciones y correcciones de compatibilidad para plataformas móviles.
+
+<Callout type="info" title="Actualizaciones de Versión">
+Debido a que este juego se distribuye fuera de la App Store, debes descargar e instalar manualmente los perfiles actualizados cuando se lancen nuevos parches.
+</Callout>
+
+El juego recibe actualizaciones periódicas para corregir errores e introducir nuevos capítulos de la historia. La siguiente cronología muestra las actualizaciones recientes y los cambios realizados en el cliente móvil.
+
+| Versión | Fecha de Lanzamiento | Cambios Clave |
+| :--- | :--- | :--- |
+| **v1.4.2** | **12-05-2026** | Corregida desincronización de audio en iOS 17 |
+| **v1.4.0** | **20-03-2026** | Añadidas dos nuevas ubicaciones de callejones y personajes |
+| **v1.3.5** | **15-01-2026** | Uso de memoria optimizado para dispositivos de 3GB RAM |
+
+<FAQ items={[
+  {
+    question: "¿Es seguro instalar back alley tales ios mediante perfiles de configuración?",
+    answer: "Sí, siempre que descargues el perfil de una fuente comunitaria verificada. Asegúrate siempre de tener habilitada la recuperación de copia de seguridad en tu dispositivo antes de instalar perfiles personalizados."
+  },
+  {
+    question: "¿Cómo actualizo el juego sin perder mi progreso guardado?",
+    answer: "No elimines la aplicación del juego existente. Instala el nuevo perfil de configuración directamente sobre el anterior. El sistema sobrescribirá los archivos de la aplicación conservando tus datos de guardado locales."
+  },
+  {
+    question: "¿Por qué la aplicación dice 'Perfil de desarrollador caducado'?",
+    answer: "Apple revoca regularmente los certificados empresariales. Cuando esto sucede, debes esperar a que el equipo de desarrollo firme un nuevo certificado, descargar el perfil actualizado y volver a confiar en él en los ajustes."
+  },
+  {
+    question: "¿Puedo jugar el juego sin conexión en mi iPad?",
+    answer: "Sí, el núcleo del juego no requiere una conexión a internet activa una vez que se completa el paso de verificación del perfil y los recursos iniciales del juego se han descargado por completo."
+  }
+]} />
+
+</Section>

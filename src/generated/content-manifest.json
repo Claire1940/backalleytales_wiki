@@ -1,1 +1,506 @@
-{}
+{
+  "de": {
+    "camera": [
+      {
+        "slug": "back-alley-tales-camera-gameplay",
+        "file": "back-alley-tales-camera-gameplay"
+      },
+      {
+        "slug": "back-alley-tales-hidden-camera",
+        "file": "back-alley-tales-hidden-camera"
+      },
+      {
+        "slug": "back-alley-tales-hidden-pixel-camera",
+        "file": "back-alley-tales-hidden-pixel-camera"
+      }
+    ],
+    "download": [
+      {
+        "slug": "back-alley-tales-android",
+        "file": "back-alley-tales-android"
+      },
+      {
+        "slug": "back-alley-tales-download",
+        "file": "back-alley-tales-download"
+      },
+      {
+        "slug": "back-alley-tales-ios",
+        "file": "back-alley-tales-ios"
+      },
+      {
+        "slug": "back-alley-tales-ipa",
+        "file": "back-alley-tales-ipa"
+      },
+      {
+        "slug": "back-alley-tales-mobile",
+        "file": "back-alley-tales-mobile"
+      },
+      {
+        "slug": "back-alley-tales-pc",
+        "file": "back-alley-tales-pc"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "back-alley-tales-beginner-guide",
+        "file": "back-alley-tales-beginner-guide"
+      },
+      {
+        "slug": "back-alley-tales-gameplay",
+        "file": "back-alley-tales-gameplay"
+      },
+      {
+        "slug": "back-alley-tales-how-to-play",
+        "file": "back-alley-tales-how-to-play"
+      },
+      {
+        "slug": "back-alley-tales-story-guide",
+        "file": "back-alley-tales-story-guide"
+      },
+      {
+        "slug": "back-alley-tales-tutorial",
+        "file": "back-alley-tales-tutorial"
+      }
+    ],
+    "mod": [
+      {
+        "slug": "back-alley-tales-mod",
+        "file": "back-alley-tales-mod"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "back-alley-tales-gameplay-video",
+        "file": "back-alley-tales-gameplay-video"
+      },
+      {
+        "slug": "back-alley-tales-review",
+        "file": "back-alley-tales-review"
+      },
+      {
+        "slug": "back-alley-tales-youtube",
+        "file": "back-alley-tales-youtube"
+      }
+    ],
+    "story": [
+      {
+        "slug": "back-alley-tales-characters",
+        "file": "back-alley-tales-characters"
+      },
+      {
+        "slug": "back-alley-tales-minesters",
+        "file": "back-alley-tales-minesters"
+      },
+      {
+        "slug": "back-alley-tales-monster",
+        "file": "back-alley-tales-monster"
+      },
+      {
+        "slug": "back-alley-tales-story",
+        "file": "back-alley-tales-story"
+      }
+    ],
+    "version": [
+      {
+        "slug": "back-alley-tales-latest-update",
+        "file": "back-alley-tales-latest-update"
+      },
+      {
+        "slug": "back-alley-tales-latest-version",
+        "file": "back-alley-tales-latest-version"
+      },
+      {
+        "slug": "back-alley-tales-new-version",
+        "file": "back-alley-tales-new-version"
+      },
+      {
+        "slug": "back-alley-tales-update",
+        "file": "back-alley-tales-update"
+      },
+      {
+        "slug": "back-alley-tales-v1",
+        "file": "back-alley-tales-v1"
+      }
+    ]
+  },
+  "en": {
+    "camera": [
+      {
+        "slug": "back-alley-tales-camera-gameplay",
+        "file": "back-alley-tales-camera-gameplay"
+      },
+      {
+        "slug": "back-alley-tales-hidden-camera",
+        "file": "back-alley-tales-hidden-camera"
+      },
+      {
+        "slug": "back-alley-tales-hidden-pixel-camera",
+        "file": "back-alley-tales-hidden-pixel-camera"
+      }
+    ],
+    "download": [
+      {
+        "slug": "back-alley-tales-android",
+        "file": "back-alley-tales-android"
+      },
+      {
+        "slug": "back-alley-tales-download",
+        "file": "back-alley-tales-download"
+      },
+      {
+        "slug": "back-alley-tales-ios",
+        "file": "back-alley-tales-ios"
+      },
+      {
+        "slug": "back-alley-tales-ipa",
+        "file": "back-alley-tales-ipa"
+      },
+      {
+        "slug": "back-alley-tales-mobile",
+        "file": "back-alley-tales-mobile"
+      },
+      {
+        "slug": "back-alley-tales-pc",
+        "file": "back-alley-tales-pc"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "back-alley-tales-beginner-guide",
+        "file": "back-alley-tales-beginner-guide"
+      },
+      {
+        "slug": "back-alley-tales-gameplay",
+        "file": "back-alley-tales-gameplay"
+      },
+      {
+        "slug": "back-alley-tales-guide",
+        "file": "back-alley-tales-guide"
+      },
+      {
+        "slug": "back-alley-tales-how-to-play",
+        "file": "back-alley-tales-how-to-play"
+      },
+      {
+        "slug": "back-alley-tales-story-guide",
+        "file": "back-alley-tales-story-guide"
+      },
+      {
+        "slug": "back-alley-tales-tutorial",
+        "file": "back-alley-tales-tutorial"
+      }
+    ],
+    "mod": [
+      {
+        "slug": "back-alley-tales-mod",
+        "file": "back-alley-tales-mod"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "back-alley-tales-gameplay-video",
+        "file": "back-alley-tales-gameplay-video"
+      },
+      {
+        "slug": "back-alley-tales-review",
+        "file": "back-alley-tales-review"
+      },
+      {
+        "slug": "back-alley-tales-youtube",
+        "file": "back-alley-tales-youtube"
+      }
+    ],
+    "story": [
+      {
+        "slug": "back-alley-tales-characters",
+        "file": "back-alley-tales-characters"
+      },
+      {
+        "slug": "back-alley-tales-minesters",
+        "file": "back-alley-tales-minesters"
+      },
+      {
+        "slug": "back-alley-tales-monster",
+        "file": "back-alley-tales-monster"
+      },
+      {
+        "slug": "back-alley-tales-story",
+        "file": "back-alley-tales-story"
+      }
+    ],
+    "version": [
+      {
+        "slug": "back-alley-tales-latest-update",
+        "file": "back-alley-tales-latest-update"
+      },
+      {
+        "slug": "back-alley-tales-latest-version",
+        "file": "back-alley-tales-latest-version"
+      },
+      {
+        "slug": "back-alley-tales-new-version",
+        "file": "back-alley-tales-new-version"
+      },
+      {
+        "slug": "back-alley-tales-update",
+        "file": "back-alley-tales-update"
+      },
+      {
+        "slug": "back-alley-tales-v1",
+        "file": "back-alley-tales-v1"
+      }
+    ]
+  },
+  "es": {
+    "camera": [
+      {
+        "slug": "back-alley-tales-camera-gameplay",
+        "file": "back-alley-tales-camera-gameplay"
+      },
+      {
+        "slug": "back-alley-tales-hidden-camera",
+        "file": "back-alley-tales-hidden-camera"
+      },
+      {
+        "slug": "back-alley-tales-hidden-pixel-camera",
+        "file": "back-alley-tales-hidden-pixel-camera"
+      }
+    ],
+    "download": [
+      {
+        "slug": "back-alley-tales-android",
+        "file": "back-alley-tales-android"
+      },
+      {
+        "slug": "back-alley-tales-download",
+        "file": "back-alley-tales-download"
+      },
+      {
+        "slug": "back-alley-tales-ios",
+        "file": "back-alley-tales-ios"
+      },
+      {
+        "slug": "back-alley-tales-ipa",
+        "file": "back-alley-tales-ipa"
+      },
+      {
+        "slug": "back-alley-tales-mobile",
+        "file": "back-alley-tales-mobile"
+      },
+      {
+        "slug": "back-alley-tales-pc",
+        "file": "back-alley-tales-pc"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "back-alley-tales-beginner-guide",
+        "file": "back-alley-tales-beginner-guide"
+      },
+      {
+        "slug": "back-alley-tales-gameplay",
+        "file": "back-alley-tales-gameplay"
+      },
+      {
+        "slug": "back-alley-tales-guide",
+        "file": "back-alley-tales-guide"
+      },
+      {
+        "slug": "back-alley-tales-how-to-play",
+        "file": "back-alley-tales-how-to-play"
+      },
+      {
+        "slug": "back-alley-tales-story-guide",
+        "file": "back-alley-tales-story-guide"
+      },
+      {
+        "slug": "back-alley-tales-tutorial",
+        "file": "back-alley-tales-tutorial"
+      }
+    ],
+    "mod": [
+      {
+        "slug": "back-alley-tales-mod",
+        "file": "back-alley-tales-mod"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "back-alley-tales-gameplay-video",
+        "file": "back-alley-tales-gameplay-video"
+      },
+      {
+        "slug": "back-alley-tales-review",
+        "file": "back-alley-tales-review"
+      },
+      {
+        "slug": "back-alley-tales-youtube",
+        "file": "back-alley-tales-youtube"
+      }
+    ],
+    "story": [
+      {
+        "slug": "back-alley-tales-characters",
+        "file": "back-alley-tales-characters"
+      },
+      {
+        "slug": "back-alley-tales-minesters",
+        "file": "back-alley-tales-minesters"
+      },
+      {
+        "slug": "back-alley-tales-monster",
+        "file": "back-alley-tales-monster"
+      },
+      {
+        "slug": "back-alley-tales-story",
+        "file": "back-alley-tales-story"
+      }
+    ],
+    "version": [
+      {
+        "slug": "back-alley-tales-latest-update",
+        "file": "back-alley-tales-latest-update"
+      },
+      {
+        "slug": "back-alley-tales-latest-version",
+        "file": "back-alley-tales-latest-version"
+      },
+      {
+        "slug": "back-alley-tales-new-version",
+        "file": "back-alley-tales-new-version"
+      },
+      {
+        "slug": "back-alley-tales-update",
+        "file": "back-alley-tales-update"
+      },
+      {
+        "slug": "back-alley-tales-v1",
+        "file": "back-alley-tales-v1"
+      }
+    ]
+  },
+  "ja": {
+    "camera": [
+      {
+        "slug": "back-alley-tales-camera-gameplay",
+        "file": "back-alley-tales-camera-gameplay"
+      },
+      {
+        "slug": "back-alley-tales-hidden-camera",
+        "file": "back-alley-tales-hidden-camera"
+      },
+      {
+        "slug": "back-alley-tales-hidden-pixel-camera",
+        "file": "back-alley-tales-hidden-pixel-camera"
+      }
+    ],
+    "download": [
+      {
+        "slug": "back-alley-tales-android",
+        "file": "back-alley-tales-android"
+      },
+      {
+        "slug": "back-alley-tales-download",
+        "file": "back-alley-tales-download"
+      },
+      {
+        "slug": "back-alley-tales-ios",
+        "file": "back-alley-tales-ios"
+      },
+      {
+        "slug": "back-alley-tales-ipa",
+        "file": "back-alley-tales-ipa"
+      },
+      {
+        "slug": "back-alley-tales-mobile",
+        "file": "back-alley-tales-mobile"
+      },
+      {
+        "slug": "back-alley-tales-pc",
+        "file": "back-alley-tales-pc"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "back-alley-tales-beginner-guide",
+        "file": "back-alley-tales-beginner-guide"
+      },
+      {
+        "slug": "back-alley-tales-gameplay",
+        "file": "back-alley-tales-gameplay"
+      },
+      {
+        "slug": "back-alley-tales-how-to-play",
+        "file": "back-alley-tales-how-to-play"
+      },
+      {
+        "slug": "back-alley-tales-story-guide",
+        "file": "back-alley-tales-story-guide"
+      },
+      {
+        "slug": "back-alley-tales-tutorial",
+        "file": "back-alley-tales-tutorial"
+      }
+    ],
+    "mod": [
+      {
+        "slug": "back-alley-tales-mod",
+        "file": "back-alley-tales-mod"
+      }
+    ],
+    "reviews": [
+      {
+        "slug": "back-alley-tales-gameplay-video",
+        "file": "back-alley-tales-gameplay-video"
+      },
+      {
+        "slug": "back-alley-tales-review",
+        "file": "back-alley-tales-review"
+      },
+      {
+        "slug": "back-alley-tales-youtube",
+        "file": "back-alley-tales-youtube"
+      }
+    ],
+    "story": [
+      {
+        "slug": "back-alley-tales-characters",
+        "file": "back-alley-tales-characters"
+      },
+      {
+        "slug": "back-alley-tales-minesters",
+        "file": "back-alley-tales-minesters"
+      },
+      {
+        "slug": "back-alley-tales-monster",
+        "file": "back-alley-tales-monster"
+      },
+      {
+        "slug": "back-alley-tales-story",
+        "file": "back-alley-tales-story"
+      }
+    ],
+    "version": [
+      {
+        "slug": "back-alley-tales-latest-update",
+        "file": "back-alley-tales-latest-update"
+      },
+      {
+        "slug": "back-alley-tales-latest-version",
+        "file": "back-alley-tales-latest-version"
+      },
+      {
+        "slug": "back-alley-tales-new-version",
+        "file": "back-alley-tales-new-version"
+      },
+      {
+        "slug": "back-alley-tales-update",
+        "file": "back-alley-tales-update"
+      },
+      {
+        "slug": "back-alley-tales-v1",
+        "file": "back-alley-tales-v1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+import { Shield, Target, Map, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "back alley tales minesters: Character Guide & Tips",
+  description: "Discover how to find and interact with the mysterious minesters in Back Alley Tales. Read our guide for step-by-step walkthroughs and secrets.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2a1b4e/fff?text=Minesters+Guide",
+  date: "2026-07-20",
+  author: "back alley tales Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Find back alley tales minesters** by reviewing security camera footage across different urban districts during specific night hours.
+- **Observe environmental clues** like neon signs, graffiti, and trash piles to unlock hidden interaction triggers.
+- **Make critical choices** during dialogue scenes to alter relationship paths and unlock unique story branches.
+- **Complete character storylines** to access secret endings and obtain exclusive in-game collectibles.
+</Callout>
+
+<Section icon={Shield} title="The Role of back alley tales minesters in the Shadowy City">
+
+In the dark, neon-lit corners of Back Alley Tales, players assume the role of an investigator monitoring security cameras. The most elusive figures you will encounter are the **back alley tales minesters**. These shadowy administrators pull the strings from behind the scenes, directing the illicit activities and mysterious occurrences that plague the city streets. Identifying their patterns is crucial for any player looking to uncover the deepest secrets of the narrative.
+
+To successfully track these figures, you must understand the faction system. The minesters are split into distinct groups, each controlling a different aspect of the city's underground network.
+
+<CardGrid cols={3}>
+  <Card title="The Informants">
+    - **Monitor alleyways** to trade vital intelligence for rare items.
+    - Provide clues regarding upcoming event times.
+    - Low threat level but highly elusive.
+  </Card>
+  <Card title="The Enforcers">
+    - **Guard restricted areas** and trigger intense chase sequences.
+    - Require careful camera manipulation to avoid.
+    - High threat level that can reset progress.
+  </Card>
+  <Card title="The Overseers">
+    - **Control camera feeds** and manipulate environmental hazards.
+    - Offer critical late-game dialogue choices.
+    - Medium threat level with massive story impact.
+  </Card>
+</CardGrid>
+
+By monitoring the security terminal, you can piece together the motives of these factions. Each group operates under a strict schedule, meaning you must be at the right camera at the exact right time to witness their secret meetings.
+
+| Faction | Primary Location | Key Interaction | Threat Level |
+| Informants | South District Alleys | Trade intel for items | Low |
+| Enforcers | Industrial Zone | Dodge patrols via stealth | High |
+| Overseers | Central Office | Dialogue choices for endings | Medium |
+
+<Callout type="warning" title="Stealth Warning">
+Avoid direct confrontation with the Enforcers. Getting caught resets your current investigation progress and locks certain dialogue branches. Keep your camera feed active to spot them before they spot your investigator.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="back alley tales minesters Walkthrough Guide">
+
+To progress through the main storyline and unlock all interactions with these elusive figures, players must follow a precise sequence of events. Triggering these encounters requires specific timing, key item possession, and careful camera monitoring. 
+
+This walkthrough outlines the exact steps needed to progress from your first camera log-in to the final confrontation with the shadow administrators.
+
+<Steps>
+  <Step num="1" title="Access the Security Terminal">
+    Log into the camera feed at midnight in-game time. Accessing the terminal requires a valid security pass, which can be found in the guard room drawer during the prologue phase. Ensure your system clock is calibrated correctly before proceeding.
+  </Step>
+  <Step num="2" title="Track the South District Alleyway">
+    Switch to camera 4 and wait for the flickering neon light. This visual cue indicates that an Informant is preparing to meet with a contact. Keep the camera focused on the dumpster area to catch the hand-off.
+  </Step>
+  <Step num="3" title="Analyze Environmental Clues">
+    Zoom in on the graffiti wall near Subway Exit B to decode the secret meeting time. You will need to switch your camera filter to night vision mode to read the glowing chemical paint left behind by the faction.
+  </Step>
+  <Step num="4" title="Execute the Alleyway Confrontation">
+    Navigate your investigator character to the designated spot in the South District and initiate dialogue. Ensure you have the rusty key equipped in your active item slot to unlock the security gate.
+  </Step>
+</Steps>
+
+Timing is everything in this investigation. Missing a trigger window by even a few in-game minutes can cause the target to disappear, forcing you to wait until the next night cycle to try again.
+
+| Step | In-Game Time | Required Item | Target Camera |
+| 1 | 12:00 AM | Security Pass | Camera 1 |
+| 2 | 02:00 AM | Rusty Key | Camera 4 |
+| 3 | 03:30 AM | Flashlight | Camera 3 |
+| 4 | 05:00 AM | Decoded Note | Character View |
+
+<Callout type="tip" title="Time Management">
+Use the fast-forward feature on the security terminal to skip to key trigger times, but be careful not to overshoot the exact minute. Keep an eye on the camera status indicators for sudden activity spikes.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Secrets and Hidden Locations of the Minesters">
+
+Uncovering the truth requires players to explore areas off the beaten path. The minesters leave behind environmental clues that can only be found by thoroughly searching the city's hidden nooks and crannies. These items are often hidden behind interactive objects or require specific camera angles to detect.
+
+Paying close attention to the environment is the only way to secure the evidence needed to expose the conspiracy.
+
+| Location | Clue Type | Reward | Discovery Method |
+| Abandoned Warehouse | Torn Journal Page | Lore Entry | Inspect the wooden crate behind the dumpster |
+| Subway Exit B | Neon Graffiti | Door Code | Switch camera filter to night vision mode |
+| Rooftop Access | Dropped Badge | Security Access | Follow the yellow ladder near the fire escape |
+
+To ensure you do not miss any critical evidence during your playthrough, keep track of your progress using the official investigation checklist below.
+
+<Checklist
+  id="minester-secrets"
+  title="Minester Investigation Checklist:"
+  items={[
+    "Collect all three torn journal pages in the South District",
+    "Decode the neon graffiti at Subway Exit B",
+    "Retrieve the dropped security badge from the rooftop",
+    "Unlock the secret camera feed in the Central Office"
+  ]}
+/>
+
+<Callout type="success" title="Investigation Complete">
+Completing all items on this checklist unlocks the secret 'Shadow Administrator' achievement and reveals an alternate ending path during the final chapter of the game.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Ending Requirements and Decision Impact">
+
+Your interactions with the minesters directly influence how the narrative concludes. The game features multiple endings based on the choices you make during high-stakes dialogue encounters and the clues you manage to collect throughout your investigation.
+
+Choosing whether to expose the conspiracy or join the ranks of the shadow administrators will determine the fate of the city.
+
+| Ending Name | Key Decision | Required Clues | Outcome Summary |
+| True Investigator | Expose the Overseer | All 3 Journal Pages | The city is saved from shadow control |
+| Shadow Alliance | Join the Minesters | Dropped Badge | Player becomes the new shadow overseer |
+| Silent Escape | Ignore the Factions | None | Player leaves the city safely but mysteries remain |
+
+Each decision carries heavy consequences for the supporting characters you meet along the way. Be sure to weigh your options carefully before committing to a specific path, as there is no way to undo a choice once the dialogue sequence concludes.
+
+<Callout type="info" title="Ending Progression">
+You can manage multiple save states to explore different ending paths without restarting the entire game from the beginning. Keep a backup save before entering the Central Office.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+Review these common questions and answers to help troubleshoot your investigation and ensure you do not miss any critical story beats.
+
+<FAQ items={[
+  {
+    question: "Where can I find the back alley tales minesters?",
+    answer: "They are primarily found in the South District and Central Office locations. You must monitor cameras 3 and 4 between midnight and 5:00 AM in-game time to trigger their appearances."
+  },
+  {
+    question: "What should I do if an Enforcer catches me?",
+    answer: "If caught, you will be returned to the nearest safe house. Your active clues remain safe, but you must wait until the next in-game night to attempt the event again."
+  },
+  {
+    question: "How do I decode the graffiti at Subway Exit B?",
+    answer: "You need to obtain the night vision camera upgrade from the Central Office terminal. Once installed, switch the filter while viewing camera 2 to read the hidden code."
+  },
+  {
+    question: "Can I unlock all endings in a single playthrough?",
+    answer: "No, because the crucial dialogue choice in the late-game requires you to either expose or join the minesters, which branches into mutually exclusive story paths."
+  }
+]} />
+
+<Callout type="tip" title="Community Guide">
+Check the official community forums and Steam guides regularly for updated tips on optimizing your camera monitoring routes and sharing discovery locations with other players.
+</Callout>
+
+</Section>

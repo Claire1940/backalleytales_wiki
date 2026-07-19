@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Back Alley Tales Tutorial: Step-by-Step Gameplay & Story Guide",
+  description: "Master the urban mystery with our Back Alley Tales tutorial. Learn core mechanics, character progression, and how to unlock all hidden story endings.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1a1a2e/e94560?text=Back+Alley+Tales+Tutorial",
+  date: "2026-07-20",
+  author: "back alley tales Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Back alley tales tutorial**: Master the CCTV monitoring and interaction systems to progress the narrative.
+- **Core Mechanic**: Focus on **environmental investigation** and time-based event triggers to uncover clues.
+- **Progression**: Advance by interacting with specific NPCs and making critical **dialogue choices**.
+- **Secret Content**: Thoroughly explore hidden locations to unlock **alternate endings** and unique scenes.
+- **System Check**: Ensure your hardware meets the **minimum requirements** for smooth VHS-style rendering.
+</Callout>
+
+<Section icon={Map} title="Core Gameplay Mechanics and Systems">
+
+Understanding the fundamental systems is the first step in any **back alley tales tutorial**. The game operates on a unique blend of observation and direct interaction. As a security guard monitoring the dark corners of the city, your primary interface is the CCTV system, which allows you to witness events that most citizens never see. This perspective is critical for gathering the evidence needed to advance the storyline.
+
+| System | Primary Function | Key Interaction |
+| :--- | :--- | :--- |
+| **CCTV Monitor** | Observation | Switch between camera feeds to find events |
+| **Physical Investigation** | Direct Action | Visit locations discovered on camera |
+| **Dialogue Tree** | Narrative Branching | Select responses to influence NPC trust |
+| **Clue Journal** | Progression Tracking | Review gathered evidence and objectives |
+
+The interaction system is contextual. When you approach a "hotspot" in the environment, the cursor will change, indicating that an action—such as searching a trash can or speaking to a witness—is available. Managing your time effectively is vital, as certain events only occur during specific hours of the game's day-night cycle.
+
+<Callout type="tip" title="Observation is Key">
+Always watch the camera feeds for subtle changes in the environment. A door that was locked at 10:00 PM might be left ajar by 2:00 AM, opening up a new investigation path.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Walkthrough: Starting Your Investigation">
+
+Navigating the early stages of the game requires a methodical approach. This **back alley tales tutorial** breaks down the initial sequence to ensure you don't miss any critical narrative triggers that could stall your progress later.
+
+<Steps>
+  <Step num="1" title="Access the Security Room">
+    Begin by familiarizing yourself with the security hub. Interact with the main monitor to view the four primary camera angles. Toggle through them to identify the "active" scene where the first event occurs.
+  </Step>
+  <Step num="2" title="Identify the First Disturbance">
+    Watch for a specific NPC movement in the third camera feed (the narrow alley). Once the interaction concludes, exit the security room and head to the physical location to find the dropped item.
+  </Step>
+  <Step num="3" title="Initiate NPC Dialogue">
+    Return to the street level and locate the witness near the neon sign. Use the "Inquiry" dialogue option. Success here depends on having found the item in Step 2.
+  </Step>
+  <Step num="4" title="Unlock the Second District">
+    After completing the witness report, the gate to the northern district will unlock. This area contains more complex puzzles and higher-stakes character interactions.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Irreversible Choices">
+Be careful during Step 3. Some dialogue choices can permanently lower an NPC's disposition toward you, making it impossible to access their specific character ending in the current playthrough.
+</Callout>
+
+| Milestone | Requirement | Reward / Unlock |
+| :--- | :--- | :--- |
+| **The First Clue** | Inspect the alleyway trash | Access to the witness dialogue |
+| **District Access** | Complete the initial report | New map locations and NPCs |
+| **CCTV Upgrade** | Gather 5 pieces of evidence | Zoom and night-vision capabilities |
+
+</Section>
+
+<Section icon={Users} title="Character Guide and Interaction Strategy">
+
+The heart of the narrative lies in its diverse cast. Each character has a specific role, ranging from victims needing assistance to mysterious figures who hold the keys to the city's secrets. This **back alley tales tutorial** categorizes the characters to help you prioritize your interactions.
+
+<CardGrid cols={3}>
+  <Card title="The Protagonist">
+    - **Role**: Security Monitor
+    - **Goal**: Uncover the truth
+    - **Focus**: Observation and logic
+  </Card>
+  <Card title="Key NPCs">
+    - **Role**: Witnesses / Information
+    - **Goal**: Survival or profit
+    - **Focus**: Trust-based dialogue
+  </Card>
+  <Card title="Antagonists">
+    - **Role**: Obstacles
+    - **Goal**: Concealment
+    - **Focus**: Stealth and evasion
+  </Card>
+</CardGrid>
+
+Building relationships is not just about choosing the "right" words; it often involves performing favors or finding lost items. The game tracks "Affinity Levels," which are hidden values that determine which scenes you can trigger with specific characters.
+
+<Callout type="info" title="Character Dynamics">
+Some NPCs will only talk to you if you are wearing specific items or if you have reached a certain level of "Street Cred" by solving minor neighborhood disputes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Secrets and Hidden Locations">
+
+To fully complete your journey, you must look beyond the obvious path. The city is filled with environmental clues that are easy to overlook. Use this checklist to ensure you have explored the most secretive areas mentioned in this **back alley tales tutorial**.
+
+<Checklist
+  id="secret-hunting"
+  title="Hidden Discovery Checklist:"
+  items={[
+    "Search the basement behind the convenience store",
+    "Examine the graffiti in the third alley for a code",
+    "Interact with the broken vending machine three times",
+    "Find the hidden VHS tape in the security office vent",
+    "Listen to the payphone at exactly midnight"
+  ]}
+/>
+
+Many secrets are time-sensitive. For example, the "Hidden VHS Tape" only appears after you have viewed a specific event on the monitors but before you leave for the night. These items often provide context for the darker elements of the story.
+
+| Secret Item | Location | Effect |
+| :--- | :--- | :--- |
+| **Old Key** | Under the park bench | Opens the restricted storage room |
+| **Encrypted Memo** | Inside the red dumpster | Unlocks a new dialogue branch |
+| **Strange Photo** | Behind the bar counter | Required for the Secret Ending |
+
+<Callout type="success" title="Exploration Reward">
+Finding all 10 hidden "Environmental Clues" unlocks a special gallery in the main menu, showcasing concept art and developer notes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Ending Guide: Requirements and Outcomes">
+
+The game features multiple conclusions based on your performance and the choices you make during the campaign. This **back alley tales tutorial** summarizes the requirements for the three primary ending categories.
+
+| Ending Type | Narrative Impact | Primary Requirement |
+| :--- | :--- | :--- |
+| **Standard Ending** | Neutral resolution | Complete the story with basic evidence |
+| **True Ending** | Full disclosure | Find all primary clues and high NPC affinity |
+| **Bad Ending** | Unresolved mystery | Fail to protect key NPCs or miss deadlines |
+| **Secret Ending** | Supernatural twist | Collect all secret items and hidden VHS tapes |
+
+Achieving the "True Ending" requires a perfect run where you balance time management with thorough investigation. You must ensure that every character survives their respective "Crisis Events," which usually involve a timed interaction sequence.
+
+<Callout type="tip" title="Save Management">
+Keep multiple save files at the start of each new "District Unlock." This allows you to backtrack if you realize you missed a requirement for a specific ending.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+To wrap up this **back alley tales tutorial**, we have compiled the most common questions from the community to help troubleshoot your experience.
+
+<FAQ items={[
+  {
+    question: "Why can't I access the third camera feed?",
+    answer: "The third camera feed is often locked until you find the 'Security Pass' located in the manager's desk during the first hour of the game."
+  },
+  {
+    question: "How do I increase affinity with NPCs quickly?",
+    answer: "The fastest way is to return lost items found during your CCTV sessions. Each returned item significantly boosts trust and unlocks new dialogue."
+  },
+  {
+    question: "What are the system requirements for the game?",
+    answer: "The game is designed to run on most modern PCs. You generally need at least 8GB of RAM, a mid-range GPU, and roughly 2GB of storage space."
+  },
+  {
+    question: "Is there a way to skip time?",
+    answer: "Yes, you can use the 'Wait' function at the security desk or sleep in the breakroom to fast-forward to specific event windows."
+  }
+]} />
+
+<Callout type="info" title="Final Note">
+Always keep your Clue Journal updated. If you feel stuck, reviewing the 'Notes' section often reveals a hint about which location or character you should visit next.
+</Callout>
+
+</Section>

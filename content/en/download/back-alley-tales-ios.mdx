@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "back alley tales ios: Setup Guide & Performance Tips",
+  description: "Learn how to safely install and optimize back alley tales ios. Follow our step-by-step profile setup guide and system requirements.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=iOS+Setup+Guide",
+  date: "2026-07-20",
+  author: "back alley tales Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary setup**: Deploy **back alley tales ios** using the official configuration profile installation method.
+- **System compatibility**: Ensure your device runs at least **iOS 15.0** with **3GB RAM** minimum.
+- **Profile verification**: Trust the developer profile under **VPN & Device Management** in system settings.
+- **Performance optimization**: Disable background app refresh to maintain a stable **60 FPS** during gameplay.
+</Callout>
+
+<Section icon={Map} title="Setup and Installation Guide">
+
+Installing third-party applications on Apple devices requires a different approach compared to Android systems. Because iOS operates within a sandboxed environment, users must utilize configuration profiles or alternative app distribution methods to run games not hosted directly on the App Store. This setup process ensures the game files execute correctly while maintaining system integrity.
+
+Before beginning the installation, check that your internet connection is stable. A weak connection can corrupt the configuration profile during download, requiring a complete restart of the process.
+
+**Video Highlights:**
+- Accessing the configuration profile download page.
+- Navigating the system settings interface.
+- Verifying profile security certificates.
+- Launching the application interface.
+
+<YouTubeEmbed videoId="W6MIIRfUEQY" title="Back Alley Tales iOS Android (2025) Latest" />
+
+<Callout type="warning" title="Security Warning">
+Only download configuration profiles from verified sources. Installing unverified profiles can expose your device to security vulnerabilities or unauthorized data access.
+</Callout>
+
+The installation workflow differs significantly between mobile platforms. The table below outlines the core differences in preparation, execution, and verification steps required for both operating systems.
+
+| Feature | iOS Process | Android Process |
+| :--- | :--- | :--- |
+| **File Format** | Configuration Profile / IPA | APK Package |
+| **Verification** | VPN & Device Management | Allow Unknown Sources |
+| **Installation** | Manual profile trust | Automatic package installer |
+| **System Access** | Restricted sandbox | Moderate system access |
+| **Update Method** | Manual profile replacement | Over-the-air package overwrite |
+
+</Section>
+
+<Section icon={Shield} title="System Requirements & Compatibility">
+
+Running graphic-intensive interactive games on mobile hardware requires adequate processing power and memory allocation. iOS devices manage RAM strictly, meaning background processes will terminate the game if the system runs out of memory. 
+
+To ensure a smooth experience without frequent crashes during scene transitions, review the hardware specifications below. Older devices may experience thermal throttling, which reduces the processor clock speed to cool down the device, resulting in frame drops.
+
+<Callout type="info" title="Storage Recommendation">
+Keep at least **5GB of free space** on your device. The system needs temporary storage space to unpack game assets during runtime.
+</Callout>
+
+The following table details the minimum and recommended hardware configurations for running the game on Apple devices.
+
+| Specification | Minimum Requirement | Recommended Requirement |
+| :--- | :--- | :--- |
+| **Operating System** | **iOS 15.0** or higher | **iOS 17.0** or higher |
+| **Processor** | Apple A12 Bionic | Apple A15 Bionic or newer |
+| **System Memory** | **3GB RAM** | **4GB RAM** or higher |
+| **Free Storage** | 3GB available space | 6GB available space |
+| **Network** | Broadband Wi-Fi | High-speed 5G / Wi-Fi |
+
+To help determine how your specific device will handle the game, refer to the performance tiers categorized below.
+
+<CardGrid cols={3}>
+  <Card title="Legacy Devices">
+    - **Models**: iPhone 11, SE (2nd Gen)
+    - **Performance**: 30 FPS target
+    - **Settings**: Low graphics, disabled post-processing
+  </Card>
+  <Card title="Modern Devices">
+    - **Models**: iPhone 12, 13, 14 Standard
+    - **Performance**: Stable 60 FPS
+    - **Settings**: Medium to high graphics enabled
+  </Card>
+  <Card title="Premium Devices">
+    - **Models**: iPhone 15, 16, Pro Series
+    - **Performance**: Maxed 60 FPS
+    - **Settings**: Ultra graphics, maximum detail levels
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Configuration Guide">
+
+To successfully configure the game client on your device, follow the sequence of steps detailed below. Skipping any of these steps may result in an "Untrusted Enterprise Developer" error when attempting to launch the application.
+
+<Steps>
+  <Step num="1" title="Download the Profile">
+    Open the Safari browser on your iOS device and navigate to the verified download portal. Tap the download link to fetch the configuration profile. A system prompt will ask for permission to download the profile. Tap **Allow** to proceed.
+  </Step>
+  <Step num="2" title="Locate System Settings">
+    Once the download completes, exit your browser and open the native iOS **Settings** app. You should see a new notification banner at the top of the settings menu labeled **Profile Downloaded**. Tap this banner directly.
+  </Step>
+  <Step num="3" title="Install the Profile">
+    In the profile installation screen, tap **Install** in the top-right corner. Enter your device passcode when prompted. Read the consent screen, then tap **Install** again at the bottom of the screen to confirm.
+  </Step>
+  <Step num="4" title="Trust the Developer Certificate">
+    If the profile requires enterprise developer trust, navigate to **Settings** > **General** > **VPN & Device Management**. Under the Enterprise App section, select the developer name associated with the profile and tap **Trust**.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Verification Successful">
+Once trusted, the developer label will change status to "Trusted". You can now return to your home screen and launch the game icon.
+</Callout>
+
+During the installation process, you may encounter system alerts or installation blocks. Refer to the troubleshooting matrix below to resolve these issues quickly.
+
+| Issue | Possible Cause | Recommended Solution |
+| :--- | :--- | :--- |
+| **Profile Not Downloading** | Safari block or poor connection | Clear Safari cache and retry over Wi-Fi |
+| **Missing Profile Banner** | Download failed to register | Go to General > VPN & Device Management manually |
+| **Verification Failed Error** | Certificate revoked by Apple | Delete the profile and download an updated version |
+| **App Instantly Crashes** | Insufficient system RAM | Restart device and close all background apps |
+
+</Section>
+
+<Section icon={Swords} title="Gameplay Mechanics & Tips">
+
+The game functions as a detective simulation where players monitor security cameras, analyze environments, and piece together narrative events occurring in dark alleyways. Success depends on keen observation, timing, and managing your investigation resources effectively.
+
+Players must toggle between different camera feeds, adjust timestamps to view past events, and interact with objects highlighted in the environment. Managing your action points or time budget is crucial for uncovering all narrative branches.
+
+<Callout type="tip" title="Observation Strategy">
+Pay close attention to background details. Many key items and clues only appear during specific hours of the night cycle. Use the time scrubber tool to scan scenes frame-by-frame.
+</Callout>
+
+Understanding how different actions affect your progression is key to unlocking all endings. The table below lists the primary interactive mechanics and their outcomes.
+
+| Interaction | Trigger Condition | Expected Result |
+| :--- | :--- | :--- |
+| **Camera Toggle** | Tap camera icons on UI | Switches live feed to a different location |
+| **Time Rewind** | Drag the bottom slider | Rewinds scene to earlier hours of the night |
+| **Clue Inspection** | Tap flashing object in view | Adds item to evidence log and unlocks dialogue |
+| **Character Interaction** | Select NPC during event | Triggers choice-based decision branches |
+| **Scene Zoom** | Pinch-to-zoom on screen | Reveals hidden details in dark corners |
+
+To ensure you experience the full narrative, aim to complete the following progression milestones during your playthrough.
+
+<Checklist
+  id="gameplay-milestones"
+  title="Investigation Milestones:"
+  items={[
+    "Unlock all four camera feeds in the main district",
+    "Find all hidden evidence items in the first alleyway",
+    "Complete the night shift without triggering alarms",
+    "Unlock the true ending by connecting all case files"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ & Troubleshooting">
+
+This section addresses common queries regarding the game client, updates, and compatibility fixes for mobile platforms.
+
+<Callout type="info" title="Version Updates">
+Because this game is distributed outside the App Store, you must manually download and install updated profiles when new patches are released.
+</Callout>
+
+The game undergoes periodic updates to fix bugs and introduce new story chapters. The timeline below shows the recent updates and changes made to the mobile client.
+
+| Version | Release Date | Key Changes |
+| :--- | :--- | :--- |
+| **v1.4.2** | **2026-05-12** | Fixed audio desync on iOS 17 devices |
+| **v1.4.0** | **2026-03-20** | Added two new alleyway locations and characters |
+| **v1.3.5** | **2026-01-15** | Optimized memory usage for 3GB RAM devices |
+
+<FAQ items={[
+  {
+    question: "Is it safe to install back alley tales ios via configuration profiles?",
+    answer: "Yes, provided you download the profile from a verified community source. Always ensure your device has backup recovery enabled before installing custom profiles."
+  },
+  {
+    question: "How do I update the game without losing my save progress?",
+    answer: "Do not delete the existing game app. Install the new configuration profile directly over the old one. The system will overwrite the application files while preserving your local save data."
+  },
+  {
+    question: "Why does the app say 'Developer Profile Expired'?",
+    answer: "Apple regularly revokes enterprise certificates. When this happens, you must wait for the development team to sign a new certificate, download the updated profile, and trust it again in settings."
+  },
+  {
+    question: "Can I play the game offline on my iPad?",
+    answer: "Yes, the core gameplay loop does not require an active internet connection once the profile verification step is completed and the initial game assets are fully downloaded."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Back Alley Tales Leitfaden: Schritt-für-Schritt-Gameplay & Story-Guide",
+  description: "Meistern Sie das urbane Geheimnis mit unserem Back Alley Tales Leitfaden. Lernen Sie die Kernmechaniken, den Charakterfortschritt und das Freischalten aller geheimen Story-Enden.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1a1a2e/e94560?text=Back+Alley+Tales+Tutorial",
+  date: "2026-07-20",
+  author: "Back Alley Tales Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Back Alley Tales Leitfaden**: Meistern Sie die CCTV-Überwachung und die Interaktionssysteme, um in der Geschichte voranzukommen.
+- **Kernmechanik**: Konzentrieren Sie sich auf die **Untersuchung der Umgebung** und zeitbasierte Ereignisauslöser, um Hinweise zu finden.
+- **Fortschritt**: Kommen Sie voran, indem Sie mit bestimmten NPCs interagieren und kritische **Dialogentscheidungen** treffen.
+- **Geheime Inhalte**: Erkunden Sie versteckte Orte gründlich, um **alternative Enden** und einzigartige Szenen freizuschalten.
+- **Systemprüfung**: Stellen Sie sicher, dass Ihre Hardware die **Mindestanforderungen** für ein flüssiges Rendering im VHS-Stil erfüllt.
+</Callout>
+
+<Section icon={Map} title="Kernspielmechaniken und -systeme">
+
+Das Verständnis der grundlegenden Systeme ist der erste Schritt in jedem **Back Alley Tales Leitfaden**. Das Spiel basiert auf einer einzigartigen Mischung aus Beobachtung und direkter Interaktion. Als Sicherheitsbeamter, der die dunklen Ecken der Stadt überwacht, ist Ihre Hauptschnittstelle das CCTV-System, mit dem Sie Ereignisse beobachten können, die die meisten Bürger niemals sehen. Diese Perspektive ist entscheidend, um die Beweise zu sammeln, die für das Fortschreiten der Geschichte erforderlich sind.
+
+| System | Hauptfunktion | Schlüsselinteraktion |
+| :--- | :--- | :--- |
+| **CCTV-Monitor** | Beobachtung | Zwischen Kamera-Feeds wechseln, um Ereignisse zu finden |
+| **Physische Untersuchung** | Direkte Aktion | Auf der Kamera entdeckte Orte besuchen |
+| **Dialogbaum** | Narrative Verzweigung | Antworten auswählen, um das Vertrauen der NPCs zu beeinflussen |
+| **Hinweis-Journal** | Fortschrittsverfolgung | Gesammelte Beweise und Ziele überprüfen |
+
+Das Interaktionssystem ist kontextabhängig. Wenn Sie sich einem „Hotspot“ in der Umgebung nähern, ändert sich der Cursor und zeigt an, dass eine Aktion – wie das Durchsuchen eines Mülleimers oder das Sprechen mit einem Zeugen – verfügbar ist. Ein effektives Zeitmanagement ist lebenswichtig, da bestimmte Ereignisse nur zu bestimmten Stunden des Tag-Nacht-Zyklus des Spiels auftreten.
+
+<Callout type="tip" title="Beobachtung ist der Schlüssel">
+Beobachten Sie die Kamera-Feeds immer genau auf subtile Veränderungen in der Umgebung. Eine Tür, die um 22:00 Uhr verschlossen war, könnte um 02:00 Uhr nachts angelehnt sein und einen neuen Untersuchungspfad eröffnen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Anleitung: Beginn Ihrer Untersuchung">
+
+Das Navigieren durch die frühen Phasen des Spiels erfordert ein methodisches Vorgehen. Dieser **Back Alley Tales Leitfaden** schlüsselt die anfängliche Sequenz auf, um sicherzustellen, dass Sie keine kritischen narrativen Auslöser verpassen, die Ihren Fortschritt später blockieren könnten.
+
+<Steps>
+  <Step num="1" title="Sicherheitsraum betreten">
+    Machen Sie sich zunächst mit der Sicherheitszentrale vertraut. Interagieren Sie mit dem Hauptmonitor, um die vier primären Kamerawinkel anzuzeigen. Schalten Sie durch sie hindurch, um die „aktive“ Szene zu identifizieren, in der das erste Ereignis stattfindet.
+  </Step>
+  <Step num="2" title="Die erste Störung identifizieren">
+    Achten Sie auf eine bestimmte NPC-Bewegung im dritten Kamera-Feed (die enge Gasse). Sobald die Interaktion beendet ist, verlassen Sie den Sicherheitsraum und begeben Sie sich zum physischen Ort, um den fallengelassenen Gegenstand zu finden.
+  </Step>
+  <Step num="3" title="NPC-Dialog initiieren">
+    Kehren Sie auf die Straßenebene zurück und suchen Sie den Zeugen in der Nähe des Neonschilds. Verwenden Sie die Dialogoption „Befragung“. Der Erfolg hängt hier davon ab, ob Sie den Gegenstand in Schritt 2 gefunden haben.
+  </Step>
+  <Step num="4" title="Den zweiten Bezirk freischalten">
+    Nach Abschluss des Zeugenberichts wird das Tor zum nördlichen Bezirk freigeschaltet. Dieses Gebiet enthält komplexere Rätsel und Interaktionen mit Charakteren, bei denen mehr auf dem Spiel steht.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Unumkehrbare Entscheidungen">
+Seien Sie in Schritt 3 vorsichtig. Einige Dialogentscheidungen können die Gesinnung eines NPCs Ihnen gegenüber dauerhaft verschlechtern, sodass es unmöglich wird, in diesem Spieldurchgang sein spezifisches Charakter-Ende zu erreichen.
+</Callout>
+
+| Meilenstein | Anforderung | Belohnung / Freischaltung |
+| :--- | :--- | :--- |
+| **Der erste Hinweis** | Den Müll in der Gasse untersuchen | Zugang zum Zeugendialog |
+| **Bezirkszugang** | Den ersten Bericht abschließen | Neue Kartenorte und NPCs |
+| **CCTV-Upgrade** | 5 Beweisstücke sammeln | Zoom- und Nachtsichtfunktionen |
+
+</Section>
+
+<Section icon={Users} title="Charakter-Leitfaden und Interaktionsstrategie">
+
+Das Herzstück der Erzählung ist die vielfältige Besetzung. Jeder Charakter hat eine bestimmte Rolle, die von hilfsbedürftigen Opfern bis hin zu mysteriösen Figuren reicht, die die Schlüssel zu den Geheimnissen der Stadt in den Händen halten. Dieser **Back Alley Tales Leitfaden** kategorisiert die Charaktere, um Ihnen bei der Priorisierung Ihrer Interaktionen zu helfen.
+
+<CardGrid cols={3}>
+  <Card title="Der Protagonist">
+    - **Rolle**: Sicherheitsüberwacher
+    - **Ziel**: Die Wahrheit ans Licht bringen
+    - **Fokus**: Beobachtung und Logik
+  </Card>
+  <Card title="Wichtige NPCs">
+    - **Rolle**: Zeugen / Informationen
+    - **Ziel**: Überleben oder Profit
+    - **Fokus**: Vertrauensbasierter Dialog
+  </Card>
+  <Card title="Antagonisten">
+    - **Rolle**: Hindernisse
+    - **Ziel**: Verschleierung
+    - **Fokus**: Tarnung und Ausweichen
+  </Card>
+</CardGrid>
+
+Beim Aufbau von Beziehungen geht es nicht nur darum, die „richtigen“ Worte zu wählen; oft geht es darum, Gefallen zu tun oder verlorene Gegenstände zu finden. Das Spiel verfolgt „Affinitätsstufen“, bei denen es sich um versteckte Werte handelt, die bestimmen, welche Szenen Sie mit bestimmten Charakteren auslösen können.
+
+<Callout type="info" title="Charakterdynamik">
+Einige NPCs sprechen nur mit Ihnen, wenn Sie bestimmte Gegenstände tragen oder wenn Sie durch das Lösen kleinerer Nachbarschaftsstreitigkeiten ein bestimmtes Maß an „Street Cred“ (Straßenruf) erreicht haben.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Geheimnisse und versteckte Orte">
+
+Um Ihre Reise vollständig abzuschließen, müssen Sie über den offensichtlichen Weg hinausblicken. Die Stadt ist voller Umgebungshinweise, die man leicht übersieht. Verwenden Sie diese Checkliste, um sicherzustellen, dass Sie die geheimsten Bereiche erkundet haben, die in diesem **Back Alley Tales Leitfaden** erwähnt werden.
+
+<Checklist
+  id="secret-hunting"
+  title="Checkliste für versteckte Entdeckungen:"
+  items={[
+    "Durchsuchen Sie den Keller hinter dem Spätkauf (Convenience Store)",
+    "Untersuchen Sie das Graffiti in der dritten Gasse nach einem Code",
+    "Interagieren Sie dreimal mit dem kaputten Verkaufsautomaten",
+    "Finden Sie die versteckte VHS-Kassette im Lüftungsschacht des Sicherheitsbüros",
+    "Hören Sie genau um Mitternacht am Münztelefon"
+  ]}
+/>
+
+Viele Geheimnisse sind zeitkritisch. Beispielsweise erscheint die „versteckte VHS-Kassette“ erst, nachdem Sie ein bestimmtes Ereignis auf den Monitoren gesehen haben, aber bevor Sie für die Nacht gehen. Diese Gegenstände liefern oft Kontext für die düstereren Elemente der Geschichte.
+
+| Geheimer Gegenstand | Ort | Effekt |
+| :--- | :--- | :--- |
+| **Alter Schlüssel** | Unter der Parkbank | Öffnet den gesperrten Lagerraum |
+| **Verschlüsseltes Memo** | Im roten Müllcontainer | Schaltet einen neuen Dialogzweig frei |
+| **Seltsames Foto** | Hinter der Bartheke | Erforderlich für das geheime Ende |
+
+<Callout type="success" title="Erkundungsbelohnung">
+Das Finden aller 10 versteckten „Umgebungshinweise“ schaltet eine spezielle Galerie im Hauptmenü frei, in der Konzeptzeichnungen und Entwicklernotizen gezeigt werden.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Enden-Leitfaden: Anforderungen und Ergebnisse">
+
+Das Spiel bietet mehrere Ausgänge, die auf Ihrer Leistung und den Entscheidungen basieren, die Sie während der Kampagne treffen. Dieser **Back Alley Tales Leitfaden** fasst die Anforderungen für die drei Hauptkategorien von Enden zusammen.
+
+| Enden-Typ | Narrative Auswirkung | Hauptanforderung |
+| :--- | :--- | :--- |
+| **Standard-Ende** | Neutrale Auflösung | Schließen Sie die Geschichte mit grundlegenden Beweisen ab |
+| **Wahres Ende** | Vollständige Aufdeckung | Finden Sie alle primären Hinweise und erreichen Sie eine hohe NPC-Affinität |
+| **Schlechtes Ende** | Ungelöstes Rätsel | Scheitern Sie beim Schutz wichtiger NPCs oder verpassen Sie Fristen |
+| **Geheimes Ende** | Übernatürliche Wendung | Sammeln Sie alle geheimen Gegenstände und versteckten VHS-Kassetten |
+
+Um das „wahre Ende“ zu erreichen, ist ein perfekter Durchlauf erforderlich, bei dem Sie Zeitmanagement und gründliche Untersuchung in Einklang bringen. Sie müssen sicherstellen, dass jeder Charakter seine jeweiligen „Krisenereignisse“ überlebt, die normalerweise eine zeitgesteuerte Interaktionssequenz beinhalten.
+
+<Callout type="tip" title="Speicherstand-Verwaltung">
+Legen Sie zu Beginn jeder neuen „Bezirksfreischaltung“ mehrere Speicherstände an. So können Sie zurückgehen, wenn Sie feststellen, dass Sie eine Voraussetzung für ein bestimmtes Ende verpasst haben.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen">
+
+Zum Abschluss dieses **Back Alley Tales Leitfadens** haben wir die häufigsten Fragen aus der Community zusammengestellt, um Ihnen bei der Fehlerbehebung zu helfen.
+
+<FAQ items={[
+  {
+    question: "Warum kann ich nicht auf den dritten Kamera-Feed zugreifen?",
+    answer: "Der dritte Kamera-Feed ist oft gesperrt, bis Sie den „Sicherheitspass“ finden, der sich in der ersten Stunde des Spiels auf dem Schreibtisch des Managers befindet."
+  },
+  {
+    question: "Wie kann ich die Affinität zu NPCs schnell steigern?",
+    answer: "Der schnellste Weg ist die Rückgabe verlorener Gegenstände, die Sie während Ihrer CCTV-Sitzungen gefunden haben. Jeder zurückgegebene Gegenstand stärkt das Vertrauen erheblich und schaltet neue Dialoge frei."
+  },
+  {
+    question: "Was sind die Systemanforderungen für das Spiel?",
+    answer: "Das Spiel ist so konzipiert, dass es auf den meisten modernen PCs läuft. Im Allgemeinen benötigen Sie mindestens 8 GB RAM, eine Grafikkarte der Mittelklasse und etwa 2 GB Speicherplatz."
+  },
+  {
+    question: "Gibt es eine Möglichkeit, die Zeit zu überspringen?",
+    answer: "Ja, Sie können die Funktion „Warten“ am Sicherheitsschreibtisch nutzen oder im Pausenraum schlafen, um zu bestimmten Ereignisfenstern vorzuspringen."
+  }
+]} />
+
+<Callout type="info" title="Schlussbemerkung">
+Halten Sie Ihr Hinweis-Journal immer auf dem neuesten Stand. Wenn Sie nicht weiterkommen, finden Sie im Abschnitt „Notizen“ oft einen Hinweis darauf, welchen Ort oder welchen Charakter Sie als Nächstes besuchen sollten.
+</Callout>
+
+</Section>

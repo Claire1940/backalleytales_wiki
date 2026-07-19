@@ -1,0 +1,177 @@
+import { Shield, Target, Map, Trophy, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "back alley tales minesters: Guía de Personajes y Consejos",
+  description: "Descubre cómo encontrar e interactuar con los misteriosos minesters en Back Alley Tales. Lee nuestra guía para ver tutoriales paso a paso y secretos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2a1b4e/fff?text=Minesters+Guide",
+  date: "2026-07-20",
+  author: "Equipo de la Wiki de back alley tales"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Encuentra a los back alley tales minesters** revisando las grabaciones de las cámaras de seguridad en diferentes distritos urbanos durante horas nocturnas específicas.
+- **Observa las pistas del entorno** como letreros de neón, grafitis y pilas de basura para desbloquear activadores de interacción ocultos.
+- **Toma decisiones críticas** durante las escenas de diálogo para alterar las rutas de relación y desbloquear ramas de historia únicas.
+- **Completa las líneas de historia de los personajes** para acceder a finales secretos y obtener coleccionables exclusivos del juego.
+</Callout>
+
+<Section icon={Shield} title="El papel de los back alley tales minesters en la ciudad de las sombras">
+
+En los rincones oscuros e iluminados por neón de Back Alley Tales, los jugadores asumen el papel de un investigador que monitorea cámaras de seguridad. Las figuras más esquivas que encontrarás son los **back alley tales minesters**. Estos administradores sombríos manejan los hilos desde atrás de escena, dirigiendo las actividades ilícitas y los sucesos misteriosos que plagan las calles de la ciudad. Identificar sus patrones es crucial para cualquier jugador que busque descubrir los secretos más profundos de la narrativa.
+
+Para rastrear con éxito a estas figuras, debes comprender el sistema de facciones. Los minesters se dividen en grupos distintos, cada uno de los cuales controla un aspecto diferente de la red subterránea de la ciudad.
+
+<CardGrid cols={3}>
+  <Card title="Los Informantes">
+    - **Monitorea los callejones** para intercambiar información vital por objetos raros.
+    - Proporcionan pistas sobre los horarios de los próximos eventos.
+    - Nivel de amenaza bajo pero altamente esquivos.
+  </Card>
+  <Card title="Los Ejecutores">
+    - **Vigilan áreas restringidas** y activan secuencias de persecución intensas.
+    - Requieren una manipulación cuidadosa de la cámara para evitarlos.
+    - Nivel de amenaza alto que puede reiniciar el progreso.
+  </Card>
+  <Card title="Los Supervisores">
+    - **Controlan las transmisiones de las cámaras** y manipulan los peligros ambientales.
+    - Ofrecen decisiones de diálogo críticas en el juego tardío.
+    - Nivel de amenaza medio con un impacto masivo en la historia.
+  </Card>
+</CardGrid>
+
+Al monitorear la terminal de seguridad, puedes armar los motivos de estas facciones. Cada grupo opera bajo un horario estricto, lo que significa que debes estar en la cámara correcta en el momento exacto para presenciar sus reuniones secretas.
+
+| Facción | Ubicación Principal | Interacción Clave | Nivel de Amenaza |
+| :--- | :--- | :--- | :--- |
+| Informantes | Callejones del Distrito Sur | Intercambiar info por objetos | Bajo |
+| Ejecutores | Zona Industrial | Esquivar patrullas con sigilo | Alto |
+| Supervisores | Oficina Central | Opciones de diálogo para finales | Medio |
+
+<Callout type="warning" title="Advertencia de Sigilo">
+Evita la confrontación directa con los Ejecutores. Ser atrapado reinicia el progreso de tu investigación actual y bloquea ciertas ramas de diálogo. Mantén activa la transmisión de tu cámara para detectarlos antes de que detecten a tu investigador.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de recorrido de back alley tales minesters">
+
+Para progresar a través de la historia principal y desbloquear todas las interacciones con estas figuras esquivas, los jugadores deben seguir una secuencia precisa de eventos. Activar estos encuentros requiere una sincronización específica, la posesión de objetos clave y un monitoreo cuidadoso de las cámaras.
+
+Este recorrido describe los pasos exactos necesarios para progresar desde tu primer inicio de sesión en la cámara hasta la confrontación final con los administradores de las sombras.
+
+<Steps>
+  <Step num="1" title="Acceder a la Terminal de Seguridad">
+    Inicia sesión en la transmisión de la cámara a la medianoche hora del juego. Acceder a la terminal requiere un pase de seguridad válido, que se puede encontrar en el cajón de la sala de guardia durante la fase del prólogo. Asegúrate de que el reloj de tu sistema esté calibrado correctamente antes de continuar.
+  </Step>
+  <Step num="2" title="Rastrear el Callejón del Distrito Sur">
+    Cambia a la cámara 4 y espera a que parpadee la luz de neón. Esta pista visual indica que un Informante se está preparando para reunirse con un contacto. Mantén la cámara enfocada en el área del contenedor de basura para captar la entrega.
+  </Step>
+  <Step num="3" title="Analizar Pistas del Entorno">
+    Haz zoom en la pared de grafitis cerca de la Salida B del Metro para decodificar la hora de la reunión secreta. Necesitarás cambiar el filtro de tu cámara al modo de visión nocturna para leer la pintura química brillante dejada por la facción.
+  </Step>
+  <Step num="4" title="Ejecutar la Confrontación en el Callejón">
+    Dirige a tu personaje investigador al lugar designado en el Distrito Sur e inicia el diálogo. Asegúrate de tener la llave oxidada equipada en tu ranura de objeto activo para desbloquear la puerta de seguridad.
+  </Step>
+</Steps>
+
+El tiempo lo es todo en esta investigación. Perder una ventana de activación por incluso unos pocos minutos del juego puede hacer que el objetivo desaparezca, obligándote a esperar hasta el próximo ciclo nocturno para volver a intentarlo.
+
+| Paso | Hora del Juego | Objeto Requerido | Cámara Objetivo |
+| :--- | :--- | :--- | :--- |
+| 1 | 12:00 AM | Pase de seguridad | Cámara 1 |
+| 2 | 02:00 AM | Llave oxidada | Cámara 4 |
+| 3 | 03:30 AM | Linterna | Cámara 3 |
+| 4 | 05:00 AM | Nota decodificada | Vista del personaje |
+
+<Callout type="tip" title="Gestión del Tiempo">
+Usa la función de avance rápido en la terminal de seguridad para saltar a las horas clave de activación, pero ten cuidado de no pasarte del minuto exacto. Mantén un ojo en los indicadores de estado de la cámara para detectar picos repentinos de actividad.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Secretos y ubicaciones ocultas de los Minesters">
+
+Descubrir la verdad requiere que los jugadores exploren áreas fuera del camino habitual. Los minesters dejan pistas ambientales que solo se pueden encontrar buscando a fondo en los rincones ocultos de la ciudad. Estos objetos a menudo están escondidos detrás de objetos interactivos o requieren ángulos de cámara específicos para ser detectados.
+
+Prestar mucha atención al entorno es la única forma de asegurar las pruebas necesarias para exponer la conspiración.
+
+| Ubicación | Tipo de Pista | Recompensa | Método de Descubrimiento |
+| :--- | :--- | :--- | :--- |
+| Almacén abandonado | Página de diario rota | Entrada de lore | Inspecciona la caja de madera detrás del contenedor de basura |
+| Salida B del metro | Grafiti de neón | Código de puerta | Cambia el filtro de la cámara al modo de visión nocturna |
+| Acceso a la azotea | Placa caída | Acceso de seguridad | Sigue la escalera amarilla cerca de la salida de incendios |
+
+Para asegurarte de no perder ninguna prueba crítica durante tu partida, realiza un seguimiento de tu progreso utilizando la lista de verificación oficial de la investigación a continuación.
+
+<Checklist
+  id="minester-secrets"
+  title="Lista de verificación de la investigación de los Minesters:"
+  items={[
+    "Recolectar las tres páginas de diario rotas en el Distrito Sur",
+    "Decodificar el grafiti de neón en la Salida B del Metro",
+    "Recuperar la placa de seguridad caída de la azotea",
+    "Desbloquear la transmisión de cámara secreta en la Oficina Central"
+  ]}
+/>
+
+<Callout type="success" title="Investigación Completada">
+Completar todos los elementos de esta lista de verificación desbloquea el logro secreto 'Administrador de las Sombras' y revela una ruta de final alternativo durante el capítulo final del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Requisitos de los finales e impacto de las decisiones">
+
+Tus interacciones con los minesters influyen directamente en cómo concluye la narrativa. El juego presenta múltiples finales basados en las decisiones que tomas durante los encuentros de diálogo de alto riesgo y las pistas que logres recolectar a lo largo de tu investigación.
+
+Elegir si exponer la conspiración o unirte a las filas de los administradores de las sombras determinará el destino de la ciudad.
+
+| Nombre del Final | Decisión Clave | Pistas Requeridas | Resumen del Resultado |
+| :--- | :--- | :--- | :--- |
+| Investigador Verdadero | Exponer al Supervisor | Las 3 páginas de diario | La ciudad se salva del control de las sombras |
+| Alianza de las Sombras | Unirse a los Minesters | Placa caída | El jugador se convierte en el nuevo supervisor de las sombras |
+| Escape Silencioso | Ignorar a las facciones | Ninguna | El jugador abandona la ciudad a salvo pero los misterios permanecen |
+
+Cada decisión conlleva graves consecuencias para los personajes secundarios que conozcas en el camino. Asegúrate de sopesar tus opciones cuidadosamente antes de comprometerte con una ruta específica, ya que no hay forma de deshacer una elección una vez que concluye la secuencia de diálogo.
+
+<Callout type="info" title="Progresión de los Finales">
+Puedes gestionar múltiples estados de guardado para explorar diferentes rutas de finales sin reiniciar todo el juego desde el principio. Mantén un guardado de respaldo antes de ingresar a la Oficina Central.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+Revisa estas preguntas y respuestas comunes para ayudarte a resolver problemas en tu investigación y asegurarte de no perderte ningún momento crítico de la historia.
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo encontrar a los back alley tales minesters?",
+    answer: "Se encuentran principalmente en las ubicaciones del Distrito Sur y la Oficina Central. Debes monitorear las cámaras 3 y 4 entre la medianoche y las 5:00 AM, hora del juego, para activar sus apariciones."
+  },
+  {
+    question: "¿Qué debo hacer si un Ejecutor me atrapa?",
+    answer: "Si te atrapan, serás devuelto al refugio más cercano. Tus pistas activas permanecerán a salvo, pero deberás esperar hasta la siguiente noche del juego para intentar el evento de nuevo."
+  },
+  {
+    question: "¿Cómo decodifico el grafiti en la Salida B del Metro?",
+    answer: "Necesitas obtener la mejora de la cámara de visión nocturna en la terminal de la Oficina Central. Una vez instalada, cambia el filtro mientras ves la cámara 2 para leer el código oculto."
+  },
+  {
+    question: "¿Puedo desbloquear todos los finales en una sola partida?",
+    answer: "No, porque la decisión crítica de diálogo en el juego tardío requiere que expongas o te unas a los minesters, lo que se ramifica en rutas de historia mutuamente excluyentes."
+  }
+]} />
+
+<Callout type="tip" title="Guía de la Comunidad">
+Consulta los foros oficiales de la comunidad y las guías de Steam regularmente para obtener consejos actualizados sobre cómo optimizar tus rutas de monitoreo de cámaras y compartir ubicaciones de descubrimiento con otros jugadores.
+</Callout>
+
+</Section>

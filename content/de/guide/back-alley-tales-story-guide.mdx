@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Back Alley Tales Story-Leitfaden: Komplettlösung & Alle Enden",
+  description: "Entdecken Sie den vollständigen Back Alley Tales Story-Leitfaden. Erfahren Sie mehr über Charakterrouten, Entscheidungspfade, Rätsellösungen und Anforderungen zum Freischalten aller Spielenden.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/2e1065/fff?text=Back+Alley+Tales+Story+Guide",
+  date: "2026-07-20",
+  author: "back alley tales Wiki-Team",
+  keywords: "Back Alley Tales, Story-Guide, Komplettlösung, Enden, Charakterrouten, Marie, Noel, Aya, Jasmin"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Story-Fortschritt**: Dieser Back Alley Tales Story-Leitfaden erklärt im Detail, wie man durch das Überwachungskamerasystem navigiert, um städtische Geheimnisse zu lösen.
+- **Verzweigte Pfade**: Jede wichtige Dialogentscheidung wirkt sich direkt auf das Vertrauensniveau der Charaktere und den Ausgang der Erzählung aus.
+- **Mehrere Enden**: Um das wahre Ende freizuschalten, müssen alle vier Hauptcharakterrouten abgeschlossen werden.
+- **Wichtige Mechaniken**: Achten Sie während der Videowiedergabe genau auf Zeitstempel und interaktive Umgebungsobjekte.
+</Callout>
+
+<Section icon={Map} title="Erzählrahmen und Kameramechanik">
+
+Die Erzählung von Back Alley Tales entfaltet sich durch die Linse eines Wachmanns, der in einer dunklen, neonbeleuchteten städtischen Umgebung arbeitet. Die Spieler müssen mehrere Überwachungskamera-Feeds überwachen, um Ereignisse zu rekonstruieren, Hinweise zu identifizieren und mit verschiedenen Charakteren zu interagieren, die diese schattigen Passagen frequentieren. Das Spiel verwendet eine Retro-VHS-Ästhetik, die die spannungsgeladene, investigative Atmosphäre der Geschichte verstärkt.
+
+Um in der Erzählung erfolgreich voranzukommen, müssen Sie die Zeitraffer- und Zoom-Mechaniken der Überwachungsschnittstelle beherrschen. Viele kritische Hinweise sind nur während bestimmter Nachtstunden sichtbar, was eine präzise Anpassung der Wiedergabe-Timeline erfordert. Das Übersehen einer subtilen Veränderung in der Umgebung kann Ihren Fortschritt blockieren und Sie von bestimmten Charakterrouten ausschließen.
+
+| Kamera-ID | Standort | Wichtiges Zeitfenster | Hauptfokus |
+|--- |--- |--- |--- |
+| Cam 01 | Gasseingang | 22:00 - 00:30 | Fußgängerverkehr und erste Charakterankünfte |
+| Cam 02 | Neonstraße | 00:00 - 02:00 | Dialoginteraktionen und wichtige Item-Abwürfe |
+| Cam 03 | Hintergasse | 01:30 - 03:30 | Stealth-Sequenzen und Charakterkonfrontationen |
+| Cam 04 | Verlassenes Grundstück | 03:00 - 05:00 | Höhepunkte und routenbestimmende Entscheidungen |
+
+<Callout type="info" title="Überwachungs-Tipp">
+Überprüfen Sie immer die benachbarten Kamera-Feeds, wenn ein Charakter das Bild verlässt. Viele Ereignisse finden gleichzeitig an verschiedenen Orten statt, und das Verfolgen dieser parallelen Zeitlinien ist entscheidend für die Lösung des übergreifenden Geheimnisses.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Back Alley Tales Story-Leitfaden: Charakterrouten">
+
+Der Kern der Erzählung ist in vier verschiedene Charakterrouten unterteilt. Jede Route konzentriert sich auf einen anderen Bewohner der Stadt und präsentiert einzigartige Herausforderungen, Rätsel und Dialogentscheidungen. Um ein umfassendes Verständnis der Handlung zu erlangen, müssen die Spieler alle vier Routen abschließen, die ineinandergreifen, um die dunklen Geheimnisse der Stadt zu enthüllen.
+
+Der Aufbau von Vertrauen zu jedem Charakter ist entscheidend. Das Vertrauen wird dadurch beeinflusst, wie Sie auf ihre Situationen über die Sicherheitsschnittstelle reagieren und welche Entscheidungen Sie bei direkten Interaktionen treffen. Hohe Vertrauenswerte schalten günstige Dialogoptionen frei und führen zu den guten Enden, während geringes Vertrauen oder falsche Entscheidungen zu abrupten, ungünstigen Abschlüssen führen können.
+
+<CardGrid cols={2}>
+  <Card title="Maries Route">
+    - **Fokus**: Untersuchung mysteriöser Straßenkunst und versteckter Botschaften.
+    - **Schwierigkeit**: Moderat. Erfordert sorgfältiges Scannen der Umgebung.
+    - **Schlüsselgegenstand**: Sprühdose und Notizbuch-Hinweise.
+  </Card>
+  <Card title="Noels Route">
+    - **Fokus**: Flucht vor einer gefährlichen Verfolgung durch die Hintergassen.
+    - **Schwierigkeit**: Hoch. Erfordert schnelle Reaktionstrigger und präzises Timing.
+    - **Schlüsselgegenstand**: Gassenkarte und Sicherheitsausweis.
+  </Card>
+  <Card title="Ayas Route">
+    - **Fokus**: Aufdeckung lokaler Bandenaktivitäten und Schutz der Bewohner.
+    - **Schwierigkeit**: Hoch. Konzentriert sich stark auf Stealth-Mechaniken und Kamera-Ablenkung.
+    - **Schlüsselgegenstand**: Verschlüsseltes Telefon und Dietrich-Set.
+  </Card>
+  <Card title="Jasmins Route">
+    - **Fokus**: Navigieren durch spätberufliche Dilemmata und Unternehmensgeheimnisse.
+    - **Schwierigkeit**: Einfach. Stark abhängig von der Auswahl der Dialogentscheidungen.
+    - **Schlüsselgegenstand**: Büro-Schlüsselkarte und Hauptbuch-Dokument.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Optimale Routen-Reihenfolge">
+Für das stimmigste narrative Erlebnis wird dringend empfohlen, zuerst Maries Route abzuschließen, gefolgt von Noel, Aya und schließlich Jasmin. Diese Sequenz baut die Hintergrundgeschichte natürlich auf und macht die finalen Enthüllungen wirkungsvoller.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Schritt-für-Schritt-Untersuchungsanleitung">
+
+Das Navigieren durch die verzweigten Handlungsstränge erfordert einen systematischen Ansatz für jede Nacht der Überwachung. Unten finden Sie die Schritt-für-Schritt-Anleitung, um die frühen Kapitel erfolgreich zu meistern und die Grundlage für alle Charakterrouten zu legen.
+
+<Steps>
+  <Step num="1" title="Kamerakalibrierung">
+    Greifen Sie um 22:00 Uhr auf die Hauptsicherheitskonsole zu. Schalten Sie durch alle vier Kamera-Feeds, um die Ausrichtung sicherzustellen. Zoomen Sie auf den Mülleimer in Cam 01 und das Neonschild in Cam 02, um die ersten Umgebungshinweise zu registrieren.
+  </Step>
+  <Step num="2" title="Wichtige Zeitstempel identifizieren">
+    Spulen Sie Cam 01 bis 23:45 Uhr vor. Achten Sie auf die Ankunft des ersten Schlüsselcharakters. Halten Sie die Wiedergabe sofort an, wenn der Charakter einen Gegenstand fallen lässt, und wechseln Sie zu Cam 02, um zu verfolgen, wohin der Gegenstand getragen wird.
+  </Step>
+  <Step num="3" title="Interaktiver Entscheidungstrigger">
+    Wenn die Dialogaufforderung auf dem Bildschirm erscheint, wählen Sie die Aktion aus, die Hilfe anbietet oder Informationen sammelt, ohne Verdacht zu erregen. Vermeiden Sie aggressive oder abweisende Entscheidungen, da diese das Vertrauen des Charakters senken.
+  </Step>
+  <Step num="4" title="Routenbestätigung">
+    Speichern Sie Ihren Fortschritt am Ende der Nacht. Das Spiel zeigt an, welche Charakterroute basierend auf Ihren primären Interaktionen erfolgreich eingeleitet wurde.
+  </Step>
+</Steps>
+
+Ihre Entscheidungen während dieser Schritte bestimmen den Verlauf der Erzählung. Die folgende Tabelle hebt die kritischen Entscheidungspunkte im frühen Spiel und ihre unmittelbaren Folgen für die Handlung hervor.
+
+| Entscheidungspunkt | Option A | Option B | Auswirkung auf die Route |
+|--- |--- |--- |--- |
+| Die gefallene Brieftasche | Sofort zurückgeben | Für Untersuchungen behalten | Rückgabe baut Vertrauen auf; Behalten schaltet geheime Hinweise frei |
+| Die schattenhafte Figur | Alarm schlagen | Lautlos beobachten | Alarm setzt die Szene zurück; Beobachten treibt die Handlung voran |
+| Noels Bitte | Unterschlupf anbieten | Zur Hauptstraße leiten | Unterschlupf schaltet Noels Route frei; Hauptstraße führt zum Bad Ending |
+| Jasmins Anfrage | Sicherheitsprotokolle teilen | Zugriff verweigern | Teilen schaltet geheime Dokumente frei; Verweigern bewahrt die Sicherheit |
+
+<Callout type="warning" title="Permadeath und Sackgassen">
+Bestimmte falsche Entscheidungen während Sequenzen mit hohem Einsatz führen zu einem sofortigen Game Over. Legen Sie zu Beginn jeder In-Game-Nacht immer mehrere Speicherstände an, um den Verlust von erheblichem Fortschritt zu vermeiden.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Enden-Matrix und 100% Komplettierungs-Checkliste">
+
+Das Spiel bietet mehrere Enden, basierend auf den kumulativen Entscheidungen, die über alle Charakterrouten hinweg getroffen wurden. Das Erreichen des Wahren Endes erfordert akribische Liebe zum Detail und eine fehlerfreie Ausführung der guten Route jedes Charakters.
+
+| End-Typ | Anforderungen | Zusammenfassung des Ergebnisses |
+|--- |--- |--- |
+| Wahres Ende | Alle 4 guten Charakterrouten mit maximalem Vertrauen abschließen | Die Verschwörung wird aufgedeckt und alle Charaktere entkommen sicher |
+| Gutes Ende (Individuell) | Eine einzelne Charakterroute mit hohem Vertrauen abschließen | Der Konflikt des gewählten Charakters wird gelöst, aber Geheimnisse bleiben |
+| Bad Ending (Generisch) | Scheitern bei einer Stealth-Sequenz oder Vertrauensprüfung | Die Untersuchung wird abgebrochen und der Wachmann wird versetzt |
+| Geheimer Epilog | Wahres Ende freischalten und alle versteckten VHS-Kassetten finden | Eine Post-Credit-Szene, die den wahren Drahtzieher enthüllt |
+
+Um sicherzustellen, dass Sie alles freigeschaltet haben, was die Erzählung zu bieten hat, verwenden Sie die folgende Checkliste, um Ihren Fortschritt in Richtung 100% Komplettierung zu verfolgen.
+
+<Checklist
+  id="story-completion"
+  title="100% Story-Komplettierungs-Checkliste:"
+  items={[
+    "Maries Gutes Ende erfolgreich freigeschaltet",
+    "Noels Gutes Ende erfolgreich freigeschaltet",
+    "Ayas Gutes Ende erfolgreich freigeschaltet",
+    "Jasmins Gutes Ende erfolgreich freigeschaltet",
+    "Alle 12 versteckten Umgebungshinweise entdeckt",
+    "Alle 5 Retro-VHS-Kassetten gesammelt, die über die Kameras verteilt sind",
+    "Geheimen Epilog nach dem Abspann ausgelöst"
+  ]}
+/>
+
+<Callout type="success" title="Belohnung für Komplettierung">
+Das Freischalten des Wahren Endes gewährt Zugriff auf den Galerie-Modus im Hauptmenü, der es Ihnen ermöglicht, jede freigeschaltete Filmsequenz oder Dialogfolge in aller Ruhe erneut abzuspielen, ohne das Spiel neu starten zu müssen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Systemanforderungen und FAQ">
+
+Bevor Sie in die dunklen Geheimnisse der Stadt eintauchen, stellen Sie sicher, dass Ihr Gaming-System die notwendigen technischen Spezifikationen für ein reibungsloses, ununterbrochenes Erlebnis erfüllt.
+
+| Spezifikation | Mindestanforderungen | Empfohlene Anforderungen |
+|--- |--- |--- |
+| Betriebssystem | Windows 10 (64-Bit) | Windows 10 / 11 (64-Bit) |
+| Prozessor | Intel Core i3-4160 / AMD A8-7600 | Intel Core i5-4670K / AMD Ryzen 5 1500X |
+| Arbeitsspeicher | 4 GB RAM | 8 GB RAM |
+| Grafikkarte | GeForce GTX 660 / Radeon R9 270 | GeForce GTX 970 / Radeon RX 570 |
+| Speicherplatz | 2 GB verfügbarer Platz | 4 GB verfügbarer Platz (SSD empfohlen) |
+
+<Callout type="info" title="Optimierungs-Tipp">
+Wenn Sie während Zeitraffer-Sequenzen Screen Tearing oder Verzögerungen bemerken, aktivieren Sie V-Sync in den Grafikoptionen und verringern Sie die Post-Processing-Effekte. Dies stabilisiert die Bildrate beim Kamerawechsel.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Wie schalte ich das Wahre Ende in Back Alley Tales frei?",
+    answer: "Um das Wahre Ende freizuschalten, müssen Sie die individuellen Guten Enden für Marie, Noel, Aya und Jasmin erfolgreich auf einem einzigen Profil abschließen. Sobald alle vier Routen mit maximalem Vertrauen abgeschlossen sind, wird das letzte Kapitel automatisch im Hauptmenü freigeschaltet."
+  },
+  {
+    question: "Was ist die Bedeutung der versteckten VHS-Kassetten?",
+    answer: "Die versteckten VHS-Kassetten sind Sammelgegenstände, die zu bestimmten Zeiten in verschiedenen Kamera-Feeds verstreut sind. Das Finden aller fünf Kassetten ist erforderlich, um den Geheimen Epilog freizuschalten, der entscheidende Hintergrundinfos zum Ursprung des Überwachungssystems liefert."
+  },
+  {
+    question: "Kann ich Dialoge überspringen oder Szenen bei späteren Spieldurchgängen vorspulen?",
+    answer: "Ja, sobald Sie eine Szene oder Dialogsequenz mindestens einmal abgeschlossen haben, erscheint eine Überspringen-Schaltfläche in der oberen rechten Ecke des Bildschirms. Sie können auch den Timeline-Schieberegler verwenden, um schnell zu wichtigen Entscheidungspunkten zu springen."
+  },
+  {
+    question: "Gibt es eine Möglichkeit, sich von einem Bad Ending zu erholen, ohne das gesamte Spiel neu zu starten?",
+    answer: "Ja, das Spiel verfügt über ein automatisches Speichersystem, das Ihren Fortschritt zu Beginn jeder Stunde aufzeichnet. Wenn Sie ein Bad Ending auslösen, können Sie den letzten stündlichen Speicherstand laden, um Ihre Entscheidungen zu ändern und das ungünstige Ergebnis zu vermeiden."
+  }
+]} />
+
+</Section>

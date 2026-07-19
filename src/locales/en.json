@@ -10,7 +10,15 @@
       "twitterDescription": "Back Alley Tales Wiki offers complete guides, character details, story information, gameplay tips and updates for players exploring the mysterious alley adventure."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "download": "Download",
+    "version": "Version",
+    "camera": "Camera",
+    "story": "Story",
+    "mod": "Mod",
+    "reviews": "Reviews"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -449,125 +457,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
+    "guide": {
       "title": "Back Alley Tales Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced story strategies. Master exploration, dialogue, and progression.",
-      "metaTitle": "Back Alley Tales Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Back Alley Tales guides covering beginner tips, exploration mechanics, dialogue systems, and expert tactics for mastering the narrative adventure.",
+      "description": "Complete Back Alley Tales guides covering gameplay mechanics, beginner tips, exploration, and step-by-step walkthroughs.",
+      "metaTitle": "Back Alley Tales Guides - Gameplay, Beginner Tips & Walkthroughs",
+      "metaDescription": "Master Back Alley Tales with complete guides on gameplay mechanics, beginner tips, exploration strategies, and full walkthroughs for every chapter.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, exploration strategies, and the dialogue system of Back Alley Tales. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+      "whatIs": "What are Back Alley Tales Guides?",
+      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, exploration strategies, the dialogue and investigation systems, and step-by-step walkthroughs for Back Alley Tales. Learn everything from your first steps to advanced tactics.",
+      "why": "Why read these guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand exploration and dialogue systems to avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to advance smoothly through the story",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and narrative choices"
+        "step1Description": "Understand exploration, investigation, and dialogue systems from the very start",
+        "step2Title": "Progress Confidently",
+        "step2Description": "Follow proven routes to move smoothly through the story",
+        "step3Title": "Avoid Common Mistakes",
+        "step3Description": "Spot hidden clues and skip the pitfalls that trap new players"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "walkthrough": {
-      "title": "Back Alley Tales Walkthrough",
-      "description": "Follow the full story route with chapter flow, key events, and step-by-step progression through every part of the game.",
-      "metaTitle": "Back Alley Tales Walkthrough - Full Story & Chapter Guide",
-      "metaDescription": "Complete Back Alley Tales walkthrough covering every chapter, key event, and story decision. Follow the full route from opening sequence to endgame.",
-      "categoryLabel": "STORY WALKTHROUGH",
-      "whatIs": "What is the Walkthrough?",
-      "whatIsDescription": "A chapter-by-chapter walkthrough of Back Alley Tales that covers event order, important interactions, and possible progression paths through the city.",
-      "why": "Why use the walkthrough?",
+    "download": {
+      "title": "Back Alley Tales Download",
+      "description": "Download and install Back Alley Tales on every platform with safe, up-to-date setup guides for PC, Android, iOS, and mobile.",
+      "metaTitle": "Back Alley Tales Download - PC, Android, iOS & Mobile Install",
+      "metaDescription": "Get Back Alley Tales on your device with safe download and install guides for PC, Android, iOS, and mobile. Up-to-date setup steps for every platform.",
+      "categoryLabel": "DOWNLOAD & INSTALL",
+      "whatIs": "What is the Back Alley Tales Download?",
+      "whatIsDescription": "Download and installation guides for Back Alley Tales across PC, Android, iOS, and mobile platforms, including safe sources, file formats like IPA and APK, and step-by-step setup instructions.",
+      "why": "Why use these guides?",
       "whySteps": {
-        "step1Title": "Follow the Story Route",
-        "step1Description": "Understand the correct order of events and key story beats",
-        "step2Title": "Handle Key Decisions",
-        "step2Description": "See how major choices shape the direction of the narrative",
-        "step3Title": "Reach Every Ending",
-        "step3Description": "Unlock all conclusion paths with clear progression guidance"
+        "step1Title": "Install Safely",
+        "step1Description": "Use verified sources and the correct files for your device",
+        "step2Title": "Set Up Any Device",
+        "step2Description": "Follow clear steps for PC, Android, iOS, and mobile",
+        "step3Title": "Avoid Setup Errors",
+        "step3Description": "Handle common install issues before they block your play"
       },
       "featured": "Featured & Essential",
-      "all": "All Walkthrough Chapters"
+      "all": "All Download Guides"
     },
-    "characters": {
-      "title": "Back Alley Tales Characters",
-      "description": "Detailed character guides covering the protagonist, NPCs, companions, antagonists, and the relationships that drive the story.",
-      "metaTitle": "Back Alley Tales Characters - Cast, Roles & Relationships",
-      "metaDescription": "Complete character database for Back Alley Tales including the protagonist, key NPCs, companions, and antagonists. Learn every role and relationship in the story.",
-      "categoryLabel": "CHARACTERS",
-      "whatIs": "What are Character Guides?",
-      "whatIsDescription": "Comprehensive guides for the protagonist, supporting cast, and the connections between them. Learn backgrounds, motivations, and narrative roles.",
-      "why": "Why read character guides?",
+    "version": {
+      "title": "Back Alley Tales Version",
+      "description": "Track every Back Alley Tales version, patch note, and update with the latest release details and full version history.",
+      "metaTitle": "Back Alley Tales Version - Latest Updates & Patch Notes",
+      "metaDescription": "Stay current on Back Alley Tales versions with the latest updates, patch notes, new content, and full version history from the first release to today.",
+      "categoryLabel": "VERSION & UPDATES",
+      "whatIs": "What is the Back Alley Tales Version guide?",
+      "whatIsDescription": "Version and update guides for Back Alley Tales covering the latest release, patch notes, new content, and the full version history from the original v1 build to the newest update.",
+      "why": "Why track versions?",
       "whySteps": {
-        "step1Title": "Understand the Cast",
-        "step1Description": "Learn the background and role of every important character",
-        "step2Title": "Track Relationships",
-        "step2Description": "See how character connections evolve through the story",
-        "step3Title": "Make Better Choices",
-        "step3Description": "Use character knowledge to guide dialogue and decisions"
+        "step1Title": "See What Changed",
+        "step1Description": "Read clear patch notes for each new version",
+        "step2Title": "Find New Content",
+        "step2Description": "Discover story elements and features added in updates",
+        "step3Title": "Stay Up to Date",
+        "step3Description": "Know when a new version drops and what it includes"
       },
       "featured": "Featured & Essential",
-      "all": "All Characters"
+      "all": "All Version Articles"
+    },
+    "camera": {
+      "title": "Back Alley Tales Camera",
+      "description": "Master the Back Alley Tales camera system, including hidden camera mechanics, the hidden pixel camera feature, and gameplay camera controls.",
+      "metaTitle": "Back Alley Tales Camera - Hidden Camera & Camera Gameplay Guide",
+      "metaDescription": "Understand the Back Alley Tales camera system with guides on camera gameplay, the hidden camera mechanic, and the hidden pixel camera feature for full exploration.",
+      "categoryLabel": "CAMERA & VISUALS",
+      "whatIs": "What is the Back Alley Tales Camera guide?",
+      "whatIsDescription": "Guides to the Back Alley Tales camera system, including camera gameplay controls, the hidden camera mechanic, and the hidden pixel camera feature that reveals secrets hidden in the environment.",
+      "why": "Why learn the camera?",
+      "whySteps": {
+        "step1Title": "Control Your View",
+        "step1Description": "Master camera movement to navigate the neon-lit alleys",
+        "step2Title": "Find Hidden Cameras",
+        "step2Description": "Locate hidden camera angles that uncover new clues",
+        "step3Title": "Reveal Secrets",
+        "step3Description": "Use the hidden pixel camera to expose hidden content"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Camera Guides"
     },
     "story": {
       "title": "Back Alley Tales Story",
-      "description": "Explore the world, setting, lore, and narrative background behind the mysterious events of Back Alley Tales.",
-      "metaTitle": "Back Alley Tales Story - World, Setting & Lore",
-      "metaDescription": "Explore the Back Alley Tales story including world setting, narrative background, lore, and the hidden details behind the mysterious alley adventure.",
-      "categoryLabel": "STORY & LORE",
-      "whatIs": "What is the Story Guide?",
-      "whatIsDescription": "Guides to the world setting, narrative background, and lore of Back Alley Tales. Learn what to expect and how the story fits together.",
+      "description": "Explore the Back Alley Tales story, characters, monsters, and NPCs that drive the mysterious narrative of the alley.",
+      "metaTitle": "Back Alley Tales Story - Characters, Monsters & Lore",
+      "metaDescription": "Dive into the Back Alley Tales story with guides on characters, monsters, NPCs, and the lore behind the mysterious alley adventure.",
+      "categoryLabel": "STORY & CAST",
+      "whatIs": "What is the Back Alley Tales Story guide?",
+      "whatIsDescription": "Story guides for Back Alley Tales covering the main narrative, characters, monsters, and the NPCs you meet, plus the lore that ties the mysterious alley adventure together.",
       "why": "Why explore the story?",
       "whySteps": {
-        "step1Title": "Understand the Setting",
-        "step1Description": "Learn the world and atmosphere that shape the adventure",
-        "step2Title": "Follow the Lore",
-        "step2Description": "Connect background events to the main narrative",
-        "step3Title": "Uncover Hidden Layers",
-        "step3Description": "Discover deeper meaning behind the story events"
+        "step1Title": "Meet the Cast",
+        "step1Description": "Learn the protagonists, NPCs, and their roles in the story",
+        "step2Title": "Face the Monsters",
+        "step2Description": "Understand the creatures that haunt the alley",
+        "step3Title": "Uncover the Lore",
+        "step3Description": "Connect the story background to the events you play"
       },
       "featured": "Featured & Essential",
       "all": "All Story Articles"
     },
-    "endings": {
-      "title": "Back Alley Tales Endings",
-      "description": "Master every ending path, decision requirement, and conclusion route across the branching narrative.",
-      "metaTitle": "Back Alley Tales Endings - All Routes & Decisions",
-      "metaDescription": "Complete Back Alley Tales endings guide covering every conclusion route, decision requirement, and character-based ending in the game.",
-      "categoryLabel": "ENDINGS",
-      "whatIs": "What are Ending Guides?",
-      "whatIsDescription": "Guides to the main, alternate, character-based, and secret endings of Back Alley Tales, including the decisions that unlock each route.",
-      "why": "Why read ending guides?",
+    "mod": {
+      "title": "Back Alley Tales Mod",
+      "description": "Install and explore Back Alley Tales mods with safe setup guides, feature overviews, and tips for modded gameplay.",
+      "metaTitle": "Back Alley Tales Mod - Install & Gameplay Guide",
+      "metaDescription": "Get started with Back Alley Tales mods through safe install steps, feature overviews, and tips for enjoying modded gameplay in the alley adventure.",
+      "categoryLabel": "MODS",
+      "whatIs": "What is the Back Alley Tales Mod guide?",
+      "whatIsDescription": "Mod guides for Back Alley Tales covering safe installation, available features, and how mods change gameplay, visuals, and content in the alley adventure.",
+      "why": "Why try mods?",
       "whySteps": {
-        "step1Title": "Plan Your Route",
-        "step1Description": "Know which decisions lead to which conclusions",
-        "step2Title": "Unlock Every Ending",
-        "step2Description": "Find the requirements for each conclusion path",
-        "step3Title": "Understand the Outcomes",
-        "step3Description": "See the meaning and result of each ending"
+        "step1Title": "Install Safely",
+        "step1Description": "Follow verified steps to add mods without breaking the game",
+        "step2Title": "Explore New Features",
+        "step2Description": "See what mods add to gameplay and visuals",
+        "step3Title": "Refresh the Experience",
+        "step3Description": "Replay the alley adventure with new content and tweaks"
       },
       "featured": "Featured & Essential",
-      "all": "All Endings"
+      "all": "All Mod Guides"
     },
-    "updates": {
-      "title": "Back Alley Tales Updates",
-      "description": "Track version updates, patch notes, new content, and official announcements for Back Alley Tales.",
-      "metaTitle": "Back Alley Tales Updates - Patch Notes & News",
-      "metaDescription": "Stay current with Back Alley Tales updates including patch notes, new content, release history, and official development announcements.",
-      "categoryLabel": "UPDATES & NEWS",
-      "whatIs": "What are Updates?",
-      "whatIsDescription": "Technical and content guides covering version updates, patch notes, new features, and official announcements for Back Alley Tales.",
-      "why": "Why follow updates?",
+    "reviews": {
+      "title": "Back Alley Tales Reviews",
+      "description": "Read Back Alley Tales reviews, watch gameplay videos, and find the best YouTube coverage of the alley adventure.",
+      "metaTitle": "Back Alley Tales Reviews - Gameplay Videos & YouTube Coverage",
+      "metaDescription": "Discover Back Alley Tales through reviews, gameplay videos, and YouTube coverage that show the story, mechanics, and atmosphere of the alley adventure.",
+      "categoryLabel": "REVIEWS & VIDEOS",
+      "whatIs": "What are Back Alley Tales Reviews?",
+      "whatIsDescription": "Review and video guides for Back Alley Tales, including written reviews, gameplay videos, and YouTube coverage that highlight the story, mechanics, and mood of the alley adventure.",
+      "why": "Why watch and read reviews?",
       "whySteps": {
-        "step1Title": "Track Patch Notes",
-        "step1Description": "See what changes and fixes arrive with each version",
-        "step2Title": "Discover New Content",
-        "step2Description": "Learn about newly added story elements and features",
-        "step3Title": "Stay Informed",
-        "step3Description": "Follow official announcements and release history"
+        "step1Title": "See Real Gameplay",
+        "step1Description": "Watch gameplay videos before you start playing",
+        "step2Title": "Read Honest Reviews",
+        "step2Description": "Learn what players and critics think of the game",
+        "step3Title": "Find the Best Content",
+        "step3Description": "Discover the most useful YouTube channels and creators"
       },
       "featured": "Featured & Essential",
-      "all": "All Updates"
+      "all": "All Reviews & Videos"
     }
   }
 }

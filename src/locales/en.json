@@ -10,14 +10,7 @@
       "twitterDescription": "Back Alley Tales Wiki offers complete guides, character details, story information, gameplay tips and updates for players exploring the mysterious alley adventure."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",

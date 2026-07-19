@@ -1,11 +1,601 @@
 {
+  "seo": {
+    "home": {
+      "title": "Back Alley Tales Wiki - ガイド、キャラクター＆ストーリー",
+      "description": "Back Alley Tales Wikiでは、謎めいた路地裏のアドベンチャーを探索するプレイヤー向けに、完全なガイド、キャラクターの詳細、ストーリー情報、ゲームプレイのヒント、最新アップデート情報を提供しています。",
+      "keywords": "Back Alley Tales, ゲーム wiki, ガイド, キャラクター, 攻略, ストーリー",
+      "ogTitle": "Back Alley Tales Wiki - ガイド、キャラクター＆ストーリー",
+      "ogDescription": "Back Alley Tales Wikiでは、謎めいた路地裏のアドベンチャーを探索するプレイヤー向けに、完全なガイド、キャラクターの詳細、ストーリー情報、ゲームプレイのヒント、最新アップデート情報を提供しています。",
+      "twitterTitle": "Back Alley Tales Wiki - ガイド、キャラクター＆ストーリー",
+      "twitterDescription": "Back Alley Tales Wikiでは、謎めいた路地裏のアドベンチャーを探索するプレイヤー向けに、完全なガイド、キャラクターの詳細、ストーリー情報、ゲームプレイのヒント、最新アップデート情報を提供しています。"
+    }
+  },
   "nav": {
     "guide": "ガイド",
     "download": "ダウンロード",
     "version": "バージョン",
     "camera": "カメラ",
     "story": "ストーリー",
-    "mod": "モッド",
+    "mod": "Mod",
     "reviews": "レビュー"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "もっと見る",
+    "playNow": "Steamでプレイ",
+    "switchLanguage": "言語切り替え",
+    "switchTheme": "テーマ切り替え",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定"
+  },
+  "hero": {
+    "badge": "ダークナラティブ・アドベンチャーゲーム",
+    "title": "Back Alley Tales Wiki",
+    "description": "Back Alley Tales Wikiでは、ガイド、ストーリーの詳細、キャラクター、ゲームプレイ情報など、プレイヤーが路地の裏に隠された神秘的な世界を探索するために必要なすべての情報を提供しています。",
+    "getFreeCodesCTA": "ガイドを探索",
+    "playOnSteamCTA": "ゲームプレイを見る",
+    "stats": {
+      "stat1": {
+        "value": "ストーリー重視",
+        "label": "ナラティブアドベンチャー"
+      },
+      "stat2": {
+        "value": "複数",
+        "label": "キャラクター＆ルート"
+      },
+      "stat3": {
+        "value": "PC＆モバイル",
+        "label": "対応プラットフォーム"
+      },
+      "stat4": {
+        "value": "毎週",
+        "label": "ガイドのアップデート"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Back Alley Tales ゲームプレイ",
+    "description": "このダークアドベンチャーで、影に包まれた路地を探索し、分岐するキャラクターのストーリーを追い、すべての扉の裏に隠された秘密を暴きましょう。"
+  },
+  "tools": {
+    "title": "Back Alley Tales",
+    "titleHighlight": "攻略情報",
+    "subtitle": "Back Alley Talesのストーリー、キャラクター、エンディング、そして秘密を探索するために必要なすべて",
+    "cards": [
+      {
+        "icon": "Gamepad2",
+        "title": "ゲームプレイガイド",
+        "description": "基本システム、探索、ストーリーの進行"
+      },
+      {
+        "icon": "Map",
+        "title": "攻略チャート",
+        "description": "チャプターの流れ、主要イベント、ストーリー分岐ルート"
+      },
+      {
+        "icon": "Eye",
+        "title": "隠し要素＆ロケーション",
+        "description": "隠しエリア、手がかり、および隠された発見要素"
+      },
+      {
+        "icon": "Users",
+        "title": "キャラクターガイド",
+        "description": "主人公、NPC、仲間、そして関係性"
+      },
+      {
+        "icon": "Flag",
+        "title": "エンディングガイド",
+        "description": "エンディングへのルート、選択肢、およびその結末"
+      },
+      {
+        "icon": "Lightbulb",
+        "title": "ヒント＆コツ",
+        "description": "探索のアドバイスと初心者向け攻略法"
+      },
+      {
+        "icon": "Monitor",
+        "title": "システム要件",
+        "description": "対応プラットフォーム、動作環境、および互換性"
+      },
+      {
+        "icon": "Newspaper",
+        "title": "アップデート＆ニュース",
+        "description": "バージョン変更、パッチ情報、およびお知らせ"
+      }
+    ]
+  },
+  "modules": {
+    "backAlleyTalesGameplayGuide": {
+      "title": "Back Alley Tales ゲームプレイガイド",
+      "displayType": "steps",
+      "intro": "このガイドでは、探索、インタラクション、会話の選択肢、進行システムなど、Back Alley Talesの核心となるゲームプレイの枠組みを紹介します。新規プレイヤーが謎めいた都市環境を探索し、物語を進める方法を理解するのに役立ちます。",
+      "steps": [
+        {
+          "title": "基本操作",
+          "description": "Back Alley Talesの都市環境を探索するために使用する、基本的な移動、インタラクション、ナビゲーションの操作を学びます。"
+        },
+        {
+          "title": "探索メカニクス",
+          "description": "街中に散らばるストーリー要素を明らかにするために、通り、路地、および環境の細部を調査する方法を理解します。"
+        },
+        {
+          "title": "会話システム",
+          "description": "会話、プレイヤーの選択、およびキャラクターとのインタラクションが、どのように物語の方向性を決定づけるかを紹介します。"
+        },
+        {
+          "title": "ストーリーの進行",
+          "description": "イベントを進めることで、どのように新しいエリアが解放され、全体的なストーリーの隠された真実が明らかになっていくかを確認します。"
+        },
+        {
+          "title": "インタラクションシステム",
+          "description": "探索中に遭遇する状況を解決するために、オブジェクトとのインタラクションや調査方法をマスターしましょう。"
+        },
+        {
+          "title": "セーブシステム",
+          "description": "分岐するストーリーのルートを探索する際の、セーブの仕組みや異なるストーリーパスの管理方法について学びます。"
+        }
+      ],
+      "quickTips": [
+        "会話の選択肢によって新しいストーリーの分岐が開くことがあるため、出会うすべてのキャラクターに話しかけましょう。",
+        "ストーリーの大きなイベントの後は、新しいインタラクションが発生することが多いため、場所を再訪問してみましょう。",
+        "進行状況を失うことなく異なる決断を試せるよう、複数のセーブスロットを維持しておきましょう。",
+        "手がかりが次の目的地を示していることが多いため、周囲の細かな情報を注意強く読み取りましょう。"
+      ]
+    },
+    "backAlleyTalesWalkthrough": {
+      "title": "Back Alley Tales 攻略",
+      "displayType": "タイムライン",
+      "intro": "この攻略ガイドでは、Back Alley Talesのストーリー進行を分かりやすいセクションに整理しています。プレイヤーは街を探索しながら、イベントの順序、重要なインタラクション、および考えられる進行ルートを把握するために活用できます。",
+      "entries": [
+        {
+          "title": "オープニングシーケンス",
+          "type": "チャプター",
+          "description": "Back Alley Talesでプレイヤーが最初に遭遇する導入部、初期の探索フェーズ、および最初のストーリー目標について説明します。"
+        },
+        {
+          "title": "初期調査",
+          "type": "チャプター",
+          "description": "序盤の段階で発見される、最初の主要な探索ステップ、キャラクターとの遭遇、および手がかりについて解説します。"
+        },
+        {
+          "title": "メインストーリーの進行",
+          "type": "チャプター",
+          "description": "中心となるストーリーラインを前進させる、主要な物語の展開や重要なイベントを整理しています。"
+        },
+        {
+          "title": "重要な決断",
+          "type": "分岐",
+          "description": "ストーリーの方向性や考えられる結末に影響を与える、重要な会話の選択肢や行動に焦点を当てます。"
+        },
+        {
+          "title": "サイドコンテンツ",
+          "type": "オプション",
+          "description": "メインストーリー以外の、任意で発見できる要素、追加のインタラクション、およびアクティビティについて説明します。"
+        },
+        {
+          "title": "終盤のルート",
+          "type": "チャプター",
+          "description": "Back Alley Talesにおけるゲーム終盤の進行、最後のストーリーイベント、およびプレイヤーが到達できる結末について説明します。"
+        }
+      ]
+    },
+    "backAlleyTalesSecretsLocations": {
+      "title": "Back Alley Talesの秘密とロケーション",
+      "displayType": "カード",
+      "intro": "このセクションでは、隠し場所、周囲の発見要素、オプションコンテンツなど、Back Alley Talesの探索に焦点を当てた情報をまとめています。通常のストーリー進行では見落としがちな詳細を見つけるのに役立ちます。",
+      "cards": [
+        {
+          "name": "隠しエリア",
+          "description": "Back Alley Talesの路地を探索中にプレイヤーが発見できる、秘密の場所や分かりにくい場所。"
+        },
+        {
+          "name": "環境の手がかり",
+          "description": "ゲームの世界全体に散りばめられた重要な詳細、オブジェクト、および視覚的なヒントを見分ける方法。"
+        },
+        {
+          "name": "収集アイテムの発見",
+          "description": "すべての通りや出入り口を徹底的に探索することで手に入る、任意のアイテムや発見要素。"
+        },
+        {
+          "name": "特別な遭遇",
+          "description": "メインルートから外れた場所に隠された、珍しいイベント、ユニークなインタラクション、および秘密のストーリーの瞬間。"
+        },
+        {
+          "name": "探索のヒント",
+          "description": "エリアを効率的に探索し、見落としがちなコンテンツを見つけるための一般的な戦略。"
+        },
+        {
+          "name": "隠されたストーリー要素",
+          "description": "Back Alley Talesの世界を深く調査することで明らかになる、さらなる物語の詳細。"
+        }
+      ],
+      "highlights": [
+        "すべての路地を探索する",
+        "周囲の手がかりを読み解く",
+        "隠されたアイテムを収集する",
+        "シークレットシーンを解放する"
+      ]
+    },
+    "backAlleyTalesCharactersGuide": {
+      "title": "Back Alley Tales キャラクターガイド",
+      "displayType": "クリーチャーカード",
+      "intro": "このキャラクターガイドでは、Back Alley Talesのストーリー構造における様々な役割を解説します。キャラクター同士のつながりや動機、そして展開する物語における重要性を理解するのに役立ちます。",
+      "creatures": [
+        {
+          "name": "主人公",
+          "role": "リードキャラクター",
+          "description": "Back Alley Talesの物語全体を牽引する役割、背景、そして旅路を担うメインキャラクター。"
+        },
+        {
+          "name": "主要NPC",
+          "role": "ストーリーの触媒",
+          "description": "情報、目的、そして有意義な物語の進展をもたらす重要な支援キャラクター。"
+        },
+        {
+          "name": "コンパニオン",
+          "role": "協力者",
+          "description": "街を巡る旅が進むにつれて、プレイヤーを助け、交流し、あるいは影響を与えるキャラクター。"
+        },
+        {
+          "name": "敵対者",
+          "role": "対立勢力",
+          "description": "物語のより暗く謎めいた部分を動かす、対立するキャラクターや勢力。"
+        },
+        {
+          "name": "サポートキャスト",
+          "role": "ワールドビルディング",
+          "description": "Back Alley Talesの世界観やストーリーラインに深みと質感を与えるサブキャラクター。"
+        },
+        {
+          "name": "キャラクターの相関関係",
+          "role": "ストーリーの相関図",
+          "description": "異なるキャラクター同士を結びつける、つながり、変化するダイナミクス、そして相互作用。"
+        }
+      ]
+    },
+    "backAlleyTalesEndingGuide": {
+      "title": "Back Alley Tales エンディングガイド",
+      "displayType": "カード",
+      "intro": "このガイドでは、重要な選択、関係性のルート、最終的な結末のカテゴリーなど、Back Alley Talesで遭遇する可能性のある様々なエンディング構造を整理しています。物語上の決断が最終結果にどのように影響するかを理解するのに役立ちます。",
+      "cards": [
+        {
+          "name": "メインストーリーエンディング",
+          "description": "Back Alley Talesにおける主要なストーリー上の決断や進行の選択によって到達する、主要な結末への道筋。"
+        },
+        {
+          "name": "別エンディング",
+          "description": "異なる行動、探索の選択、あるいは見落とした機会によって生じる、任意の結末ルート。"
+        },
+        {
+          "name": "選択の条件",
+          "description": "ストーリーの結末やエンディングの解放条件に影響を与える、選択や相互作用の種類。"
+        },
+        {
+          "name": "キャラクター別エンディング",
+          "description": "ゲーム全体を通じたキャラクターとの関係、会話、そして個人的なストーリーの道筋によって形作られるエンディング。"
+        },
+        {
+          "name": "隠しエンディング",
+          "description": "特別な探索や珍しい選択肢によって解放される、隠された結末へのルートです。"
+        },
+        {
+          "name": "エンディング解説",
+          "description": "Back Alley Talesの各エンディングに込められた意味や物語の解釈を解説します。"
+        }
+      ],
+      "milestones": [
+        "メインエンディングに到達する",
+        "別ルートを解放する",
+        "キャラクターエンディングを発生させる",
+        "隠された結末を見つける"
+      ]
+    },
+    "backAlleyTalesTipsTricks": {
+      "title": "Back Alley Tales 攻略のヒントとコツ",
+      "displayType": "カード",
+      "intro": "このセクションでは、Back Alley Talesの街を探索し、ストーリーを進め、隠し要素を見つけるための実用的なアドバイスを提供します。これらのヒントは、プレイヤーがよくあるミスを避け、物語をより深く体験するのに役立ちます。",
+      "cards": [
+        {
+          "name": "探索のヒント",
+          "description": "Back Alley Talesにおいて、周囲を調査し、隠しエリアを発見し、重要なストーリーの詳細を見つけるためのアドバイスです。"
+        },
+        {
+          "name": "会話の選択肢",
+          "description": "キャラクターとの交流において、どのように会話を進め、意味のある決断を下すべきか。"
+        },
+        {
+          "name": "リソース管理",
+          "description": "物語全体を通して、限られたリソースやアイテム、プレイの機会を効率的に扱う方法。"
+        },
+        {
+          "name": "ストーリー進行のヒント",
+          "description": "ストーリーが展開する中で、進行を維持し、重要なイベントを見逃さないための方法。"
+        },
+        {
+          "name": "隠し要素の発見",
+          "description": "メインルートから外れた場所にある、オプションシーンや秘密、追加のストーリー要素を見つけるためのガイド。"
+        },
+        {
+          "name": "初心者が陥りやすいミス",
+          "description": "ゲーム序盤でよくあるミスと、新規プレイヤーがBack Alley Talesの体験をより良くするための方法。"
+        }
+      ],
+      "milestones": [
+        "すべての路地を探索する",
+        "大きな選択の前にセーブする",
+        "全員に話しかける",
+        "過去に訪れた場所を再訪する"
+      ]
+    },
+    "backAlleyTalesSystemRequirements": {
+      "title": "Back Alley Tales 動作環境",
+      "displayType": "設定カード",
+      "intro": "このセクションでは、対応プラットフォーム、パフォーマンス、ハードウェアカテゴリなど、Back Alley Talesの重要な互換性情報をまとめています。スムーズなプレイ体験のために必要な条件を確認できます。",
+      "settings": [
+        {
+          "name": "対応プラットフォーム",
+          "type": "利用可能状況",
+          "description": "Back Alley Talesがプレイ可能なプラットフォームとデバイスの互換性情報。"
+        },
+        {
+          "name": "最低動作環境",
+          "type": "スペック",
+          "description": "Back Alley Talesを大きな問題なく動作させるために必要な、基本的なハードウェア水準。"
+        },
+        {
+          "name": "推奨動作環境",
+          "type": "スペック",
+          "description": "よりスムーズで安定したゲーム体験のために推奨されるハードウェア構成。"
+        },
+        {
+          "name": "対応OS",
+          "type": "互換性",
+          "description": "ゲームを実行するために必要なOSのバージョンおよびソフトウェア要件。"
+        },
+        {
+          "name": "パフォーマンス設定",
+          "type": "最適化",
+          "description": "Back Alley Talesで利用可能なグラフィックオプションおよび最適化設定に関する一般情報。"
+        },
+        {
+          "name": "ストレージ要件",
+          "type": "スペック",
+          "description": "ゲームのインストールに必要な空き容量および予想ファイルサイズ。"
+        }
+      ]
+    },
+    "backAlleyTalesUpdatesNews": {
+      "title": "Back Alley Tales アップデート＆ニュース",
+      "displayType": "アコーディオン",
+      "intro": "このモジュールでは Back Alley Tales のアップデート情報を追跡し、変更内容を分かりやすく整理しています。プレイヤーは、追加された新機能、調整、コンテンツの改善をすぐに確認できます。",
+      "faqs": [
+        {
+          "question": "Back Alley Tales の最新アップデートは何ですか？",
+          "answer": "Back Alley Tales に導入された最新の変更、追加、改善点は、各アップデートのリリースごとにここにまとめられます。"
+        },
+        {
+          "question": "Back Alley Tales のパッチノートはどこで読めますか？",
+          "answer": "パッチノートでは、Back Alley Tales 向けにリリースされたゲームプレイの調整、修正、技術的な改善が時系列で整理されています。"
+        },
+        {
+          "question": "Back Alley Tales にどのような新コンテンツが追加されましたか？",
+          "answer": "新しく追加されたストーリー要素、ロケーション、メカニクス、機能がここに記録されており、プレイヤーは何が変更されたかを確認できます。"
+        },
+        {
+          "question": "Back Alley Tales 開発者からの公式アナウンスはありますか？",
+          "answer": "Back Alley Tales に関する公式メッセージや重要な開発アップデートが、参照しやすいようにここに集められています。"
+        },
+        {
+          "question": "Back Alley Tales のリリース履歴を教えてください。",
+          "answer": "主要なバージョンと重要なコンテンツ変更のタイムラインにより、Back Alley Tales が発売以来どのように進化してきたかを確認できます。"
+        },
+        {
+          "question": "プレイヤーは Back Alley Tales のアップデートについてどこで議論していますか？",
+          "answer": "Back Alley Tales のアップデートに対するプレイヤーの反応、フィードバック、コミュニティでの議論がここに掲載されています。"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "よくある",
+    "titleHighlight": "質問",
+    "subtitle": "Back Alley Tales について知っておくべきことすべて",
+    "questions": [
+      {
+        "question": "Back Alley Tales はどのようなゲームですか？",
+        "answer": "Back Alley Tales は、謎めいた都市の世界を舞台に、探索、キャラクターとの交流、対話の選択、そして分岐するストーリーに焦点を当てたダークナラティブ・アドベンチャーゲームです。"
+      },
+      {
+        "question": "Back Alley Tales はシングルプレイヤーゲームですか？",
+        "answer": "はい。Back Alley Tales は、ストーリー、探索、キャラクター主導の進行を中心としたシングルプレイヤーのナラティブ体験です。"
+      },
+      {
+        "question": "Back Alley Tales には複数のエンディングがありますか？",
+        "answer": "Back Alley Tales は分岐するナラティブパスを特徴としており、対話の選択や行動がストーリーの方向性や到達できるエンディングに影響を与えます。"
+      },
+      {
+        "question": "Back Alley Tales はどのプラットフォームで利用できますか？",
+        "answer": "Back Alley Tales は PC およびモバイルプラットフォームで利用可能です。詳細な互換性情報については、システム要件のセクションを確認してください。"
+      },
+      {
+        "question": "Back Alley Tales をクリアするのにどのくらい時間がかかりますか？",
+        "answer": "Back Alley Tales の標準的なプレイ時間は探索スタイルやオプションコンテンツの進め方によって異なりますが、分岐ルートによりリプレイ性が高まっています。"
+      },
+      {
+        "question": "Back Alley Tales の最新ガイドはどこで見つけられますか？",
+        "answer": "この Back Alley Tales Wiki は、ゲームプレイガイド、攻略、キャラクター情報、エンディングルート、最新ニュースなどで定期的に更新されています。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Back Alley Tales を探索する準備はできましたか？",
+    "description": "当サイトのガイド、ストーリー解説、キャラクター情報、ゲームプレイのヒントを参考に、Back Alley Tales の謎めいた世界に飛び込みましょう！",
+    "joinCommunity": "YouTubeで見る",
+    "joinGame": "ゲームプレイを見る"
+  },
+  "footer": {
+    "title": "Back Alley Tales Wiki",
+    "description": "Back Alley Talesのガイド、キャラクター、ストーリー、ロケーション、アイテム、そしてゲームプレイ攻略法を網羅した総合情報ハブ。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的事項",
+    "discord": "YouTubeチャンネル",
+    "twitter": "ゲームプレイ動画",
+    "steamCommunity": "ストーリー＆レビュー",
+    "steamStore": "完全攻略",
+    "about": "このサイトについて",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 Back Alley Tales Wiki. 本サイトはBack Alley Talesの公式開発元とは一切関係ありません。",
+    "disclaimer": "非公式のファン作成情報サイト。"
+  },
+  "pages": {
+    "guide": {
+      "title": "Back Alley Tales ガイド",
+      "description": "ゲームプレイの仕組み、初心者向けのヒント、探索、および詳細な攻略手順を網羅した、Back Alley Talesの完全ガイド。",
+      "metaTitle": "Back Alley Tales ガイド - ゲームプレイ、初心者向けヒント＆攻略",
+      "metaDescription": "ゲームプレイの仕組み、初心者向けのヒント、探索の戦略、および各チャプターの完全攻略ガイドで、Back Alley Talesを極めましょう。",
+      "categoryLabel": "ゲームガイド",
+      "whatIs": "Back Alley Tales ガイドとは？",
+      "whatIsDescription": "Back Alley Talesのゲームプレイの仕組み、探索の戦略、会話や調査システム、およびステップバイステップの攻略手順を網羅した総合ガイド。最初のステップから高度な戦術まで、すべてを学びましょう。",
+      "why": "なぜこのガイドを読むべきなのか？",
+      "whySteps": {
+        "step1Title": "基本システムを学ぶ",
+        "step1Description": "探索、調査、および会話システムを最初から理解する",
+        "step2Title": "迷わずに進める",
+        "step2Description": "実証済みのルートをたどり、ストーリーをスムーズに進める",
+        "step3Title": "よくあるミスを避ける",
+        "step3Description": "隠された手がかりを見つけ、初心者プレイヤーが陥りがちな罠を回避する"
+      },
+      "featured": "おすすめ＆必須情報",
+      "all": "すべてのガイド"
+    },
+    "download": {
+      "title": "Back Alley Tales ダウンロード",
+      "description": "PC、Android、iOS、モバイル向けの安全で最新のセットアップガイドを参照して、あらゆるプラットフォームでBack Alley Talesをダウンロード＆インストールしましょう。",
+      "metaTitle": "Back Alley Tales ダウンロード - PC、Android、iOS＆モバイルへのインストール",
+      "metaDescription": "PC、Android、iOS、モバイル向けの安全なダウンロード＆インストールガイドを利用して、お使いのデバイスでBack Alley Talesをプレイしましょう。各プラットフォームの最新セットアップ手順を掲載。",
+      "categoryLabel": "ダウンロード＆インストール",
+      "whatIs": "Back Alley Talesのダウンロードとは？",
+      "whatIsDescription": "PC、Android、iOS、モバイルプラットフォームにおけるBack Alley Talesのダウンロードおよびインストールガイド。安全な入手先、IPAやAPKなどのファイル形式、詳細なセットアップ手順を紹介します。",
+      "why": "---",
+      "whySteps": {
+        "step1Title": "なぜこれらのガイドを使うのか？",
+        "step1Description": "安全にインストールする",
+        "step2Title": "検証済みのソースとデバイスに適したファイルを使用する",
+        "step2Description": "あらゆるデバイスでセットアップ",
+        "step3Title": "PC、Android、iOS、モバイル向けの明確な手順に従う",
+        "step3Description": "セットアップエラーを回避する"
+      },
+      "featured": "プレイの妨げになる前に、一般的なインストールの問題を解決しましょう",
+      "all": "おすすめ ＆ 必須ガイド"
+    },
+    "version": {
+      "title": "すべてのダウンロードガイド",
+      "description": "Back Alley Tales のバージョン",
+      "metaTitle": "最新のリリース詳細と全バージョン履歴で、Back Alley Tales のあらゆるバージョン、パッチノート、アップデートを追跡しましょう。",
+      "metaDescription": "Back Alley Tales バージョン - 最新アップデート ＆ パッチノート",
+      "categoryLabel": "初回リリースから現在まで、最新のアップデート、パッチノート、新コンテンツ、全バージョン履歴で Back Alley Tales のバージョンを常に把握しましょう。",
+      "whatIs": "バージョン ＆ アップデート",
+      "whatIsDescription": "Back Alley Tales バージョンガイドとは？",
+      "why": "初期の v1 ビルドから最新のアップデートまで、最新リリース、パッチノート、新コンテンツ、全バージョン履歴を網羅した Back Alley Tales のバージョン ＆ アップデートガイドです。",
+      "whySteps": {
+        "step1Title": "なぜバージョンを追跡するのか？",
+        "step1Description": "変更点を確認する",
+        "step2Title": "各新バージョンの分かりやすいパッチノートを読む",
+        "step2Description": "新しいコンテンツを見つける",
+        "step3Title": "アップデートで追加されたストーリー要素や機能を発見する",
+        "step3Description": "常に最新の状態を保つ"
+      },
+      "featured": "新しいバージョンがいつリリースされ、何が含まれているかを確認する",
+      "all": "おすすめ ＆ 必須ガイド"
+    },
+    "camera": {
+      "title": "すべてのバージョン記事",
+      "description": "Back Alley Tales のカメラ",
+      "metaTitle": "隠しカメラの仕組み、隠しピクセルカメラ機能、ゲームプレイのカメラ操作など、Back Alley Tales のカメラシステムをマスターしましょう。",
+      "metaDescription": "Back Alley Tales カメラ - 隠しカメラ ＆ カメラゲームプレイガイド",
+      "categoryLabel": "カメラのゲームプレイ、隠しカメラの仕組み、探索を深める隠しピクセルカメラ機能のガイドで、Back Alley Tales のカメラシステムを理解しましょう。",
+      "whatIs": "カメラ ＆ ビジュアル",
+      "whatIsDescription": "Back Alley Tales カメラガイドとは？",
+      "why": "カメラの操作、隠しカメラの仕組み、環境に隠された秘密を暴く隠しピクセルカメラ機能など、Back Alley Tales のカメラシステムに関するガイドです。",
+      "whySteps": {
+        "step1Title": "なぜカメラについて学ぶのか？",
+        "step1Description": "視界をコントロールする",
+        "step2Title": "ネオンに照らされた路地を進むためにカメラ操作をマスターする",
+        "step2Description": "隠しカメラを見つける",
+        "step3Title": "新しい手がかりを明らかにする隠しカメラのアングルを見つける",
+        "step3Description": "秘密を暴く"
+      },
+      "featured": "隠しピクセルカメラを使って隠されたコンテンツを露出させる",
+      "all": "全カメラガイド"
+    },
+    "story": {
+      "title": "Back Alley Tales ストーリー",
+      "description": "路地の謎めいた物語を動かすBack Alley Talesのストーリー、キャラクター、モンスター、NPCを探索しましょう。",
+      "metaTitle": "Back Alley Tales ストーリー - キャラクター、モンスター、世界観",
+      "metaDescription": "キャラクター、モンスター、NPC、そして謎めいた路地の冒険の背後にある世界観のガイドで、Back Alley Talesの物語に深く入り込みましょう。",
+      "categoryLabel": "ストーリー＆キャスト",
+      "whatIs": "Back Alley Tales ストーリーガイドとは？",
+      "whatIsDescription": "メインストーリー、キャラクター、モンスター、出会うNPCに加え、謎めいた路地の冒険を一つに繋ぐ世界観を網羅したBack Alley Talesのストーリーガイドです。",
+      "why": "なぜストーリーを探索するのか？",
+      "whySteps": {
+        "step1Title": "キャスト紹介",
+        "step1Description": "主人公、NPC、そして物語における彼らの役割を知る",
+        "step2Title": "モンスターに立ち向かう",
+        "step2Description": "路地に潜むクリーチャーたちを理解する",
+        "step3Title": "世界観を解き明かす",
+        "step3Description": "物語の背景とプレイ中の出来事を結びつける"
+      },
+      "featured": "おすすめ＆重要",
+      "all": "全ストーリー記事"
+    },
+    "mod": {
+      "title": "Back Alley Tales Mod",
+      "description": "安全なセットアップガイド、機能の概要、Modを使用したプレイのヒントを参考に、Back Alley TalesのModをインストールして探索しましょう。",
+      "metaTitle": "Back Alley Tales Mod - インストール＆プレイガイド",
+      "metaDescription": "安全なインストール手順、機能の概要、路地の冒険でModプレイを楽しむためのヒントを確認して、Back Alley TalesのModを始めましょう。",
+      "categoryLabel": "MOD",
+      "whatIs": "Back Alley Tales Modガイドとは？",
+      "whatIsDescription": "安全なインストール方法、利用可能な機能、そしてModが路地の冒険のゲームプレイ、ビジュアル、コンテンツをどのように変化させるかを解説したBack Alley TalesのModガイドです。",
+      "why": "なぜModを試すのか？",
+      "whySteps": {
+        "step1Title": "安全にインストール",
+        "step1Description": "ゲームを壊さずにModを追加するための、検証済みの手順に従う",
+        "step2Title": "新機能の探索",
+        "step2Description": "Modがゲームプレイやビジュアルに何を追加するかを確認する",
+        "step3Title": "体験をリフレッシュ",
+        "step3Description": "新しいコンテンツや調整を加えて、路地の冒険を再びプレイする"
+      },
+      "featured": "おすすめ＆重要",
+      "all": "全Modガイド"
+    },
+    "reviews": {
+      "title": "Back Alley Tales レビュー",
+      "description": "Back Alley Talesのレビューを読み、プレイ動画を視聴し、路地の冒険に関する最高のYouTube動画を見つけましょう。",
+      "metaTitle": "Back Alley Tales レビュー - プレイ動画＆YouTubeカバレッジ",
+      "metaDescription": "路地の冒険のストーリー、メカニクス、雰囲気を紹介するレビュー、プレイ動画、YouTube動画を通じてBack Alley Talesを発見しましょう。",
+      "categoryLabel": "レビュー＆動画",
+      "whatIs": "Back Alley Tales レビューとは？",
+      "whatIsDescription": "テキストレビュー、プレイ動画、YouTubeでの紹介など、路地の冒険のストーリー、メカニクス、雰囲気を強調したBack Alley Talesのレビュー＆ビデオガイドです。",
+      "why": "レビューを見たり読んだりする理由とは？",
+      "whySteps": {
+        "step1Title": "実際のゲームプレイ映像を見る",
+        "step1Description": "プレイを始める前にゲームプレイ動画をチェック",
+        "step2Title": "率直なレビューを読む",
+        "step2Description": "プレイヤーや批評家の評価を知る",
+        "step3Title": "最適なコンテンツを見つける",
+        "step3Description": "役立つYouTubeチャンネルやクリエイターを発見"
+      },
+      "featured": "おすすめ＆必見",
+      "all": "すべてのレビュー＆動画"
+    }
   }
 }

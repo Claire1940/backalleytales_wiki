@@ -26,7 +26,6 @@ import { getPreferredMobileBannerSelection } from "@/components/ads/mobileAdConf
 import { scrollToSection } from "@/lib/scrollToSection";
 import { DynamicIcon } from "@/components/ui/DynamicIcon";
 import type { ContentItemWithType } from "@/lib/getLatestArticles";
-import type { ModuleLinkMap } from "@/lib/buildModuleLinkMap";
 
 // Lazy load heavy components
 const HeroStats = lazy(() => import("@/components/home/HeroStats"));
@@ -42,7 +41,6 @@ const LoadingPlaceholder = ({ height = "h-64" }: { height?: string }) => (
 
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[];
-  moduleLinkMap: ModuleLinkMap;
   locale: string;
 }
 

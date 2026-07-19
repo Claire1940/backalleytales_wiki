@@ -1,46 +1,75 @@
 {
   "categories": [
     {
-      "category": "Guides",
+      "category": "guide",
       "keywords": [
-        "lucid blocks guide"
+        "back alley tales guide",
+        "back alley tales tutorial",
+        "back alley tales how to play",
+        "back alley tales gameplay",
+        "back alley tales story guide",
+        "back alley tales beginner guide"
       ]
     },
     {
-      "category": "Crafting",
+      "category": "download",
       "keywords": [
-        "lucid blocks crafting recipes",
-        "lucid blocks apotheosis"
+        "back alley tales download",
+        "back alley tales android",
+        "back alley tales ios",
+        "back alley tales pc",
+        "back alley tales mobile",
+        "back alley tales ipa"
       ]
     },
     {
-      "category": "Items",
+      "category": "version",
       "keywords": [
-        "lucid blocks faith wand",
-        "lucid blocks bee glider",
-        "lucid blocks chest",
-        "lucid blocks osmium"
+        "back alley tales latest version",
+        "back alley tales latest update",
+        "back alley tales new version",
+        "back alley tales update",
+        "back alley tales v1"
       ]
     },
     {
-      "category": "Biomes",
+      "category": "camera",
       "keywords": [
-        "lucid blocks tiamana leyline"
+        "back alley tales hidden pixel camera",
+        "back alley tales hidden camera",
+        "back alley tales camera gameplay"
       ]
     },
     {
-      "category": "Building",
+      "category": "story",
       "keywords": [
-        "lucid blocks qualia"
+        "back alley tales story",
+        "back alley tales characters",
+        "back alley tales monster",
+        "back alley tales minesters"
       ]
     },
     {
-      "category": "Support",
+      "category": "community",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks full screen",
-        "lucid blocks multiplayer",
-        "lucid blocks android"
+        "back alley tales reddit",
+        "back alley tales discord",
+        "back alley tales games like",
+        "back alley tales similar games"
+      ]
+    },
+    {
+      "category": "mod",
+      "keywords": [
+        "back alley tales mod"
+      ]
+    },
+    {
+      "category": "reviews",
+      "keywords": [
+        "back alley tales review",
+        "back alley tales gameplay video",
+        "back alley tales youtube"
       ]
     }
   ]

@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Back Alley Tales Wiki - Guides, Characters & Story",
+  "short_name": "Back Alley Tales",
+  "description": "Back Alley Tales Wiki provides guides, story details, characters, gameplay information, and everything players need to explore the mysterious world behind the alley.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#732EB8",
   "background_color": "#0a0a0a",
   "icons": [
     {

@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Back Alley Tales Wiki - Guides, Characters & Story",
+      "description": "Back Alley Tales Wiki offers complete guides, character details, story information, gameplay tips and updates for players exploring the mysterious alley adventure.",
+      "keywords": "Back Alley Tales, game wiki, guides, characters, walkthrough, story",
+      "ogTitle": "Back Alley Tales Wiki - Guides, Characters & Story",
+      "ogDescription": "Back Alley Tales Wiki offers complete guides, character details, story information, gameplay tips and updates for players exploring the mysterious alley adventure.",
+      "twitterTitle": "Back Alley Tales Wiki - Guides, Characters & Story",
+      "twitterDescription": "Back Alley Tales Wiki offers complete guides, character details, story information, gameplay tips and updates for players exploring the mysterious alley adventure."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Dark Narrative Adventure Game",
+    "title": "Back Alley Tales Wiki",
+    "description": "Back Alley Tales Wiki provides guides, story details, characters, gameplay information, and everything players need to explore the mysterious world behind the alley.",
+    "getFreeCodesCTA": "Explore Guides",
+    "playOnSteamCTA": "Watch Gameplay",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Story-Rich",
+        "label": "Narrative Adventure"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "Multiple",
+        "label": "Characters & Routes"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "PC & Mobile",
+        "label": "Available Platforms"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "Weekly",
+        "label": "Guide Updates"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Explore Back Alley Tales?",
+    "description": "Dive into the mysterious world of Back Alley Tales with our guides, story breakdowns, character info, and gameplay tips!",
+    "joinCommunity": "Watch on YouTube",
+    "joinGame": "View Gameplay"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Back Alley Tales Wiki",
+    "description": "Your complete resource hub for Back Alley Tales guides, characters, story, locations, items, and gameplay strategies.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "discord": "YouTube Channel",
+    "twitter": "Gameplay Video",
+    "steamCommunity": "Story & Review",
+    "steamStore": "Full Walkthrough",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Back Alley Tales Wiki. Not affiliated with the developers of Back Alley Tales.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

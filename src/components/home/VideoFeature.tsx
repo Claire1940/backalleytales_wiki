@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { ExternalLink } from "lucide-react";
 
 interface VideoFeatureProps {
@@ -10,21 +10,47 @@ interface VideoFeatureProps {
 
 export function VideoFeature({ videoId, title }: VideoFeatureProps) {
   const [playing, setPlaying] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   const watchUrl = useMemo(
     () => `https://www.youtube.com/watch?v=${videoId}`,
     [videoId],
   );
 
+  // autoplay=1&mute=1&loop=1：进入视口自动播放并循环（loop 需搭配 playlist 参数）
   const embedUrl = useMemo(
     () =>
-      `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&rel=0`,
+      `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&loop=1&playlist=${videoId}&playsinline=1&rel=0`,
     [videoId],
   );
+
+  // IntersectionObserver：视频区域进入视口时自动播放，保留点击播放按钮作为后备
+  useEffect(() => {
+    if (playing) return;
+    const node = containerRef.current;
+    if (!node || typeof IntersectionObserver === "undefined") return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            setPlaying(true);
+            observer.disconnect();
+            break;
+          }
+        }
+      },
+      { threshold: 0.5 },
+    );
+
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [playing]);
 
   return (
     <div className="space-y-4">
       <div
+        ref={containerRef}
         className="relative w-full overflow-hidden rounded-lg bg-black"
         style={{ paddingBottom: "56.25%" }}
       >

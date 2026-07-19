@@ -52,696 +52,344 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Back Alley Tales Gameplay",
+    "description": "Explore shadowed alleyways, follow branching character stories, and uncover the secrets hidden behind every door in this dark narrative adventure."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Back Alley Tales",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to explore the story, characters, endings, and secrets of Back Alley Tales",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "icon": "Gamepad2",
+        "title": "Gameplay Guide",
+        "description": "Core systems, exploration, and story progression"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Map",
+        "title": "Walkthrough",
+        "description": "Chapter flow, key events, and story route"
       },
       {
         "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "title": "Secrets & Locations",
+        "description": "Hidden areas, clues, and optional discoveries"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "icon": "Users",
+        "title": "Characters Guide",
+        "description": "Protagonist, NPCs, companions, and relationships"
       },
       {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
+        "icon": "Flag",
+        "title": "Ending Guide",
+        "description": "Ending paths, decisions, and outcomes"
       },
       {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
+        "icon": "Lightbulb",
+        "title": "Tips & Tricks",
+        "description": "Exploration advice and beginner strategies"
       },
       {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
+        "icon": "Monitor",
+        "title": "System Requirements",
+        "description": "Platforms, hardware, and compatibility"
       },
       {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Newspaper",
+        "title": "Updates & News",
+        "description": "Version changes, patches, and announcements"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
+    "backAlleyTalesGameplayGuide": {
+      "title": "Back Alley Tales Gameplay Guide",
       "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+      "intro": "This guide introduces the core gameplay framework of Back Alley Tales, including exploration, interactions, dialogue choices, and progression systems. It helps new players understand how to navigate the mysterious urban environment and advance through the narrative experience.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Basic Controls",
+          "description": "Learn the fundamental movement, interaction, and navigation controls used to explore the urban environments of Back Alley Tales."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Exploration Mechanics",
+          "description": "Understand how to investigate streets, alleys, and environmental details to uncover story elements scattered across the city."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Dialogue System",
+          "description": "Discover how conversations, player choices, and interactions with characters shape the direction of the narrative."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Story Progression",
+          "description": "See how advancing through events unlocks new areas and reveals hidden layers of the overarching storyline."
+        },
+        {
+          "title": "Interaction System",
+          "description": "Master object interactions and investigation methods that help resolve situations encountered during exploration."
+        },
+        {
+          "title": "Save System",
+          "description": "Learn how saving works and how to manage different story paths when exploring branching narrative routes."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Talk to every character you meet, since dialogue choices can open new story branches.",
+        "Revisit locations after major story events, because new interactions often appear.",
+        "Keep multiple save slots so you can explore different decisions without losing progress.",
+        "Read environmental details carefully, since clues often guide the next objective."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
+    "backAlleyTalesWalkthrough": {
+      "title": "Back Alley Tales Walkthrough",
+      "displayType": "timeline",
+      "intro": "This walkthrough organizes the narrative progression of Back Alley Tales into clear sections. Players can use it to understand event order, important interactions, and possible progression paths while exploring the city.",
+      "entries": [
+        {
+          "title": "Opening Sequence",
+          "type": "Chapter",
+          "description": "Covers the introduction, initial exploration phase, and the first story objectives players encounter in Back Alley Tales."
+        },
+        {
+          "title": "Early Investigation",
+          "type": "Chapter",
+          "description": "Walks through the first major exploration steps, character encounters, and clues discovered during the beginning stages."
+        },
+        {
+          "title": "Main Story Progression",
+          "type": "Chapter",
+          "description": "Organizes the major narrative developments and important events that move the central storyline forward."
+        },
+        {
+          "title": "Key Decisions",
+          "type": "Branch",
+          "description": "Highlights the important dialogue choices and actions that influence story direction and possible outcomes."
+        },
+        {
+          "title": "Side Content",
+          "type": "Optional",
+          "description": "Covers optional discoveries, additional interactions, and activities that sit outside the primary storyline."
+        },
+        {
+          "title": "Endgame Paths",
+          "type": "Chapter",
+          "description": "Explains late-game progression, final story events, and the conclusions players can reach in Back Alley Tales."
+        }
+      ]
+    },
+    "backAlleyTalesSecretsLocations": {
+      "title": "Back Alley Tales Secrets and Locations",
       "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
+      "intro": "This section collects exploration-focused information for Back Alley Tales, including hidden locations, environmental discoveries, and optional content. It helps players find details that may be missed during normal story progression.",
       "cards": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "name": "Hidden Areas",
+          "description": "Secret locations and less obvious places that players can discover while exploring the alleys of Back Alley Tales."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "name": "Environmental Clues",
+          "description": "How to identify the important details, objects, and visual hints embedded throughout the game world."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "name": "Collectible Discoveries",
+          "description": "Optional items and discoveries that reward thorough exploration of every street and doorway."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "name": "Special Encounters",
+          "description": "Unusual events, unique interactions, and hidden narrative moments tucked away from the main path."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "name": "Exploration Tips",
+          "description": "General strategies for searching areas efficiently and finding content that is easy to overlook."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
+          "name": "Secret Story Elements",
+          "description": "Additional narrative details revealed through deeper investigation of the Back Alley Tales world."
         }
       ],
       "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
+        "Search every alley",
+        "Read environmental clues",
+        "Collect hidden items",
+        "Unlock secret scenes"
       ]
     },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
+    "backAlleyTalesCharactersGuide": {
+      "title": "Back Alley Tales Characters Guide",
       "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
+      "intro": "This character guide explains the different roles within the story structure of Back Alley Tales. It helps players understand character connections, motivations, and their importance in the unfolding narrative.",
       "creatures": [
         {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
+          "name": "Protagonist",
+          "role": "Lead Character",
+          "description": "The main character whose role, background, and journey drive the entire story of Back Alley Tales."
         },
         {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
+          "name": "Key NPCs",
+          "role": "Story Catalyst",
+          "description": "Important supporting characters who provide information, objectives, and meaningful story progression."
         },
         {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
+          "name": "Companions",
+          "role": "Ally",
+          "description": "Characters who assist, interact with, or influence the player as the journey through the city unfolds."
         },
         {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
+          "name": "Antagonists",
+          "role": "Opposing Force",
+          "description": "Opposing characters and forces that drive the darker, more mysterious parts of the narrative."
         },
         {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
+          "name": "Supporting Cast",
+          "role": "World Building",
+          "description": "Secondary characters who add depth and texture to the world and storyline of Back Alley Tales."
         },
         {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
+          "name": "Character Relationships",
+          "role": "Story Web",
+          "description": "The connections, evolving dynamics, and interactions that link the different characters together."
         }
       ]
     },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
+    "backAlleyTalesEndingGuide": {
+      "title": "Back Alley Tales Ending Guide",
+      "displayType": "cards",
+      "intro": "This guide organizes the different ending structures players may encounter in Back Alley Tales, including major choices, relationship paths, and final outcome categories. It helps players understand how narrative decisions influence the final results.",
+      "cards": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "name": "Main Story Endings",
+          "description": "The primary conclusion paths reached through major story decisions and progression choices in Back Alley Tales."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "name": "Alternate Endings",
+          "description": "Optional conclusion routes created by different actions, exploration choices, or missed opportunities."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "name": "Decision Requirements",
+          "description": "The types of choices and interactions that affect story outcomes and ending availability."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
+          "name": "Character-Based Endings",
+          "description": "Endings shaped by character relationships, conversations, and personal story paths throughout the game."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
+          "name": "Secret Endings",
+          "description": "Hidden conclusion routes that require special exploration or uncommon choices to unlock."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
+          "name": "Ending Explained",
+          "description": "Narrative interpretations and explanations of the meaning behind each ending of Back Alley Tales."
         }
       ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
+      "milestones": [
+        "Reach a main ending",
+        "Unlock an alternate route",
+        "Trigger a character ending",
+        "Discover a secret conclusion"
       ]
     },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
+    "backAlleyTalesTipsTricks": {
+      "title": "Back Alley Tales Tips and Tricks",
+      "displayType": "cards",
+      "intro": "This section provides practical advice for navigating the city environments of Back Alley Tales, managing story progression, and discovering hidden content. These tips help players avoid common mistakes and experience more of the narrative.",
+      "cards": [
         {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
+          "name": "Exploration Tips",
+          "description": "Advice for searching environments, discovering hidden areas, and finding important story details in Back Alley Tales."
         },
         {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
+          "name": "Dialogue Choices",
+          "description": "How to approach conversations and make meaningful decisions during interactions with characters."
         },
         {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
+          "name": "Resource Management",
+          "description": "Efficient handling of limited resources, items, and gameplay opportunities throughout the story."
         },
         {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
+          "name": "Story Progression Tips",
+          "description": "How to maintain progress and avoid missing important narrative events as the story unfolds."
+        },
+        {
+          "name": "Hidden Content Discovery",
+          "description": "Guidance for finding optional scenes, secrets, and additional story elements off the main path."
+        },
+        {
+          "name": "Beginner Mistakes",
+          "description": "Common early-game mistakes and the ways new players can improve their Back Alley Tales experience."
         }
       ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
+      "milestones": [
+        "Explore every alley",
+        "Save before big choices",
+        "Talk to everyone",
+        "Revisit past locations"
       ]
     },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
+    "backAlleyTalesSystemRequirements": {
+      "title": "Back Alley Tales System Requirements",
       "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
+      "intro": "This section organizes the important compatibility information for Back Alley Tales, including supported platforms, performance considerations, and hardware categories. Players can use this guide to understand what is needed for a smooth experience.",
       "settings": [
         {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
+          "name": "Supported Platforms",
+          "type": "Availability",
+          "description": "The available gaming platforms and device compatibility information for Back Alley Tales."
         },
         {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
+          "name": "Minimum Requirements",
+          "type": "Spec",
+          "description": "The basic hardware level needed to run Back Alley Tales without major issues."
         },
         {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
+          "name": "Recommended Requirements",
+          "type": "Spec",
+          "description": "The hardware configuration suggested for a smoother and more stable gameplay experience."
         },
         {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
+          "name": "Operating System Support",
+          "type": "Compatibility",
+          "description": "Compatible operating system versions and software requirements for running the game."
+        },
+        {
+          "name": "Performance Settings",
+          "type": "Optimization",
+          "description": "General information about graphics options and optimization settings available in Back Alley Tales."
+        },
+        {
+          "name": "Storage Requirements",
+          "type": "Spec",
+          "description": "Installation space considerations and file size expectations for the game."
         }
       ]
     },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
+    "backAlleyTalesUpdatesNews": {
+      "title": "Back Alley Tales Updates and News",
+      "displayType": "accordion",
+      "intro": "This module tracks update information for Back Alley Tales and organizes changes into easy-to-read sections. Players can quickly review new features, adjustments, and content improvements introduced over time.",
+      "faqs": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "question": "What are the latest updates for Back Alley Tales?",
+          "answer": "The newest changes, additions, and improvements introduced to Back Alley Tales are summarized here as each update rolls out."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "question": "Where can I read Back Alley Tales patch notes?",
+          "answer": "Patch notes organize the gameplay adjustments, fixes, and technical improvements released for Back Alley Tales in chronological order."
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "question": "What new content has been added to Back Alley Tales?",
+          "answer": "Newly added story elements, locations, mechanics, and features are tracked here so players can see what has changed."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "question": "Are there official Back Alley Tales developer announcements?",
+          "answer": "Official messages and important development updates about Back Alley Tales are collected here for easy reference."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "question": "What is the release history of Back Alley Tales?",
+          "answer": "A timeline of major versions and significant content changes shows how Back Alley Tales has evolved since launch."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "question": "Where do players discuss Back Alley Tales updates?",
+          "answer": "Player reactions, feedback, and community discussions about Back Alley Tales updates are highlighted here."
         }
       ]
     }
@@ -749,31 +397,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Back Alley Tales",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What kind of game is Back Alley Tales?",
+        "answer": "Back Alley Tales is a dark narrative adventure game focused on exploration, character interactions, dialogue choices, and a branching story set in a mysterious urban world."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Is Back Alley Tales a singleplayer game?",
+        "answer": "Yes. Back Alley Tales is a singleplayer narrative experience centered on story, exploration, and character-driven progression."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Does Back Alley Tales have multiple endings?",
+        "answer": "Back Alley Tales features branching narrative paths where dialogue choices and actions influence the story direction and the endings players can reach."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "What platforms is Back Alley Tales available on?",
+        "answer": "Back Alley Tales is available on PC and mobile platforms. Check the system requirements section for detailed compatibility information."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "How long does it take to finish Back Alley Tales?",
+        "answer": "A typical playthrough of Back Alley Tales depends on exploration style and how much optional content you pursue, with branching routes adding replay value."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Where can I find the latest Back Alley Tales guides?",
+        "answer": "This Back Alley Tales Wiki is updated regularly with gameplay guides, walkthroughs, character info, ending routes, and the latest news."
       }
     ]
   },
@@ -802,124 +450,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Back Alley Tales Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced story strategies. Master exploration, dialogue, and progression.",
+      "metaTitle": "Back Alley Tales Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Back Alley Tales guides covering beginner tips, exploration mechanics, dialogue systems, and expert tactics for mastering the narrative adventure.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, exploration strategies, and the dialogue system of Back Alley Tales. Learn everything from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand exploration and dialogue systems to avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven paths to advance smoothly through the story",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for exploration and narrative choices"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "walkthrough": {
+      "title": "Back Alley Tales Walkthrough",
+      "description": "Follow the full story route with chapter flow, key events, and step-by-step progression through every part of the game.",
+      "metaTitle": "Back Alley Tales Walkthrough - Full Story & Chapter Guide",
+      "metaDescription": "Complete Back Alley Tales walkthrough covering every chapter, key event, and story decision. Follow the full route from opening sequence to endgame.",
+      "categoryLabel": "STORY WALKTHROUGH",
+      "whatIs": "What is the Walkthrough?",
+      "whatIsDescription": "A chapter-by-chapter walkthrough of Back Alley Tales that covers event order, important interactions, and possible progression paths through the city.",
+      "why": "Why use the walkthrough?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Follow the Story Route",
+        "step1Description": "Understand the correct order of events and key story beats",
+        "step2Title": "Handle Key Decisions",
+        "step2Description": "See how major choices shape the direction of the narrative",
+        "step3Title": "Reach Every Ending",
+        "step3Description": "Unlock all conclusion paths with clear progression guidance"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Walkthrough Chapters"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "characters": {
+      "title": "Back Alley Tales Characters",
+      "description": "Detailed character guides covering the protagonist, NPCs, companions, antagonists, and the relationships that drive the story.",
+      "metaTitle": "Back Alley Tales Characters - Cast, Roles & Relationships",
+      "metaDescription": "Complete character database for Back Alley Tales including the protagonist, key NPCs, companions, and antagonists. Learn every role and relationship in the story.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "What are Character Guides?",
+      "whatIsDescription": "Comprehensive guides for the protagonist, supporting cast, and the connections between them. Learn backgrounds, motivations, and narrative roles.",
+      "why": "Why read character guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Understand the Cast",
+        "step1Description": "Learn the background and role of every important character",
+        "step2Title": "Track Relationships",
+        "step2Description": "See how character connections evolve through the story",
+        "step3Title": "Make Better Choices",
+        "step3Description": "Use character knowledge to guide dialogue and decisions"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Characters"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "story": {
+      "title": "Back Alley Tales Story",
+      "description": "Explore the world, setting, lore, and narrative background behind the mysterious events of Back Alley Tales.",
+      "metaTitle": "Back Alley Tales Story - World, Setting & Lore",
+      "metaDescription": "Explore the Back Alley Tales story including world setting, narrative background, lore, and the hidden details behind the mysterious alley adventure.",
+      "categoryLabel": "STORY & LORE",
+      "whatIs": "What is the Story Guide?",
+      "whatIsDescription": "Guides to the world setting, narrative background, and lore of Back Alley Tales. Learn what to expect and how the story fits together.",
+      "why": "Why explore the story?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Understand the Setting",
+        "step1Description": "Learn the world and atmosphere that shape the adventure",
+        "step2Title": "Follow the Lore",
+        "step2Description": "Connect background events to the main narrative",
+        "step3Title": "Uncover Hidden Layers",
+        "step3Description": "Discover deeper meaning behind the story events"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Story Articles"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "endings": {
+      "title": "Back Alley Tales Endings",
+      "description": "Master every ending path, decision requirement, and conclusion route across the branching narrative.",
+      "metaTitle": "Back Alley Tales Endings - All Routes & Decisions",
+      "metaDescription": "Complete Back Alley Tales endings guide covering every conclusion route, decision requirement, and character-based ending in the game.",
+      "categoryLabel": "ENDINGS",
+      "whatIs": "What are Ending Guides?",
+      "whatIsDescription": "Guides to the main, alternate, character-based, and secret endings of Back Alley Tales, including the decisions that unlock each route.",
+      "why": "Why read ending guides?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Plan Your Route",
+        "step1Description": "Know which decisions lead to which conclusions",
+        "step2Title": "Unlock Every Ending",
+        "step2Description": "Find the requirements for each conclusion path",
+        "step3Title": "Understand the Outcomes",
+        "step3Description": "See the meaning and result of each ending"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Endings"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "updates": {
+      "title": "Back Alley Tales Updates",
+      "description": "Track version updates, patch notes, new content, and official announcements for Back Alley Tales.",
+      "metaTitle": "Back Alley Tales Updates - Patch Notes & News",
+      "metaDescription": "Stay current with Back Alley Tales updates including patch notes, new content, release history, and official development announcements.",
+      "categoryLabel": "UPDATES & NEWS",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "Technical and content guides covering version updates, patch notes, new features, and official announcements for Back Alley Tales.",
+      "why": "Why follow updates?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Track Patch Notes",
+        "step1Description": "See what changes and fixes arrive with each version",
+        "step2Title": "Discover New Content",
+        "step2Description": "Learn about newly added story elements and features",
+        "step3Title": "Stay Informed",
+        "step3Description": "Follow official announcements and release history"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Updates"
     }
   }
 }

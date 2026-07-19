@@ -113,7 +113,7 @@
   "modules": {
     "backAlleyTalesGameplayGuide": {
       "title": "Back Alley Tales Gameplay-Leitfaden",
-      "displayType": "Schritte",
+      "displayType": "steps",
       "intro": "Dieser Leitfaden stellt die grundlegende Spielmechanik von Back Alley Tales vor, einschließlich Erkundung, Interaktionen, Dialogentscheidungen und Fortschrittssystemen. Er hilft neuen Spielern dabei, sich in der mysteriösen städtischen Umgebung zurechtzufinden und in der Erzählung voranzukommen.",
       "steps": [
         {
@@ -150,7 +150,7 @@
     },
     "backAlleyTalesWalkthrough": {
       "title": "Back Alley Tales Komplettlösung",
-      "displayType": "Zeitstrahl",
+      "displayType": "timeline",
       "intro": "Diese Komplettlösung unterteilt den Erzählverlauf von Back Alley Tales in übersichtliche Abschnitte. Spieler können sie nutzen, um die Abfolge der Ereignisse, wichtige Interaktionen und mögliche Pfade bei der Erkundung der Stadt zu verstehen.",
       "entries": [
         {
@@ -187,7 +187,7 @@
     },
     "backAlleyTalesSecretsLocations": {
       "title": "Back Alley Tales Geheimnisse und Orte",
-      "displayType": "Karten",
+      "displayType": "cards",
       "intro": "Dieser Abschnitt sammelt erkundungsorientierte Informationen für Back Alley Tales, einschließlich versteckter Orte, Umgebungsentdeckungen und optionaler Inhalte. Er hilft Spielern dabei, Details zu finden, die im normalen Spielverlauf übersehen werden könnten.",
       "cards": [
         {
@@ -298,7 +298,7 @@
     },
     "backAlleyTalesTipsTricks": {
       "title": "Tipps und Tricks für Back Alley Tales",
-      "displayType": "Karten",
+      "displayType": "cards",
       "intro": "Dieser Abschnitt bietet praktische Ratschläge für das Navigieren durch die städtischen Umgebungen von Back Alley Tales, das Verwalten des Story-Fortschritts und das Entdecken versteckter Inhalte. Diese Tipps helfen Spielern, häufige Fehler zu vermeiden und mehr von der Geschichte zu erleben.",
       "cards": [
         {
@@ -335,7 +335,7 @@
     },
     "backAlleyTalesSystemRequirements": {
       "title": "Systemanforderungen für Back Alley Tales",
-      "displayType": "Einstellungskarten",
+      "displayType": "settingCards",
       "intro": "Dieser Abschnitt organisiert die wichtigen Kompatibilitätsinformationen für Back Alley Tales, einschließlich unterstützter Plattformen, Leistungsaspekten und Hardwarekategorien. Spieler können diesen Leitfaden nutzen, um zu verstehen, was für ein reibungsloses Spielerlebnis erforderlich ist.",
       "settings": [
         {
@@ -372,7 +372,7 @@
     },
     "backAlleyTalesUpdatesNews": {
       "title": "Back Alley Tales Updates und Neuigkeiten",
-      "displayType": "Akkordeon",
+      "displayType": "accordion",
       "intro": "Dieses Modul verfolgt Update-Informationen für Back Alley Tales und organisiert Änderungen in leicht lesbare Abschnitte. Spieler können neue Funktionen, Anpassungen und Inhaltsverbesserungen, die im Laufe der Zeit eingeführt wurden, schnell überprüfen.",
       "faqs": [
         {

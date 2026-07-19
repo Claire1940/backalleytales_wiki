@@ -150,7 +150,7 @@
     },
     "backAlleyTalesWalkthrough": {
       "title": "Back Alley Tales 攻略",
-      "displayType": "タイムライン",
+      "displayType": "timeline",
       "intro": "この攻略ガイドでは、Back Alley Talesのストーリー進行を分かりやすいセクションに整理しています。プレイヤーは街を探索しながら、イベントの順序、重要なインタラクション、および考えられる進行ルートを把握するために活用できます。",
       "entries": [
         {
@@ -187,7 +187,7 @@
     },
     "backAlleyTalesSecretsLocations": {
       "title": "Back Alley Talesの秘密とロケーション",
-      "displayType": "カード",
+      "displayType": "cards",
       "intro": "このセクションでは、隠し場所、周囲の発見要素、オプションコンテンツなど、Back Alley Talesの探索に焦点を当てた情報をまとめています。通常のストーリー進行では見落としがちな詳細を見つけるのに役立ちます。",
       "cards": [
         {
@@ -224,7 +224,7 @@
     },
     "backAlleyTalesCharactersGuide": {
       "title": "Back Alley Tales キャラクターガイド",
-      "displayType": "クリーチャーカード",
+      "displayType": "creatureCards",
       "intro": "このキャラクターガイドでは、Back Alley Talesのストーリー構造における様々な役割を解説します。キャラクター同士のつながりや動機、そして展開する物語における重要性を理解するのに役立ちます。",
       "creatures": [
         {
@@ -261,7 +261,7 @@
     },
     "backAlleyTalesEndingGuide": {
       "title": "Back Alley Tales エンディングガイド",
-      "displayType": "カード",
+      "displayType": "cards",
       "intro": "このガイドでは、重要な選択、関係性のルート、最終的な結末のカテゴリーなど、Back Alley Talesで遭遇する可能性のある様々なエンディング構造を整理しています。物語上の決断が最終結果にどのように影響するかを理解するのに役立ちます。",
       "cards": [
         {
@@ -298,7 +298,7 @@
     },
     "backAlleyTalesTipsTricks": {
       "title": "Back Alley Tales 攻略のヒントとコツ",
-      "displayType": "カード",
+      "displayType": "cards",
       "intro": "このセクションでは、Back Alley Talesの街を探索し、ストーリーを進め、隠し要素を見つけるための実用的なアドバイスを提供します。これらのヒントは、プレイヤーがよくあるミスを避け、物語をより深く体験するのに役立ちます。",
       "cards": [
         {
@@ -335,7 +335,7 @@
     },
     "backAlleyTalesSystemRequirements": {
       "title": "Back Alley Tales 動作環境",
-      "displayType": "設定カード",
+      "displayType": "settingCards",
       "intro": "このセクションでは、対応プラットフォーム、パフォーマンス、ハードウェアカテゴリなど、Back Alley Talesの重要な互換性情報をまとめています。スムーズなプレイ体験のために必要な条件を確認できます。",
       "settings": [
         {
@@ -372,7 +372,7 @@
     },
     "backAlleyTalesUpdatesNews": {
       "title": "Back Alley Tales アップデート＆ニュース",
-      "displayType": "アコーディオン",
+      "displayType": "accordion",
       "intro": "このモジュールでは Back Alley Tales のアップデート情報を追跡し、変更内容を分かりやすく整理しています。プレイヤーは、追加された新機能、調整、コンテンツの改善をすぐに確認できます。",
       "faqs": [
         {

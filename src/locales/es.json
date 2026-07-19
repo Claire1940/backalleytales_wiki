@@ -113,7 +113,7 @@
   "modules": {
     "backAlleyTalesGameplayGuide": {
       "title": "pasos",
-      "displayType": "Esta guía presenta el marco de jugabilidad principal de Back Alley Tales, incluyendo la exploración, las interacciones, las opciones de diálogo y los sistemas de progresión. Ayuda a los nuevos jugadores a entender cómo navegar por el misterioso entorno urbano y avanzar a través de la experiencia narrativa.",
+      "displayType": "steps",
       "intro": "Controles básicos",
       "steps": [
         {
@@ -150,7 +150,7 @@
     },
     "backAlleyTalesWalkthrough": {
       "title": "Guía de Back Alley Tales",
-      "displayType": "línea de tiempo",
+      "displayType": "timeline",
       "intro": "Esta guía organiza la progresión narrativa de Back Alley Tales en secciones claras. Los jugadores pueden usarla para comprender el orden de los eventos, las interacciones importantes y las posibles rutas de progresión mientras exploran la ciudad.",
       "entries": [
         {
@@ -187,7 +187,7 @@
     },
     "backAlleyTalesSecretsLocations": {
       "title": "Secretos y ubicaciones de Back Alley Tales",
-      "displayType": "tarjetas",
+      "displayType": "cards",
       "intro": "Esta sección recopila información centrada en la exploración para Back Alley Tales, incluyendo ubicaciones ocultas, descubrimientos en el entorno y contenido opcional. Ayuda a los jugadores a encontrar detalles que podrían pasar desapercibidos durante la progresión normal de la historia.",
       "cards": [
         {
@@ -261,7 +261,7 @@
     },
     "backAlleyTalesEndingGuide": {
       "title": "cards",
-      "displayType": "Esta guía organiza las diferentes estructuras de finales que los jugadores pueden encontrar en Back Alley Tales, incluyendo elecciones importantes, rutas de relaciones y categorías de resultados finales. Ayuda a los jugadores a comprender cómo las decisiones narrativas influyen en los resultados finales.",
+      "displayType": "cards",
       "intro": "Finales de la historia principal",
       "cards": [
         {
@@ -372,7 +372,7 @@
     },
     "backAlleyTalesUpdatesNews": {
       "title": "Consideraciones sobre el espacio de instalación y expectativas del tamaño de archivo para el juego.",
-      "displayType": "Noticias y actualizaciones de Back Alley Tales",
+      "displayType": "accordion",
       "intro": "acordeón",
       "faqs": [
         {

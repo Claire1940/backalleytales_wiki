@@ -1,0 +1,119 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react';
+import { Callout } from '@/components/mdx/Callout';
+import { Card, CardGrid } from '@/components/mdx/CardGrid';
+import { Checklist } from '@/components/mdx/Checklist';
+import { FAQ } from '@/components/mdx/FAQ';
+import { Steps, Step } from '@/components/mdx/Steps';
+import { Section } from '@/components/mdx/Section';
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed';
+
+export const metadata = {
+  title: "バックアレイテイルズトークン：完全ガイド",
+  description: "バックアレイテイルズトークンに関するすべてのことを学び、戦略やヒントなど、さらに多くの情報を発見。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/059669/fff?text=バックアレイテイルズトークン",
+  date: "2026-07-24",
+  author: "バックアレイテイルズ Wiki チーム"
+};
+
+<Callout type="info" title="クイックガイド">
+- **バックアレイテイルズトークンとは何ですか？**
+  - ゲーム内で多様な目的に使用できる重要なアイテムです。
+- **トークンをどうやって入手するか？**
+  - トークンを効率的に集めるための戦略と場所。
+- **トークンの使用方法のヒント**
+  - トークンを最大限に活用する効果的な方法。
+</Callout>
+
+<Section icon={Map} title="バックアレイテイルズトークンの理解">
+
+バックアレイテイルズトークンは、特別な能力を解除したり、ゲームプレイを強化するなど、多様な目的に使用できる価値のあるゲーム内アイテムです。
+
+<Callout type="tip" title="重要なヒント">
+ゲームプレイのニーズに応じて、さまざまなソースからトークンを収集することを忘れないでください。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="トークンの入手方法">
+
+<Steps>
+  <Step num="1" title="マップを探索する">
+    ゲーム内のさまざまなエリアをナビゲートして、トークンが散らばっている場所を見つけます。
+  </Step>
+  <Step num="2" title="クエストを完了する">
+    クエストを完了すると、トークンが報酬として与えられますので、常にクエストログを確認して、利用可能なタスクをチェックしてください。
+  </Step>
+  <Step num="3" title="NPCと対話する">
+    あるNPCは、特定の条件を完了した報酬としてトークンを与えることがあります。
+  </Step>
+</Steps>
+
+<Callout type="info" title="トークンの位置">
+トークンを見つける最も一般的な場所には以下があります：
+- **ダンジョン**
+- **サイドクエスト**
+- **探索エリア**
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="トークンの効率化">
+
+<Checklist
+  id="token-efficiency"
+  title="トークンの使用を最大化する："
+  items={[
+    "プレイスタイルに合わせた特別な能力を解除する優先順位を設定します。",
+    "戦闘の重要な瞬間にトークンを保存します。",
+    "トークンを使用して、効果を高めるために装備をアップグレードします。"
+  ]}
+/>
+
+<Callout type="warning" title="トークンの管理">
+トークンの供給を意識し、過度な使用は枯渇につながるため、計画的に使用計画を立ててください。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "バックアレイテイルズトークンを見つける場所はどこですか？",
+    answer: "トークンはゲーム世界のいたるところに散らばっており、クエストやNPCとの対話を通じて見つけることができます。"
+  },
+  {
+    question: "トークンを使うことができますか？",
+    answer: "トークンは特別な能力を解除したり、ゲームプレイを強化したり、さまざまなゲーム内タスクを完了するために使用できます。"
+  },
+  {
+    question: "トークンの使用には制限がありますか？",
+    answer: "はい、トークンは限られたリソースであり、賢く管理することが重要です。"
+  }
+]} />
+
+</Section>
+
+<Section icon={Shield} title="結論">
+
+バックアレイテイルズトークンは、ゲームの重要な要素であり、プレイヤーにさまざまな利点を提供します。トークンの入手と効果的な使用方法を理解することで、ゲームプレイを向上させ、バックアレイテイルズでの成功を達成できます。
+
+<Callout type="success" title="最終的なヒント">
+トークンのドロップに常に注意を払い、賢く使用することで、ゲーム内で先手を打つことができます。
+</Callout>
+
+</Section>
+
+<Section>
+<FAQ items={[
+  {
+    question: "トークンを入手する最善の戦略は何ですか？",
+    answer: "トークンを入手するためのさまざまな方法を探索するのが最善の戦略です。クエストの完了、マップの探索、NPCとの対話などが含まれます。"
+  },
+  {
+    question: "トークンは他のプレイヤーと取引できますか？",
+    answer: "はい、トークンは他のプレイヤーと取引することはできません。なぜなら、それらはゲーム内の目的専用であるためです。"
+  }
+]} />
+</Section>

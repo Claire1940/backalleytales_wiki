@@ -1,0 +1,98 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "バックアレイテイルズ：すべてのシーンを解除する方法",
+  description: "私たちのステップバイステップのガイドを使用して、バックアレイテイルズですべてのシーンを解除する秘密を見つけ出してください。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/059669/fff?text=Unlock+All+Scenes+Guide",
+  date: "2026-07-24",
+  author: "バックアレイテイルズ Wiki チーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **主要キーワード**：バックアレイテイルズですべてのシーンを解除
+- **主要メカニクス**：必要なすべてのアイテムを収集してタスクを完了
+- **ベストストラテジー**：成功を確実にするために、私たちの詳細なガイドに従ってください
+- **重要なヒント**：ゲーム全体でヒントやパズルに注意を払ってください
+- **最高の選択**：最高のゲーム体験のために、すべてのシーンを解除してください
+</Callout>
+
+<Section icon={Map} title="バックアレイテイルズの紹介">
+バックアレイテイルズは、プレイヤーを神秘的な裏通りを通るスリリングな冒険に連れて行く没入感のあるゲームです。ゲームを存分に楽しむために、すべてのシーンを解除することは必須です。このガイドでは、バックアレイテイルズですべてのシーンを解除するためのステップバイステップのプロセスを提供します。
+</Section>
+
+<Section icon={Swords} title="必要なアイテムの収集">
+すべてのシーンを解除するために、特定のアイテムを収集する必要があります。収集する必要があるアイテムのリストは以下の通りです：
+
+<Checklist
+  id="necessary-items"
+  title="必要なアイテム："
+  items={[
+    "閉じた扉の鍵",
+    "キャンドルスタンド",
+    "神秘的なノート",
+    "古い貨幣",
+    "ルビー"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="シーンを解除するためのステップバイステップのガイド">
+バックアレイテイルズですべてのシーンを解除するために、以下の手順に従ってください：
+
+<Steps>
+  <Step num="1" title="鍵を見つける">
+    閉じた扉の鍵をゲームの世界で探してください。鍵はさまざまな場所にありますので、目を光らせてください。
+  </Step>
+  <Step num="2" title="キャンドルを灯す">
+  鍵を手に入れたら、閉じた扉に向かってキャンドルを灯してください。これにより、隠された通路が現れます。
+  </Step>
+  <Step num="3" title="ヒントに従う">
+  隠された通路に沿ってヒントやパズルに従ってください。それぞれのヒントは、次のシーンを解除するために必要な次のアイテムに導きます。
+  </Step>
+  <Step num="4" title="タスクを完了する">
+  各シーンを解除するために必要なタスクを完了してください。これは、パズルの解決、隠されたオブジェクトの発見、またはキャラクターとの相互作用が含まれる場合があります。
+  </Step>
+</Steps>
+</Section>
+
+<Section icon={Trophy} title="目標とチェックリスト">
+すべてのシーンを解除したことを確認するために、このチェックリストを使用してください：
+
+<Checklist
+  id="unlocked-scenes"
+  title="解除したシーン："
+  items={[
+    "シーン1：隠されたアーチ",
+    "シーン2：放棄された家",
+    "シーン3：幽霊の部屋",
+    "シーン4：失われた章"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+<FAQ items={[
+  {
+    question: "バックアレイテイルズにはいくつかのシーンがありますか？",
+    answer: "バックアレイテイルズには解除できるシーンが合計4つあります。"
+  },
+  {
+    question: "隠されたシーンはありますか？",
+    answer: "バックアレイテイルズには隠されたシーンはありません。すべてのシーンはメインゲームを通じて解除できます。"
+  },
+  {
+    question: "タスクを完了しないですべてのシーンを解除できますか？",
+    answer: "いいえ、すべてのシーンを解除するには、タスクを完了し、必要なアイテムを収集する必要があります。"
+  }
+]} />
+</Section>

@@ -1,0 +1,98 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Back Alley Tales: Alle Szenen freischalten",
+  description: "Entdecke die Geheimnisse, um alle Szenen in Back Alley Tales mit unserer Schritt-für-Schritt-Anleitung freizuschalten.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/059669/fff?text=Alle+Szenen+Freischalten+Anleitung",
+  date: "2026-07-24",
+  author: "Back Alley Tales Wiki Team"
+}
+
+<Callout type="info" title="Kurzguide">
+- **Hauptkeyword**: Alle Szenen in Back Alley Tales freischalten
+- **Schlüsselmechanik**: Sammeln aller notwendigen Gegenstände und Erledigung von Aufgaben
+- **Beste Strategie**: Folge unserer detaillierten Anleitung für Erfolg
+- **Wichtiger Tipp**: Beachte die Hinweise und Puzzles während des Spiels
+- **Beste Wahl**: Freischalte alle Szenen für das beste Spielerlebnis
+</Callout>
+
+<Section icon={Map} title="Einführung in Back Alley Tales">
+Back Alley Tales ist ein immersives Spiel, das Spieler auf eine aufregende Abenteuerreise durch eine mysteriöse Hintere Gasse nimmt. Um das Spiel vollständig zu genießen, ist das Freischalten aller Szenen ein Muss. In dieser Anleitung werden wir Ihnen einen Schritt-für-Schritt-Prozess zur Freischaltung aller Szenen in Back Alley Tales bieten.
+</Section>
+
+<Section icon={Swords} title="Sammlung der notwendigen Gegenstände">
+Um alle Szenen freizuschalten, müssen Sie bestimmte Gegenstände sammeln. Hier ist eine Liste der Gegenstände, die Sie sammeln müssen:
+
+<Checklist
+  id="necessary-items"
+  title="Benötigte Gegenstände:"
+  items={[
+    "Schlüssel zur verschlossenen Tür",
+    "Kerze",
+    "Mystisches Notiz",
+    "Alter Münze",
+    "Rubin"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Anleitung zur Freischaltung der Szenen">
+Befolge diese Schritte, um alle Szenen in Back Alley Tales freizuschalten:
+
+<Steps>
+  <Step num="1" title="Den Schlüssel finden">
+    Suche im Spielwelt nach dem Schlüssel zur verschlossenen Tür. Er kann an verschiedenen Orten gefunden werden, also bleibe aufmerksam.
+  </Step>
+  <Step num="2" title="Die Kerze anzünden">
+  Sobald du den Schlüssel hast, gehe zur verschlossenen Tür und zünde die Kerze an. Dies wird einen versteckten Gang freilegen.
+  </Step>
+  <Step num="3" title="Den Hinweisen folgen">
+  Folge den Hinweisen und Puzzlen entlang des versteckten Ganges. Jeder Hinweis wird dich zum nächsten Gegenstand führen, der benötigt wird, um die nächste Szene freizuschalten.
+  </Step>
+  <Step num="4" title="Die Aufgaben erledigen">
+  Erledige die Aufgaben, die erforderlich sind, um jede Szene freizuschalten. Dies kann das Lösen von Puzzlen, das Finden versteckter Gegenstände oder das Interagieren mit Charakteren umfassen.
+  </Step>
+</Steps>
+</Section>
+
+<Section icon={Trophy} title="Ziele und Liste">
+Um sicherzustellen, dass du alle Szenen freigeschaltet hast, verwende diese Liste:
+
+<Checklist
+  id="unlocked-scenes"
+  title="Freigeschaltete Szenen:"
+  items={[
+    "Szene 1: Der verborgene Schrank",
+    "Szene 2: Das verlassene Haus",
+    "Szene 3: Der verlassene Dachboden",
+    "Szene 4: Das verlorene Kapitel"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+<FAQ items={[
+  {
+    question: "Wie viele Szenen gibt es in Back Alley Tales?",
+    answer: "Es gibt insgesamt 4 Szenen in Back Alley Tales, die du freischalten kannst."
+  },
+  {
+    question: "Gibt es versteckte Szenen?",
+    answer: "Nein, es gibt keine versteckten Szenen in Back Alley Tales. Alle Szenen sind über das Hauptspiel freizuschalten."
+  },
+  {
+    question: "Kann ich alle Szenen ohne das Erledigen der Aufgaben freischalten?",
+    answer: "Nein, du musst die Aufgaben erledigen und die notwendigen Gegenstände sammeln, um alle Szenen freizuschalten."
+  }
+]} />
+</Section>
